@@ -2,5 +2,5 @@
 .Rhistory
 .RData
 *.Rproj
-
+_site/
 cite75_99.txt
