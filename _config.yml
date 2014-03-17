@@ -1,0 +1,19 @@
+name: mcorp.io
+markdown: redcarpet
+pygments: true
+
+gems:
+  - bootstrap-sass
+  - jekyll-assets
+  - jekyll-assets/bootstrap
+  - jekyll-assets/font-awesome
+
+exclude:
+  - LICENSE
+  - README.md
+
+assets:
+  sources:
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _assets/images
