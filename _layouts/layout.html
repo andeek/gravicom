@@ -55,16 +55,16 @@
 					<div class="well"> 
 					<ul class="nav nav-stacked" id="sidebar">
 					{% for item in site.categories %}
-						<h5>{{ item.first | capitalize }}</h5>				  
+						<h3>{{ item.first | capitalize }}</h3>	
 						{% for posts in item %}
 							{% for post in posts %}
 								{% assign current = nil %}
 								{% if page.id == post.id %}
 									{% assign current = 'current' %}
 								{% endif %}
-								<li class="{% if forloop.first %}first{% endif %} {{ current }} {% if forloop.last %}last{% endif %}">
-									<a class="{{ current }}" href="{{ post.url }}">{{ post.title }}</a>
-								</li>
+								<span>{{ page.id }}</span>
+								<span>{{ page.url }}</span>
+								<li class="{{ current }}"><a href="{{ post.url }}">{{ post.title }}</a></li>
 							{% endfor %}
 						{% endfor %}
 					{% endfor %}
