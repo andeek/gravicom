@@ -58,7 +58,16 @@
 				<div class="well"> 
               	<ul class="nav nav-stacked" id="sidebar">
 				{% for item in site.categories %}
-				  <h5> {{ item }} </h5>
+				  <h5> {{ item[0]}} </h5>
+				  {% for post in site.categories[item[0]] %}
+						{% assign current = nil %}
+					    {% if page.id == post.id %}
+							{% assign current = 'current' %}
+						{% endif %}
+						<li class="{% if forloop.first %}first{% endif %} {{ current }} {% if forloop.last %}last{% endif %}">
+							<a class="{{ current }}" href="{{ post.url }}">{{ post.title }}</a>
+					    </li>
+					{% endfor %}
 				{% endfor %}
               	</ul>
   				</div>
