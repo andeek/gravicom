@@ -2,7 +2,7 @@ name: gravicom - Graphical Visualization of Communities
 pygments: true
 markdown: rdiscount
 baseurl: /gravicom
-permalink: gravicom/:categories/:title
+permalink: :categories/:title
 rdiscount extensions: [smart]
 
 
