@@ -63,6 +63,7 @@
 									{% assign current = 'current' %}
 								{% endif %}
 								<li class="{% if forloop.first %}first{% endif %} {{ current }} {% if forloop.last %}last{% endif %}">
+									{% post_url post %}
 									<a class="{{ current }}" href="{{ post.url }}">{{ post.title }}</a>
 								</li>
 							{% endfor %}
