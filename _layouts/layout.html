@@ -58,8 +58,8 @@
 				<div class="well"> 
               	<ul class="nav nav-stacked" id="sidebar">
 				{% for item in site.categories %}
-				  <h5> {{ item[0]}} </h5>
-				  {% for post in site.categories[item[0]] %}
+				  <h5>{{ item.first }}</h5>				  
+				  {% for post in site.categories[ item.first ] %}
 						{% assign current = nil %}
 					    {% if page.id == post.id %}
 							{% assign current = 'current' %}
