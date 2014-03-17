@@ -1,19 +1,12 @@
-name: mcorp.io
+name: gravicom: Graphical Visualization of Communities
 markdown: redcarpet
 pygments: true
-
-gems:
-  - bootstrap-sass
-  - jekyll-assets
-  - jekyll-assets/bootstrap
-  - jekyll-assets/font-awesome
 
 exclude:
   - LICENSE
   - README.md
+  
+ navigation:
+- text: Intro
 
-assets:
-  sources:
-    - _assets/javascripts
-    - _assets/stylesheets
-    - _assets/images
+
