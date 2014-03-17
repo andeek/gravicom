@@ -3,6 +3,6 @@ pygments: true
 markdown: rdiscount
 permalink: /docs/:title
 rdiscount extensions: [smart]
-baseurl: /alt
+baseurl: /gravicom
 
 
