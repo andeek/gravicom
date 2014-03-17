@@ -1,12 +1,8 @@
-name: gravicom: Graphical Visualization of Communities
-markdown: redcarpet
+name: gravicom - Graphical Visualization of Communities
 pygments: true
-
-exclude:
-  - LICENSE
-  - README.md
-  
- navigation:
-- text: Intro
+markdown: rdiscount
+permalink: /docs/:title
+rdiscount extensions: [smart]
+baseurl: /alt
 
 
