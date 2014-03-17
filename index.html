@@ -1,5 +1,8 @@
 ---
 layout: layout
-title: Welcome to gravicom!
+title: gravicom
 ---
-Welcome!
+
+{% for item in site.navigation %}
+	{% include item.include %}
+{% endfor %}

@@ -58,7 +58,11 @@
 						<h5>{{ item.first | capitalize }}</h5>	
 						{% for posts in item %}
 							{% for post in posts %}
-								<li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+								{% assign current = nil %}
+								{% if page.id == post.id %}
+									{% assign current = 'current' %}
+								{% endif %}
+								<li class="{{ current }}"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
 							{% endfor %}
 						{% endfor %}
 					{% endfor %}
