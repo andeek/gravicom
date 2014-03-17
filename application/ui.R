@@ -28,7 +28,7 @@ shinyUI(pageWithSidebar(
     #uiOutput("choose_layout"),
     p(HTML("<h4>User Selection</h4>")),
     tableOutput('d3summary'),
-    helpText(HTML("All source available on <a href = \"https://github.com/andeek/Community-Detection/tree/master/Prototype%20D3-Shiny/Network%20Graph\" target=\"_blank\">Github</a>"))
+    helpText(HTML("All source available on <a href = 'https://github.com/andeek/gravicom' target='_blank'>Github</a>"))
   ),
   
   mainPanel(    
