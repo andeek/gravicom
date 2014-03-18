@@ -92,7 +92,6 @@ li.active {
 {
 	position: relative;
 	overflow: hidden;
-	width: 75%;
 	background: #fff;
 	box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.25);
 }
@@ -101,5 +100,4 @@ li.active {
 {
 	top: 0;
 	left: 0;
-	width: 75%;
 }
