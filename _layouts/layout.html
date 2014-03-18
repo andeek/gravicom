@@ -74,9 +74,9 @@
 			set_visible();
 			var sidebar = $('#sidebar');
 			sidebar.find('a').click(function(){
-				sidebar.find('.active').toggleClass('active');
-				$(this).parent().toggleClass('active')
-				$(this).toggleClass('active');
+				sidebar.find('.active').toggleClass('active',  400);
+				$(this).parent().toggleClass('active', 400)
+				$(this).toggleClass('active', 400);
 				set_visible();
 			})
 			
