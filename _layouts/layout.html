@@ -13,7 +13,9 @@
 
         <!-- Custom CSS -->
         <link rel="stylesheet" type="text/css" href="assets/stylesheets/style.css">
-        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">        
+		<script src="assets/javascripts/active_toggle.js"></script>
+
     </head>
     
     <!-- HTML code from Bootply.com editor -->
@@ -47,15 +49,16 @@
 					<div class="well"> 
 					<ul class="nav nav-stacked" id="sidebar">
 						{% for nav in site.data.nav.structure %}
+							{% assign first = forloop.first %}
 							<h5>{{ nav.section }}</h5>
 							{% for sub in nav.subsection %}
-								<li class='{% if forloop.first %}active{% endif %}'><a class='{% if forloop.first %}active{% endif %}' href='#{{ sub }}'>{{ sub | capitalize }}</a></li>
+								<li class='{% if forloop.first and first %}active{% endif %}'><a class='{% if forloop.first and first %}active{% endif %}' href='#{{ sub }}'>{{ sub | capitalize }}</a></li>
 							{% endfor %}
 						{% endfor %}
 					</ul>
 					</div>
 				</div>  
-				<div class="col-md-9">
+				<div class="col-md-9" id="main">
 				
 					{{ content }}
 					
@@ -68,6 +71,15 @@
         <!-- JavaScript jQuery code from Bootply.com editor -->
         <script type='text/javascript'>
         $(document).ready(function() {
+			set_visible();
+			var sidebar = $('#sidebar');
+			sidebar.find('a').click(function(){
+				sidebar.find('.active').toggleClass('active');
+				$(this).parent().toggleClass('active')
+				$(this).toggleClass('active');
+				set_visible();
+			})
+			
         });
         </script>
     </body>
