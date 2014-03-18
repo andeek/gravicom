@@ -4,3 +4,5 @@ markdown: rdiscount
 baseurl: /gravicom
 permalink: :categories/:title
 rdiscount extensions: [smart]
+
+

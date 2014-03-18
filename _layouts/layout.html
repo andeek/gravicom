@@ -13,6 +13,7 @@
 
         <!-- Custom CSS -->
         <link rel="stylesheet" type="text/css" href="assets/stylesheets/style.css">
+        <script src="assets/javascripts/scroll.js"></script>
     </head>
     
     <!-- HTML code from Bootply.com editor -->
@@ -47,25 +48,21 @@
 			</nav>
 		  </div>
 		</header>
+		
 
+		
 		<!-- Begin Body -->
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3" id="leftCol">              	
 					<div class="well"> 
 					<ul class="nav nav-stacked" id="sidebar">
-					{% for item in site.categories %}
-						<h5>{{ item.first | capitalize }}</h5>	
-						{% for posts in item %}
-							{% for post in posts %}
-								{% assign current = nil %}
-								{% if page.id == post.id %}
-									{% assign current = 'current' %}
-								{% endif %}
-								<li class="{{ current }}"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+						{% for nav in site.data.nav.structure %}
+							<h5>{{ nav.section }}</h5>
+							{% for sub in nav.subsection %}
+								<li><a class='{{ current }}'href='#{{ sub }}'>{{ sub | capitalize }}</a></li>
 							{% endfor %}
 						{% endfor %}
-					{% endfor %}
 					</ul>
 					</div>
 				</div>  

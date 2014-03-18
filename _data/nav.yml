@@ -1,0 +1,6 @@
+structure:
+- section: Intro
+  subsection: [background, welcome]
+- section: Goodbye
+  subsection: [liquid]
+

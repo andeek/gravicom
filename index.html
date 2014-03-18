@@ -2,7 +2,11 @@
 layout: layout
 title: gravicom
 ---
-{% for page in site.docs %}
-	{% include page %}
+
+{% for nav in site.data.nav.structure %}
+	{% for sub in nav.subsection %}
+		{% capture foo %}{{ sub }}.html{% endcapture %}
+		{% include {{foo}} %}
+	{% endfor %}
 {% endfor %}
 
