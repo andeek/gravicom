@@ -13,7 +13,7 @@
 
         <!-- Custom CSS -->
         <link rel="stylesheet" type="text/css" href="assets/stylesheets/style.css">
-        <script src="assets/javascripts/scroll.js"></script>
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     </head>
     
     <!-- HTML code from Bootply.com editor -->
@@ -30,21 +30,10 @@
 			  </button>
 			  <a href="/" class="navbar-brand">{{ site.name }}</a>
 			</div>
-			<nav class="collapse navbar-collapse" role="navigation">
-			  <ul class="nav navbar-nav">
-				<li>
-				  <a href="#">Get Started</a>
-				</li>
-				<li>
-				  <a href="#">Edit</a>
-				</li>
-				<li>
-				  <a href="#">Visualize</a>
-				</li>
-				<li>
-				  <a href="#">Prototype</a>
-				</li>
-			  </ul>
+			<nav class="collapse navbar-collapse" id="nav" role="navigation">
+					{% for item in site.links %}
+						<a href="{{ item.href }}" class="fa {{ item.class }} {% if forloop.first %}active{% endif %} " target="{{ item.target }}"><span>{{ item.name | capitalize }}</span></a>
+					{% endfor %}
 			</nav>
 		  </div>
 		</header>
@@ -60,7 +49,7 @@
 						{% for nav in site.data.nav.structure %}
 							<h5>{{ nav.section }}</h5>
 							{% for sub in nav.subsection %}
-								<li><a class='{{ current }}'href='#{{ sub }}'>{{ sub | capitalize }}</a></li>
+								<li class='{% if forloop.first %}active{% endif %}'><a class='{% if forloop.first %}active{% endif %}' href='#{{ sub }}'>{{ sub | capitalize }}</a></li>
 							{% endfor %}
 						{% endfor %}
 					</ul>
