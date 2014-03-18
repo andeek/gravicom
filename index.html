@@ -2,5 +2,7 @@
 layout: layout
 title: gravicom
 ---
+{% for page in site.docs %}
+	{% include page %}
+{% endfor %}
 
-{% include background.html %}

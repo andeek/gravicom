@@ -4,10 +4,3 @@ markdown: rdiscount
 baseurl: /gravicom
 permalink: :categories/:title
 rdiscount extensions: [smart]
-
-navigation:
-- name: Intro
-  include: docs/background.html
-	
-
-
