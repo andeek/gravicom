@@ -8,10 +8,10 @@ shinyUI(pageWithSidebar(
   headerPanel("gravicom: Graphical Visualization of Communities"),
   
   sidebarPanel(
-    includeHTML("scripts/jquery-ui.js"),
-    includeHTML("scripts/jquery-1.9.1.js"),
-    includeHTML("scripts/d3.v3.js"),
-    includeHTML("css/jquery-ui.css"),
+    includeScript("scripts/jquery.min.js"),
+    includeScript("scripts/jquery-ui.js"),
+    includeScript("scripts/d3.v3.js"),
+    includeCSS("css/jquery-ui.css"),
     includeHTML("scripts/graph_2.js"),
     helpText(HTML("<p>Select a dataset from the drop down or upload your own. To start detecting communities, select points and monitor the table below for updates on number of edges within your selection versus outside. When you are happy with the community selected, click a selected point to group them and continue.</p><p>Tip: Use the shift key for multiple selections!</p>")),
     conditionalPanel(

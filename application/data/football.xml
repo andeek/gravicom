@@ -1,4001 +1,2049 @@
-Creator "igraph version 0.6 Tue Jun 25 18:28:32 2013"
-Version 1
-graph
-[
-  directed 0
-  node
-  [
-    id 0
-    label "BrighamYoung"
-    value 7
-    x -31.9939898631255
-    y 18.9965486787125
-  ]
-  node
-  [
-    id 1
-    label "FloridaState"
-    value 0
-    x -0.484106961139527
-    y 32.7046350686433
-  ]
-  node
-  [
-    id 2
-    label "Iowa"
-    value 2
-    x -48.1596450979704
-    y 30.3979227801959
-  ]
-  node
-  [
-    id 3
-    label "KansasState"
-    value 3
-    x -37.6490161472153
-    y 0.256894985855287
-  ]
-  node
-  [
-    id 4
-    label "NewMexico"
-    value 7
-    x -54.2212974520436
-    y 5.46478858408532
-  ]
-  node
-  [
-    id 5
-    label "TexasTech"
-    value 3
-    x -42.8828416885615
-    y -21.1848977928308
-  ]
-  node
-  [
-    id 6
-    label "PennState"
-    value 2
-    x -45.892694509916
-    y 46.1264630197012
-  ]
-  node
-  [
-    id 7
-    label "SouthernCalifornia"
-    value 8
-    x -72.2248843487684
-    y 20.9579155245718
-  ]
-  node
-  [
-    id 8
-    label "ArizonaState"
-    value 8
-    x -79.9591335291028
-    y 12.1957066755297
-  ]
-  node
-  [
-    id 9
-    label "SanDiegoState"
-    value 7
-    x -63.7137902980543
-    y 18.7902182333304
-  ]
-  node
-  [
-    id 10
-    label "Baylor"
-    value 3
-    x -42.5807045664155
-    y -9.76101337189998
-  ]
-  node
-  [
-    id 11
-    label "NorthTexas"
-    value 10
-    x -35.4086065891196
-    y -10.6703352653674
-  ]
-  node
-  [
-    id 12
-    label "NorthernIllinois"
-    value 6
-    x -15.1552887634742
-    y 54.3883001413141
-  ]
-  node
-  [
-    id 13
-    label "Northwestern"
-    value 2
-    x -37.4441845535365
-    y 41.97592035833
-  ]
-  node
-  [
-    id 14
-    label "WesternMichigan"
-    value 6
-    x -35.0451579703465
-    y 60.3658170490757
-  ]
-  node
-  [
-    id 15
-    label "Wisconsin"
-    value 2
-    x -49.4740611016516
-    y 38.0181518905649
-  ]
-  node
-  [
-    id 16
-    label "Wyoming"
-    value 7
-    x -43.4464857868801
-    y 15.9738728319073
-  ]
-  node
-  [
-    id 17
-    label "Auburn"
-    value 9
-    x -3.06043577327407
-    y 17.0345802231809
-  ]
-  node
-  [
-    id 18
-    label "Akron"
-    value 6
-    x -14.5825817406511
-    y 67.1943363868956
-  ]
-  node
-  [
-    id 19
-    label "VirginiaTech"
-    value 1
-    x -6.55405427214052
-    y 52.5965671742424
-  ]
-  node
-  [
-    id 20
-    label "Alabama"
-    value 9
-    x -7.0546904247103
-    y 11.4974349372131
-  ]
-  node
-  [
-    id 21
-    label "UCLA"
-    value 8
-    x -62.8854796521372
-    y 23.3796779650409
-  ]
-  node
-  [
-    id 22
-    label "Arizona"
-    value 8
-    x -81.552613471638
-    y 27.3901395631337
-  ]
-  node
-  [
-    id 23
-    label "Utah"
-    value 7
-    x -63.0964062611785
-    y 14.3860441410313
-  ]
-  node
-  [
-    id 24
-    label "ArkansasState"
-    value 10
-    x -27.4192106550674
-    y -2.94625739675449
-  ]
-  node
-  [
-    id 25
-    label "NorthCarolinaState"
-    value 0
-    x -8.33867098972742
-    y 26.530994835739
-  ]
-  node
-  [
-    id 26
-    label "BallState"
-    value 6
-    x -15.9755418781263
-    y 42.7628419958158
-  ]
-  node
-  [
-    id 27
-    label "Florida"
-    value 9
-    x 13.5117878278137
-    y 19.3063013335024
-  ]
-  node
-  [
-    id 28
-    label "BoiseState"
-    value 11
-    x -35.3575063749863
-    y 10.7691602504615
-  ]
-  node
-  [
-    id 29
-    label "BostonCollege"
-    value 1
-    x -19.2906619033867
-    y 46.5910729109365
-  ]
-  node
-  [
-    id 30
-    label "WestVirginia"
-    value 1
-    x -21.5742297303522
-    y 41.3707295297391
-  ]
-  node
-  [
-    id 31
-    label "BowlingGreenState"
-    value 6
-    x -27.4542843357582
-    y 71.7030223518955
-  ]
-  node
-  [
-    id 32
-    label "Michigan"
-    value 2
-    x -53.5966235159251
-    y 44.5620988060767
-  ]
-  node
-  [
-    id 33
-    label "Virginia"
-    value 0
-    x 4.25710118584318
-    y 37.1540920055345
-  ]
-  node
-  [
-    id 34
-    label "Buffalo"
-    value 6
-    x -17.9729453594451
-    y 68.8500669227799
-  ]
-  node
-  [
-    id 35
-    label "Syracuse"
-    value 1
-    x -13.6133734264233
-    y 46.40563988952
-  ]
-  node
-  [
-    id 36
-    label "CentralFlorida"
-    value 5
-    x -4.39315146275496
-    y 40.0283882970702
-  ]
-  node
-  [
-    id 37
-    label "GeorgiaTech"
-    value 0
-    x 10.8685881352827
-    y 34.2791904484774
-  ]
-  node
-  [
-    id 38
-    label "CentralMichigan"
-    value 6
-    x -31.6966662041915
-    y 50.035342565108
-  ]
-  node
-  [
-    id 39
-    label "Purdue"
-    value 2
-    x -48.3845383698135
-    y 53.2010367432164
-  ]
-  node
-  [
-    id 40
-    label "Colorado"
-    value 3
-    x -56.920015057537
-    y -4.88797137467111
-  ]
-  node
-  [
-    id 41
-    label "ColoradoState"
-    value 7
-    x -62.1087188441008
-    y 7.99213821600527
-  ]
-  node
-  [
-    id 42
-    label "Connecticut"
-    value 5
-    x -0.264027464182061
-    y 50.6874438313088
-  ]
-  node
-  [
-    id 43
-    label "EasternMichigan"
-    value 6
-    x -9.17323604379562
-    y 56.9660638276945
-  ]
-  node
-  [
-    id 44
-    label "EastCarolina"
-    value 4
-    x -5.13383627736483
-    y 20.2088051497582
-  ]
-  node
-  [
-    id 45
-    label "Duke"
-    value 0
-    x 1.50460868259077
-    y 40.1189595325927
-  ]
-  node
-  [
-    id 46
-    label "FresnoState"
-    value 11
-    x -67.3535342176271
-    y 8.93414140100707
-  ]
-  node
-  [
-    id 47
-    label "OhioState"
-    value 2
-    x -59.4932829899684
-    y 42.3075710073916
-  ]
-  node
-  [
-    id 48
-    label "Houston"
-    value 4
-    x -17.8699485783391
-    y -3.06566556330404
-  ]
-  node
-  [
-    id 49
-    label "Rice"
-    value 11
-    x -54.8378111842278
-    y 1.58100769351552
-  ]
-  node
-  [
-    id 50
-    label "Idaho"
-    value 10
-    x -48.4813646985326
-    y 14.6129896377707
-  ]
-  node
-  [
-    id 51
-    label "Washington"
-    value 8
-    x -68.5754356886506
-    y 25.3713295457218
-  ]
-  node
-  [
-    id 52
-    label "Kansas"
-    value 3
-    x -37.65586629882
-    y -16.3257680176052
-  ]
-  node
-  [
-    id 53
-    label "SouthernMethodist"
-    value 11
-    x -41.6801909190413
-    y -0.811336505095332
-  ]
-  node
-  [
-    id 54
-    label "Kent"
-    value 6
-    x -33.5137630502294
-    y 73.0916389394484
-  ]
-  node
-  [
-    id 55
-    label "Pittsburgh"
-    value 1
-    x -21.2304155616661
-    y 61.5475114341948
-  ]
-  node
-  [
-    id 56
-    label "Kentucky"
-    value 9
-    x 9.92440619606514
-    y 13.4380727836169
-  ]
-  node
-  [
-    id 57
-    label "Louisville"
-    value 4
-    x 0.88702918407999
-    y 13.3050634393782
-  ]
-  node
-  [
-    id 58
-    label "LouisianaTech"
-    value 11
-    x -26.4798190514799
-    y 19.7340224873523
-  ]
-  node
-  [
-    id 59
-    label "LouisianaMonroe"
-    value 10
-    x -10.1637348389378
-    y 10.761911164971
-  ]
-  node
-  [
-    id 60
-    label "Minnesota"
-    value 2
-    x -40.4837596232969
-    y 31.7030381483229
-  ]
-  node
-  [
-    id 61
-    label "MiamiOhio"
-    value 6
-    x -21.6117116359812
-    y 53.6714795067743
-  ]
-  node
-  [
-    id 62
-    label "Vanderbilt"
-    value 9
-    x 10.0824570700775
-    y 24.9102008339676
-  ]
-  node
-  [
-    id 63
-    label "MiddleTennesseeState"
-    value 10
-    x -10.9971954800092
-    y 21.6711964917339
-  ]
-  node
-  [
-    id 64
-    label "Illinois"
-    value 2
-    x -52.6655037159316
-    y 34.8669371390374
-  ]
-  node
-  [
-    id 65
-    label "MississippiState"
-    value 9
-    x 4.00109429430754
-    y 7.02914697981707
-  ]
-  node
-  [
-    id 66
-    label "Memphis"
-    value 4
-    x -2.74834345771376
-    y -2.26652462461825
-  ]
-  node
-  [
-    id 67
-    label "Nevada"
-    value 11
-    x -64.1920224882344
-    y 1.55455846459695
-  ]
-  node
-  [
-    id 68
-    label "Oregon"
-    value 8
-    x -75.9715526182857
-    y 25.3125158566308
-  ]
-  node
-  [
-    id 69
-    label "NewMexicoState"
-    value 10
-    x -26.1117430690319
-    y 1.85418758167416
-  ]
-  node
-  [
-    id 70
-    label "SouthCarolina"
-    value 9
-    x 6.64658867906216
-    y 18.5732755389743
-  ]
-  node
-  [
-    id 71
-    label "Ohio"
-    value 6
-    x -35.5385077152796
-    y 55.7008396568121
-  ]
-  node
-  [
-    id 72
-    label "IowaState"
-    value 3
-    x -41.1434530333352
-    y 7.99486794406511
-  ]
-  node
-  [
-    id 73
-    label "SanJoseState"
-    value 11
-    x -67.3503329231876
-    y -2.80534428203597
-  ]
-  node
-  [
-    id 74
-    label "Nebraska"
-    value 3
-    x -50.86924691923
-    y -4.3284939383062
-  ]
-  node
-  [
-    id 75
-    label "SouthernMississippi"
-    value 4
-    x -4.26992314870762
-    y -6.77654328759313
-  ]
-  node
-  [
-    id 76
-    label "Tennessee"
-    value 9
-    x 14.3536686622973
-    y 3.06472061365154
-  ]
-  node
-  [
-    id 77
-    label "Stanford"
-    value 8
-    x -74.5499394210849
-    y 9.08223061990739
-  ]
-  node
-  [
-    id 78
-    label "WashingtonState"
-    value 8
-    x -74.2781170057478
-    y 15.7578404083842
-  ]
-  node
-  [
-    id 79
-    label "Temple"
-    value 1
-    x -11.785645843303
-    y 60.3923475714588
-  ]
-  node
-  [
-    id 80
-    label "Navy"
-    value 5
-    x -20.0729093534936
-    y 33.6298182172005
-  ]
-  node
-  [
-    id 81
-    label "TexasA&M"
-    value 3
-    x -49.3441444070568
-    y -9.73732920560916
-  ]
-  node
-  [
-    id 82
-    label "NotreDame"
-    value 5
-    x -45.2556210938845
-    y 27.7847145672372
-  ]
-  node
-  [
-    id 83
-    label "TexasElPaso"
-    value 11
-    x -57.7341837487225
-    y -9.45850630740386
-  ]
-  node
-  [
-    id 84
-    label "Oklahoma"
-    value 3
-    x -47.9311754560665
-    y -20.0186696917553
-  ]
-  node
-  [
-    id 85
-    label "Toledo"
-    value 6
-    x -26.7312779397606
-    y 62.6238746560958
-  ]
-  node
-  [
-    id 86
-    label "Tulane"
-    value 4
-    x -12.8188308914745
-    y 3.24907959782191
-  ]
-  node
-  [
-    id 87
-    label "Mississippi"
-    value 9
-    x -3.84609319423461
-    y 2.07970711813989
-  ]
-  node
-  [
-    id 88
-    label "Tulsa"
-    value 11
-    x -44.0605900712188
-    y 6.69761417066182
-  ]
-  node
-  [
-    id 89
-    label "NorthCarolina"
-    value 0
-    x -9.50005412037245
-    y 39.8247736450034
-  ]
-  node
-  [
-    id 90
-    label "UtahState"
-    value 5
-    x -48.4851009365784
-    y -1.90934586694214
-  ]
-  node
-  [
-    id 91
-    label "Army"
-    value 4
-    x -16.3015000767526
-    y 13.5235788368619
-  ]
-  node
-  [
-    id 92
-    label "Cincinnati"
-    value 4
-    x -16.8306468497207
-    y 19.7038513504226
-  ]
-  node
-  [
-    id 93
-    label "AirForce"
-    value 7
-    x -45.5322558240301
-    y 19.9117863201564
-  ]
-  node
-  [
-    id 94
-    label "Rutgers"
-    value 1
-    x -25.0590260886169
-    y 55.3061040280144
-  ]
-  node
-  [
-    id 95
-    label "Georgia"
-    value 9
-    x 12.5424887052928
-    y 8.65255837926923
-  ]
-  node
-  [
-    id 96
-    label "LouisianaState"
-    value 9
-    x 9.54962492057318
-    y -2.45271167794347
-  ]
-  node
-  [
-    id 97
-    label "LouisianaLafayette"
-    value 10
-    x -20.7009000730301
-    y -9.68345656518575
-  ]
-  node
-  [
-    id 98
-    label "Texas"
-    value 3
-    x -45.3633051422175
-    y -16.1431937971603
-  ]
-  node
-  [
-    id 99
-    label "Marshall"
-    value 6
-    x -30.3291909612576
-    y 67.4123781267157
-  ]
-  node
-  [
-    id 100
-    label "MichiganState"
-    value 2
-    x -48.0781139926542
-    y 43.0020004469755
-  ]
-  node
-  [
-    id 101
-    label "MiamiFlorida"
-    value 1
-    x -27.7780752144909
-    y 44.8740029445296
-  ]
-  node
-  [
-    id 102
-    label "Missouri"
-    value 3
-    x -33.4059038541445
-    y 3.41027811531247
-  ]
-  node
-  [
-    id 103
-    label "Clemson"
-    value 0
-    x 3.32415127023455
-    y 27.8917746578722
-  ]
-  node
-  [
-    id 104
-    label "NevadaLasVegas"
-    value 7
-    x -45.741923429982
-    y 3.77928905027157
-  ]
-  node
-  [
-    id 105
-    label "WakeForest"
-    value 0
-    x 11.3298727531541
-    y 40.1105222119424
-  ]
-  node
-  [
-    id 106
-    label "Indiana"
-    value 2
-    x -30.9325517733757
-    y 34.6759849301321
-  ]
-  node
-  [
-    id 107
-    label "OklahomaState"
-    value 3
-    x -34.3287281845084
-    y -17.3079636959804
-  ]
-  node
-  [
-    id 108
-    label "OregonState"
-    value 8
-    x -83.7879244962864
-    y 17.028456106394
-  ]
-  node
-  [
-    id 109
-    label "Maryland"
-    value 0
-    x 4.86110693905481
-    y 44.5495750128991
-  ]
-  node
-  [
-    id 110
-    label "TexasChristian"
-    value 4
-    x -50.1642987391324
-    y 11.3452815480283
-  ]
-  node
-  [
-    id 111
-    label "California"
-    value 8
-    x -81.5324508759106
-    y 22.5093502787078
-  ]
-  node
-  [
-    id 112
-    label "AlabamaBirmingham"
-    value 4
-    x -8.90000817096966
-    y -3.29861625918538
-  ]
-  node
-  [
-    id 113
-    label "Arkansas"
-    value 9
-    x 3.29290866860014
-    y 0.458509402581431
-  ]
-  node
-  [
-    id 114
-    label "Hawaii"
-    value 11
-    x -56.6638153650087
-    y 9.54767111261789
-  ]
-  edge
-  [
-    source 1
-    target 0
-  ]
-  edge
-  [
-    source 3
-    target 2
-  ]
-  edge
-  [
-    source 4
-    target 0
-  ]
-  edge
-  [
-    source 5
-    target 4
-  ]
-  edge
-  [
-    source 5
-    target 3
-  ]
-  edge
-  [
-    source 6
-    target 2
-  ]
-  edge
-  [
-    source 7
-    target 6
-  ]
-  edge
-  [
-    source 8
-    target 7
-  ]
-  edge
-  [
-    source 9
-    target 8
-  ]
-  edge
-  [
-    source 9
-    target 0
-  ]
-  edge
-  [
-    source 9
-    target 4
-  ]
-  edge
-  [
-    source 10
-    target 5
-  ]
-  edge
-  [
-    source 11
-    target 10
-  ]
-  edge
-  [
-    source 11
-    target 5
-  ]
-  edge
-  [
-    source 11
-    target 3
-  ]
-  edge
-  [
-    source 13
-    target 12
-  ]
-  edge
-  [
-    source 13
-    target 2
-  ]
-  edge
-  [
-    source 14
-    target 2
-  ]
-  edge
-  [
-    source 14
-    target 12
-  ]
-  edge
-  [
-    source 15
-    target 14
-  ]
-  edge
-  [
-    source 15
-    target 13
-  ]
-  edge
-  [
-    source 15
-    target 2
-  ]
-  edge
-  [
-    source 16
-    target 4
-  ]
-  edge
-  [
-    source 16
-    target 9
-  ]
-  edge
-  [
-    source 16
-    target 0
-  ]
-  edge
-  [
-    source 17
-    target 16
-  ]
-  edge
-  [
-    source 17
-    target 12
-  ]
-  edge
-  [
-    source 18
-    target 12
-  ]
-  edge
-  [
-    source 19
-    target 18
-  ]
-  edge
-  [
-    source 20
-    target 17
-  ]
-  edge
-  [
-    source 21
-    target 20
-  ]
-  edge
-  [
-    source 21
-    target 8
-  ]
-  edge
-  [
-    source 21
-    target 7
-  ]
-  edge
-  [
-    source 22
-    target 9
-  ]
-  edge
-  [
-    source 22
-    target 7
-  ]
-  edge
-  [
-    source 22
-    target 21
-  ]
-  edge
-  [
-    source 22
-    target 8
-  ]
-  edge
-  [
-    source 23
-    target 22
-  ]
-  edge
-  [
-    source 23
-    target 9
-  ]
-  edge
-  [
-    source 23
-    target 4
-  ]
-  edge
-  [
-    source 23
-    target 16
-  ]
-  edge
-  [
-    source 23
-    target 0
-  ]
-  edge
-  [
-    source 24
-    target 11
-  ]
-  edge
-  [
-    source 25
-    target 24
-  ]
-  edge
-  [
-    source 25
-    target 1
-  ]
-  edge
-  [
-    source 26
-    target 3
-  ]
-  edge
-  [
-    source 26
-    target 12
-  ]
-  edge
-  [
-    source 26
-    target 14
-  ]
-  edge
-  [
-    source 27
-    target 26
-  ]
-  edge
-  [
-    source 27
-    target 17
-  ]
-  edge
-  [
-    source 27
-    target 1
-  ]
-  edge
-  [
-    source 28
-    target 4
-  ]
-  edge
-  [
-    source 28
-    target 11
-  ]
-  edge
-  [
-    source 28
-    target 24
-  ]
-  edge
-  [
-    source 29
-    target 19
-  ]
-  edge
-  [
-    source 30
-    target 29
-  ]
-  edge
-  [
-    source 30
-    target 19
-  ]
-  edge
-  [
-    source 31
-    target 18
-  ]
-  edge
-  [
-    source 32
-    target 31
-  ]
-  edge
-  [
-    source 32
-    target 21
-  ]
-  edge
-  [
-    source 32
-    target 15
-  ]
-  edge
-  [
-    source 32
-    target 13
-  ]
-  edge
-  [
-    source 32
-    target 6
-  ]
-  edge
-  [
-    source 33
-    target 0
-  ]
-  edge
-  [
-    source 33
-    target 1
-  ]
-  edge
-  [
-    source 33
-    target 25
-  ]
-  edge
-  [
-    source 33
-    target 19
-  ]
-  edge
-  [
-    source 34
-    target 31
-  ]
-  edge
-  [
-    source 34
-    target 26
-  ]
-  edge
-  [
-    source 34
-    target 12
-  ]
-  edge
-  [
-    source 34
-    target 18
-  ]
-  edge
-  [
-    source 35
-    target 34
-  ]
-  edge
-  [
-    source 35
-    target 0
-  ]
-  edge
-  [
-    source 35
-    target 29
-  ]
-  edge
-  [
-    source 35
-    target 19
-  ]
-  edge
-  [
-    source 35
-    target 30
-  ]
-  edge
-  [
-    source 36
-    target 18
-  ]
-  edge
-  [
-    source 36
-    target 12
-  ]
-  edge
-  [
-    source 36
-    target 20
-  ]
-  edge
-  [
-    source 36
-    target 19
-  ]
-  edge
-  [
-    source 37
-    target 36
-  ]
-  edge
-  [
-    source 37
-    target 1
-  ]
-  edge
-  [
-    source 37
-    target 25
-  ]
-  edge
-  [
-    source 37
-    target 33
-  ]
-  edge
-  [
-    source 38
-    target 18
-  ]
-  edge
-  [
-    source 38
-    target 16
-  ]
-  edge
-  [
-    source 38
-    target 28
-  ]
-  edge
-  [
-    source 38
-    target 26
-  ]
-  edge
-  [
-    source 38
-    target 14
-  ]
-  edge
-  [
-    source 38
-    target 12
-  ]
-  edge
-  [
-    source 39
-    target 38
-  ]
-  edge
-  [
-    source 39
-    target 6
-  ]
-  edge
-  [
-    source 39
-    target 32
-  ]
-  edge
-  [
-    source 39
-    target 13
-  ]
-  edge
-  [
-    source 39
-    target 15
-  ]
-  edge
-  [
-    source 40
-    target 7
-  ]
-  edge
-  [
-    source 40
-    target 3
-  ]
-  edge
-  [
-    source 41
-    target 40
-  ]
-  edge
-  [
-    source 41
-    target 8
-  ]
-  edge
-  [
-    source 41
-    target 4
-  ]
-  edge
-  [
-    source 41
-    target 23
-  ]
-  edge
-  [
-    source 41
-    target 9
-  ]
-  edge
-  [
-    source 41
-    target 0
-  ]
-  edge
-  [
-    source 41
-    target 16
-  ]
-  edge
-  [
-    source 42
-    target 34
-  ]
-  edge
-  [
-    source 42
-    target 29
-  ]
-  edge
-  [
-    source 42
-    target 18
-  ]
-  edge
-  [
-    source 42
-    target 26
-  ]
-  edge
-  [
-    source 43
-    target 42
-  ]
-  edge
-  [
-    source 43
-    target 36
-  ]
-  edge
-  [
-    source 43
-    target 26
-  ]
-  edge
-  [
-    source 43
-    target 31
-  ]
-  edge
-  [
-    source 43
-    target 38
-  ]
-  edge
-  [
-    source 43
-    target 12
-  ]
-  edge
-  [
-    source 43
-    target 14
-  ]
-  edge
-  [
-    source 44
-    target 19
-  ]
-  edge
-  [
-    source 44
-    target 35
-  ]
-  edge
-  [
-    source 44
-    target 30
-  ]
-  edge
-  [
-    source 45
-    target 44
-  ]
-  edge
-  [
-    source 45
-    target 13
-  ]
-  edge
-  [
-    source 45
-    target 33
-  ]
-  edge
-  [
-    source 45
-    target 1
-  ]
-  edge
-  [
-    source 45
-    target 37
-  ]
-  edge
-  [
-    source 45
-    target 25
-  ]
-  edge
-  [
-    source 46
-    target 21
-  ]
-  edge
-  [
-    source 47
-    target 46
-  ]
-  edge
-  [
-    source 47
-    target 22
-  ]
-  edge
-  [
-    source 47
-    target 6
-  ]
-  edge
-  [
-    source 47
-    target 15
-  ]
-  edge
-  [
-    source 47
-    target 2
-  ]
-  edge
-  [
-    source 47
-    target 39
-  ]
-  edge
-  [
-    source 47
-    target 32
-  ]
-  edge
-  [
-    source 48
-    target 44
-  ]
-  edge
-  [
-    source 49
-    target 48
-  ]
-  edge
-  [
-    source 49
-    target 32
-  ]
-  edge
-  [
-    source 49
-    target 46
-  ]
-  edge
-  [
-    source 50
-    target 30
-  ]
-  edge
-  [
-    source 50
-    target 24
-  ]
-  edge
-  [
-    source 50
-    target 11
-  ]
-  edge
-  [
-    source 50
-    target 28
-  ]
-  edge
-  [
-    source 51
-    target 50
-  ]
-  edge
-  [
-    source 51
-    target 40
-  ]
-  edge
-  [
-    source 51
-    target 8
-  ]
-  edge
-  [
-    source 51
-    target 22
-  ]
-  edge
-  [
-    source 51
-    target 21
-  ]
-  edge
-  [
-    source 52
-    target 3
-  ]
-  edge
-  [
-    source 52
-    target 40
-  ]
-  edge
-  [
-    source 52
-    target 5
-  ]
-  edge
-  [
-    source 53
-    target 52
-  ]
-  edge
-  [
-    source 53
-    target 25
-  ]
-  edge
-  [
-    source 53
-    target 48
-  ]
-  edge
-  [
-    source 53
-    target 49
-  ]
-  edge
-  [
-    source 53
-    target 46
-  ]
-  edge
-  [
-    source 54
-    target 39
-  ]
-  edge
-  [
-    source 54
-    target 31
-  ]
-  edge
-  [
-    source 54
-    target 38
-  ]
-  edge
-  [
-    source 54
-    target 14
-  ]
-  edge
-  [
-    source 54
-    target 34
-  ]
-  edge
-  [
-    source 54
-    target 18
-  ]
-  edge
-  [
-    source 55
-    target 54
-  ]
-  edge
-  [
-    source 55
-    target 31
-  ]
-  edge
-  [
-    source 55
-    target 6
-  ]
-  edge
-  [
-    source 55
-    target 35
-  ]
-  edge
-  [
-    source 55
-    target 29
-  ]
-  edge
-  [
-    source 55
-    target 19
-  ]
-  edge
-  [
-    source 55
-    target 30
-  ]
-  edge
-  [
-    source 56
-    target 27
-  ]
-  edge
-  [
-    source 57
-    target 56
-  ]
-  edge
-  [
-    source 57
-    target 1
-  ]
-  edge
-  [
-    source 57
-    target 42
-  ]
-  edge
-  [
-    source 57
-    target 44
-  ]
-  edge
-  [
-    source 57
-    target 48
-  ]
-  edge
-  [
-    source 58
-    target 3
-  ]
-  edge
-  [
-    source 58
-    target 6
-  ]
-  edge
-  [
-    source 58
-    target 17
-  ]
-  edge
-  [
-    source 58
-    target 36
-  ]
-  edge
-  [
-    source 59
-    target 36
-  ]
-  edge
-  [
-    source 59
-    target 58
-  ]
-  edge
-  [
-    source 60
-    target 59
-  ]
-  edge
-  [
-    source 60
-    target 10
-  ]
-  edge
-  [
-    source 60
-    target 39
-  ]
-  edge
-  [
-    source 60
-    target 6
-  ]
-  edge
-  [
-    source 60
-    target 47
-  ]
-  edge
-  [
-    source 60
-    target 13
-  ]
-  edge
-  [
-    source 60
-    target 15
-  ]
-  edge
-  [
-    source 60
-    target 2
-  ]
-  edge
-  [
-    source 61
-    target 43
-  ]
-  edge
-  [
-    source 61
-    target 47
-  ]
-  edge
-  [
-    source 61
-    target 54
-  ]
-  edge
-  [
-    source 61
-    target 18
-  ]
-  edge
-  [
-    source 61
-    target 26
-  ]
-  edge
-  [
-    source 61
-    target 31
-  ]
-  edge
-  [
-    source 61
-    target 34
-  ]
-  edge
-  [
-    source 62
-    target 61
-  ]
-  edge
-  [
-    source 62
-    target 20
-  ]
-  edge
-  [
-    source 62
-    target 45
-  ]
-  edge
-  [
-    source 62
-    target 17
-  ]
-  edge
-  [
-    source 62
-    target 27
-  ]
-  edge
-  [
-    source 62
-    target 56
-  ]
-  edge
-  [
-    source 63
-    target 27
-  ]
-  edge
-  [
-    source 63
-    target 58
-  ]
-  edge
-  [
-    source 63
-    target 59
-  ]
-  edge
-  [
-    source 63
-    target 42
-  ]
-  edge
-  [
-    source 64
-    target 63
-  ]
-  edge
-  [
-    source 64
-    target 9
-  ]
-  edge
-  [
-    source 64
-    target 32
-  ]
-  edge
-  [
-    source 64
-    target 60
-  ]
-  edge
-  [
-    source 64
-    target 2
-  ]
-  edge
-  [
-    source 64
-    target 6
-  ]
-  edge
-  [
-    source 64
-    target 47
-  ]
-  edge
-  [
-    source 64
-    target 13
-  ]
-  edge
-  [
-    source 65
-    target 0
-  ]
-  edge
-  [
-    source 65
-    target 27
-  ]
-  edge
-  [
-    source 65
-    target 17
-  ]
-  edge
-  [
-    source 65
-    target 63
-  ]
-  edge
-  [
-    source 65
-    target 56
-  ]
-  edge
-  [
-    source 65
-    target 20
-  ]
-  edge
-  [
-    source 66
-    target 65
-  ]
-  edge
-  [
-    source 66
-    target 59
-  ]
-  edge
-  [
-    source 66
-    target 24
-  ]
-  edge
-  [
-    source 66
-    target 44
-  ]
-  edge
-  [
-    source 66
-    target 48
-  ]
-  edge
-  [
-    source 67
-    target 16
-  ]
-  edge
-  [
-    source 67
-    target 41
-  ]
-  edge
-  [
-    source 67
-    target 46
-  ]
-  edge
-  [
-    source 67
-    target 53
-  ]
-  edge
-  [
-    source 67
-    target 49
-  ]
-  edge
-  [
-    source 68
-    target 67
-  ]
-  edge
-  [
-    source 68
-    target 15
-  ]
-  edge
-  [
-    source 68
-    target 50
-  ]
-  edge
-  [
-    source 68
-    target 21
-  ]
-  edge
-  [
-    source 68
-    target 51
-  ]
-  edge
-  [
-    source 68
-    target 7
-  ]
-  edge
-  [
-    source 68
-    target 22
-  ]
-  edge
-  [
-    source 68
-    target 8
-  ]
-  edge
-  [
-    source 69
-    target 4
-  ]
-  edge
-  [
-    source 69
-    target 24
-  ]
-  edge
-  [
-    source 69
-    target 28
-  ]
-  edge
-  [
-    source 69
-    target 50
-  ]
-  edge
-  [
-    source 69
-    target 11
-  ]
-  edge
-  [
-    source 70
-    target 69
-  ]
-  edge
-  [
-    source 70
-    target 43
-  ]
-  edge
-  [
-    source 70
-    target 65
-  ]
-  edge
-  [
-    source 70
-    target 20
-  ]
-  edge
-  [
-    source 70
-    target 56
-  ]
-  edge
-  [
-    source 70
-    target 62
-  ]
-  edge
-  [
-    source 70
-    target 27
-  ]
-  edge
-  [
-    source 71
-    target 60
-  ]
-  edge
-  [
-    source 71
-    target 18
-  ]
-  edge
-  [
-    source 71
-    target 14
-  ]
-  edge
-  [
-    source 71
-    target 34
-  ]
-  edge
-  [
-    source 71
-    target 54
-  ]
-  edge
-  [
-    source 71
-    target 38
-  ]
-  edge
-  [
-    source 71
-    target 61
-  ]
-  edge
-  [
-    source 71
-    target 31
-  ]
-  edge
-  [
-    source 72
-    target 71
-  ]
-  edge
-  [
-    source 72
-    target 2
-  ]
-  edge
-  [
-    source 72
-    target 10
-  ]
-  edge
-  [
-    source 72
-    target 3
-  ]
-  edge
-  [
-    source 72
-    target 40
-  ]
-  edge
-  [
-    source 72
-    target 52
-  ]
-  edge
-  [
-    source 73
-    target 7
-  ]
-  edge
-  [
-    source 73
-    target 49
-  ]
-  edge
-  [
-    source 73
-    target 53
-  ]
-  edge
-  [
-    source 73
-    target 67
-  ]
-  edge
-  [
-    source 73
-    target 46
-  ]
-  edge
-  [
-    source 74
-    target 73
-  ]
-  edge
-  [
-    source 74
-    target 2
-  ]
-  edge
-  [
-    source 74
-    target 72
-  ]
-  edge
-  [
-    source 74
-    target 5
-  ]
-  edge
-  [
-    source 74
-    target 10
-  ]
-  edge
-  [
-    source 74
-    target 52
-  ]
-  edge
-  [
-    source 74
-    target 3
-  ]
-  edge
-  [
-    source 74
-    target 40
-  ]
-  edge
-  [
-    source 75
-    target 20
-  ]
-  edge
-  [
-    source 75
-    target 66
-  ]
-  edge
-  [
-    source 75
-    target 48
-  ]
-  edge
-  [
-    source 75
-    target 57
-  ]
-  edge
-  [
-    source 75
-    target 44
-  ]
-  edge
-  [
-    source 76
-    target 75
-  ]
-  edge
-  [
-    source 76
-    target 27
-  ]
-  edge
-  [
-    source 76
-    target 59
-  ]
-  edge
-  [
-    source 76
-    target 20
-  ]
-  edge
-  [
-    source 76
-    target 70
-  ]
-  edge
-  [
-    source 76
-    target 66
-  ]
-  edge
-  [
-    source 76
-    target 56
-  ]
-  edge
-  [
-    source 76
-    target 62
-  ]
-  edge
-  [
-    source 77
-    target 73
-  ]
-  edge
-  [
-    source 77
-    target 22
-  ]
-  edge
-  [
-    source 77
-    target 7
-  ]
-  edge
-  [
-    source 77
-    target 51
-  ]
-  edge
-  [
-    source 77
-    target 21
-  ]
-  edge
-  [
-    source 77
-    target 8
-  ]
-  edge
-  [
-    source 78
-    target 77
-  ]
-  edge
-  [
-    source 78
-    target 23
-  ]
-  edge
-  [
-    source 78
-    target 50
-  ]
-  edge
-  [
-    source 78
-    target 28
-  ]
-  edge
-  [
-    source 78
-    target 22
-  ]
-  edge
-  [
-    source 78
-    target 8
-  ]
-  edge
-  [
-    source 78
-    target 68
-  ]
-  edge
-  [
-    source 78
-    target 7
-  ]
-  edge
-  [
-    source 78
-    target 51
-  ]
-  edge
-  [
-    source 79
-    target 31
-  ]
-  edge
-  [
-    source 79
-    target 43
-  ]
-  edge
-  [
-    source 79
-    target 30
-  ]
-  edge
-  [
-    source 79
-    target 19
-  ]
-  edge
-  [
-    source 79
-    target 29
-  ]
-  edge
-  [
-    source 79
-    target 35
-  ]
-  edge
-  [
-    source 79
-    target 55
-  ]
-  edge
-  [
-    source 80
-    target 79
-  ]
-  edge
-  [
-    source 80
-    target 37
-  ]
-  edge
-  [
-    source 80
-    target 29
-  ]
-  edge
-  [
-    source 81
-    target 16
-  ]
-  edge
-  [
-    source 81
-    target 5
-  ]
-  edge
-  [
-    source 81
-    target 40
-  ]
-  edge
-  [
-    source 81
-    target 10
-  ]
-  edge
-  [
-    source 81
-    target 72
-  ]
-  edge
-  [
-    source 81
-    target 3
-  ]
-  edge
-  [
-    source 82
-    target 81
-  ]
-  edge
-  [
-    source 82
-    target 74
-  ]
-  edge
-  [
-    source 82
-    target 39
-  ]
-  edge
-  [
-    source 82
-    target 77
-  ]
-  edge
-  [
-    source 82
-    target 80
-  ]
-  edge
-  [
-    source 82
-    target 30
-  ]
-  edge
-  [
-    source 82
-    target 29
-  ]
-  edge
-  [
-    source 82
-    target 7
-  ]
-  edge
-  [
-    source 83
-    target 53
-  ]
-  edge
-  [
-    source 83
-    target 81
-  ]
-  edge
-  [
-    source 83
-    target 69
-  ]
-  edge
-  [
-    source 83
-    target 73
-  ]
-  edge
-  [
-    source 83
-    target 46
-  ]
-  edge
-  [
-    source 83
-    target 67
-  ]
-  edge
-  [
-    source 83
-    target 49
-  ]
-  edge
-  [
-    source 84
-    target 83
-  ]
-  edge
-  [
-    source 84
-    target 24
-  ]
-  edge
-  [
-    source 84
-    target 49
-  ]
-  edge
-  [
-    source 84
-    target 52
-  ]
-  edge
-  [
-    source 84
-    target 3
-  ]
-  edge
-  [
-    source 84
-    target 74
-  ]
-  edge
-  [
-    source 84
-    target 10
-  ]
-  edge
-  [
-    source 84
-    target 81
-  ]
-  edge
-  [
-    source 84
-    target 5
-  ]
-  edge
-  [
-    source 84
-    target 3
-  ]
-  edge
-  [
-    source 85
-    target 6
-  ]
-  edge
-  [
-    source 85
-    target 14
-  ]
-  edge
-  [
-    source 85
-    target 38
-  ]
-  edge
-  [
-    source 85
-    target 43
-  ]
-  edge
-  [
-    source 85
-    target 80
-  ]
-  edge
-  [
-    source 85
-    target 12
-  ]
-  edge
-  [
-    source 85
-    target 26
-  ]
-  edge
-  [
-    source 85
-    target 31
-  ]
-  edge
-  [
-    source 86
-    target 44
-  ]
-  edge
-  [
-    source 86
-    target 53
-  ]
-  edge
-  [
-    source 86
-    target 75
-  ]
-  edge
-  [
-    source 86
-    target 57
-  ]
-  edge
-  [
-    source 86
-    target 48
-  ]
-  edge
-  [
-    source 86
-    target 80
-  ]
-  edge
-  [
-    source 86
-    target 66
-  ]
-  edge
-  [
-    source 87
-    target 86
-  ]
-  edge
-  [
-    source 87
-    target 17
-  ]
-  edge
-  [
-    source 87
-    target 62
-  ]
-  edge
-  [
-    source 87
-    target 56
-  ]
-  edge
-  [
-    source 87
-    target 24
-  ]
-  edge
-  [
-    source 87
-    target 20
-  ]
-  edge
-  [
-    source 87
-    target 65
-  ]
-  edge
-  [
-    source 88
-    target 49
-  ]
-  edge
-  [
-    source 88
-    target 58
-  ]
-  edge
-  [
-    source 88
-    target 83
-  ]
-  edge
-  [
-    source 88
-    target 69
-  ]
-  edge
-  [
-    source 88
-    target 46
-  ]
-  edge
-  [
-    source 88
-    target 53
-  ]
-  edge
-  [
-    source 88
-    target 73
-  ]
-  edge
-  [
-    source 88
-    target 67
-  ]
-  edge
-  [
-    source 89
-    target 88
-  ]
-  edge
-  [
-    source 89
-    target 1
-  ]
-  edge
-  [
-    source 89
-    target 37
-  ]
-  edge
-  [
-    source 89
-    target 25
-  ]
-  edge
-  [
-    source 89
-    target 33
-  ]
-  edge
-  [
-    source 89
-    target 55
-  ]
-  edge
-  [
-    source 89
-    target 45
-  ]
-  edge
-  [
-    source 90
-    target 5
-  ]
-  edge
-  [
-    source 90
-    target 8
-  ]
-  edge
-  [
-    source 90
-    target 23
-  ]
-  edge
-  [
-    source 90
-    target 0
-  ]
-  edge
-  [
-    source 90
-    target 11
-  ]
-  edge
-  [
-    source 90
-    target 50
-  ]
-  edge
-  [
-    source 90
-    target 24
-  ]
-  edge
-  [
-    source 90
-    target 69
-  ]
-  edge
-  [
-    source 90
-    target 28
-  ]
-  edge
-  [
-    source 91
-    target 29
-  ]
-  edge
-  [
-    source 91
-    target 48
-  ]
-  edge
-  [
-    source 91
-    target 66
-  ]
-  edge
-  [
-    source 91
-    target 69
-  ]
-  edge
-  [
-    source 91
-    target 44
-  ]
-  edge
-  [
-    source 91
-    target 86
-  ]
-  edge
-  [
-    source 91
-    target 57
-  ]
-  edge
-  [
-    source 91
-    target 80
-  ]
-  edge
-  [
-    source 92
-    target 91
-  ]
-  edge
-  [
-    source 92
-    target 35
-  ]
-  edge
-  [
-    source 92
-    target 15
-  ]
-  edge
-  [
-    source 92
-    target 86
-  ]
-  edge
-  [
-    source 92
-    target 48
-  ]
-  edge
-  [
-    source 92
-    target 57
-  ]
-  edge
-  [
-    source 92
-    target 61
-  ]
-  edge
-  [
-    source 92
-    target 66
-  ]
-  edge
-  [
-    source 92
-    target 75
-  ]
-  edge
-  [
-    source 93
-    target 0
-  ]
-  edge
-  [
-    source 93
-    target 23
-  ]
-  edge
-  [
-    source 93
-    target 80
-  ]
-  edge
-  [
-    source 93
-    target 16
-  ]
-  edge
-  [
-    source 93
-    target 4
-  ]
-  edge
-  [
-    source 93
-    target 82
-  ]
-  edge
-  [
-    source 93
-    target 91
-  ]
-  edge
-  [
-    source 93
-    target 41
-  ]
-  edge
-  [
-    source 93
-    target 9
-  ]
-  edge
-  [
-    source 94
-    target 34
-  ]
-  edge
-  [
-    source 94
-    target 19
-  ]
-  edge
-  [
-    source 94
-    target 55
-  ]
-  edge
-  [
-    source 94
-    target 79
-  ]
-  edge
-  [
-    source 94
-    target 80
-  ]
-  edge
-  [
-    source 94
-    target 29
-  ]
-  edge
-  [
-    source 94
-    target 30
-  ]
-  edge
-  [
-    source 94
-    target 82
-  ]
-  edge
-  [
-    source 94
-    target 35
-  ]
-  edge
-  [
-    source 95
-    target 70
-  ]
-  edge
-  [
-    source 95
-    target 69
-  ]
-  edge
-  [
-    source 95
-    target 76
-  ]
-  edge
-  [
-    source 95
-    target 62
-  ]
-  edge
-  [
-    source 95
-    target 56
-  ]
-  edge
-  [
-    source 95
-    target 27
-  ]
-  edge
-  [
-    source 95
-    target 17
-  ]
-  edge
-  [
-    source 95
-    target 87
-  ]
-  edge
-  [
-    source 95
-    target 37
-  ]
-  edge
-  [
-    source 96
-    target 48
-  ]
-  edge
-  [
-    source 96
-    target 17
-  ]
-  edge
-  [
-    source 96
-    target 76
-  ]
-  edge
-  [
-    source 96
-    target 27
-  ]
-  edge
-  [
-    source 96
-    target 56
-  ]
-  edge
-  [
-    source 96
-    target 65
-  ]
-  edge
-  [
-    source 96
-    target 20
-  ]
-  edge
-  [
-    source 96
-    target 87
-  ]
-  edge
-  [
-    source 97
-    target 5
-  ]
-  edge
-  [
-    source 97
-    target 86
-  ]
-  edge
-  [
-    source 97
-    target 58
-  ]
-  edge
-  [
-    source 97
-    target 11
-  ]
-  edge
-  [
-    source 97
-    target 59
-  ]
-  edge
-  [
-    source 97
-    target 63
-  ]
-  edge
-  [
-    source 98
-    target 97
-  ]
-  edge
-  [
-    source 98
-    target 77
-  ]
-  edge
-  [
-    source 98
-    target 48
-  ]
-  edge
-  [
-    source 98
-    target 84
-  ]
-  edge
-  [
-    source 98
-    target 40
-  ]
-  edge
-  [
-    source 98
-    target 10
-  ]
-  edge
-  [
-    source 98
-    target 5
-  ]
-  edge
-  [
-    source 98
-    target 52
-  ]
-  edge
-  [
-    source 98
-    target 81
-  ]
-  edge
-  [
-    source 99
-    target 89
-  ]
-  edge
-  [
-    source 99
-    target 34
-  ]
-  edge
-  [
-    source 99
-    target 14
-  ]
-  edge
-  [
-    source 99
-    target 85
-  ]
-  edge
-  [
-    source 99
-    target 54
-  ]
-  edge
-  [
-    source 99
-    target 18
-  ]
-  edge
-  [
-    source 99
-    target 31
-  ]
-  edge
-  [
-    source 99
-    target 61
-  ]
-  edge
-  [
-    source 99
-    target 71
-  ]
-  edge
-  [
-    source 99
-    target 14
-  ]
-  edge
-  [
-    source 100
-    target 99
-  ]
-  edge
-  [
-    source 100
-    target 82
-  ]
-  edge
-  [
-    source 100
-    target 13
-  ]
-  edge
-  [
-    source 100
-    target 2
-  ]
-  edge
-  [
-    source 100
-    target 15
-  ]
-  edge
-  [
-    source 100
-    target 32
-  ]
-  edge
-  [
-    source 100
-    target 64
-  ]
-  edge
-  [
-    source 100
-    target 47
-  ]
-  edge
-  [
-    source 100
-    target 39
-  ]
-  edge
-  [
-    source 100
-    target 6
-  ]
-  edge
-  [
-    source 101
-    target 51
-  ]
-  edge
-  [
-    source 101
-    target 30
-  ]
-  edge
-  [
-    source 101
-    target 94
-  ]
-  edge
-  [
-    source 101
-    target 1
-  ]
-  edge
-  [
-    source 101
-    target 79
-  ]
-  edge
-  [
-    source 101
-    target 58
-  ]
-  edge
-  [
-    source 101
-    target 19
-  ]
-  edge
-  [
-    source 101
-    target 55
-  ]
-  edge
-  [
-    source 101
-    target 35
-  ]
-  edge
-  [
-    source 101
-    target 29
-  ]
-  edge
-  [
-    source 102
-    target 100
-  ]
-  edge
-  [
-    source 102
-    target 74
-  ]
-  edge
-  [
-    source 102
-    target 52
-  ]
-  edge
-  [
-    source 102
-    target 98
-  ]
-  edge
-  [
-    source 102
-    target 72
-  ]
-  edge
-  [
-    source 102
-    target 40
-  ]
-  edge
-  [
-    source 102
-    target 10
-  ]
-  edge
-  [
-    source 102
-    target 3
-  ]
-  edge
-  [
-    source 103
-    target 102
-  ]
-  edge
-  [
-    source 103
-    target 33
-  ]
-  edge
-  [
-    source 103
-    target 45
-  ]
-  edge
-  [
-    source 103
-    target 25
-  ]
-  edge
-  [
-    source 103
-    target 89
-  ]
-  edge
-  [
-    source 103
-    target 37
-  ]
-  edge
-  [
-    source 103
-    target 1
-  ]
-  edge
-  [
-    source 103
-    target 70
-  ]
-  edge
-  [
-    source 104
-    target 72
-  ]
-  edge
-  [
-    source 104
-    target 11
-  ]
-  edge
-  [
-    source 104
-    target 0
-  ]
-  edge
-  [
-    source 104
-    target 93
-  ]
-  edge
-  [
-    source 104
-    target 67
-  ]
-  edge
-  [
-    source 104
-    target 41
-  ]
-  edge
-  [
-    source 104
-    target 16
-  ]
-  edge
-  [
-    source 104
-    target 87
-  ]
-  edge
-  [
-    source 104
-    target 23
-  ]
-  edge
-  [
-    source 104
-    target 4
-  ]
-  edge
-  [
-    source 104
-    target 9
-  ]
-  edge
-  [
-    source 105
-    target 89
-  ]
-  edge
-  [
-    source 105
-    target 103
-  ]
-  edge
-  [
-    source 105
-    target 33
-  ]
-  edge
-  [
-    source 105
-    target 62
-  ]
-  edge
-  [
-    source 105
-    target 37
-  ]
-  edge
-  [
-    source 105
-    target 45
-  ]
-  edge
-  [
-    source 105
-    target 1
-  ]
-  edge
-  [
-    source 105
-    target 80
-  ]
-  edge
-  [
-    source 105
-    target 25
-  ]
-  edge
-  [
-    source 106
-    target 25
-  ]
-  edge
-  [
-    source 106
-    target 56
-  ]
-  edge
-  [
-    source 106
-    target 92
-  ]
-  edge
-  [
-    source 106
-    target 2
-  ]
-  edge
-  [
-    source 106
-    target 13
-  ]
-  edge
-  [
-    source 106
-    target 32
-  ]
-  edge
-  [
-    source 106
-    target 60
-  ]
-  edge
-  [
-    source 106
-    target 6
-  ]
-  edge
-  [
-    source 106
-    target 64
-  ]
-  edge
-  [
-    source 106
-    target 15
-  ]
-  edge
-  [
-    source 106
-    target 39
-  ]
-  edge
-  [
-    source 107
-    target 88
-  ]
-  edge
-  [
-    source 107
-    target 75
-  ]
-  edge
-  [
-    source 107
-    target 98
-  ]
-  edge
-  [
-    source 107
-    target 102
-  ]
-  edge
-  [
-    source 107
-    target 72
-  ]
-  edge
-  [
-    source 107
-    target 40
-  ]
-  edge
-  [
-    source 107
-    target 81
-  ]
-  edge
-  [
-    source 107
-    target 5
-  ]
-  edge
-  [
-    source 107
-    target 10
-  ]
-  edge
-  [
-    source 107
-    target 84
-  ]
-  edge
-  [
-    source 108
-    target 4
-  ]
-  edge
-  [
-    source 108
-    target 9
-  ]
-  edge
-  [
-    source 108
-    target 7
-  ]
-  edge
-  [
-    source 108
-    target 51
-  ]
-  edge
-  [
-    source 108
-    target 77
-  ]
-  edge
-  [
-    source 108
-    target 21
-  ]
-  edge
-  [
-    source 108
-    target 78
-  ]
-  edge
-  [
-    source 108
-    target 22
-  ]
-  edge
-  [
-    source 108
-    target 68
-  ]
-  edge
-  [
-    source 109
-    target 79
-  ]
-  edge
-  [
-    source 109
-    target 30
-  ]
-  edge
-  [
-    source 109
-    target 63
-  ]
-  edge
-  [
-    source 109
-    target 1
-  ]
-  edge
-  [
-    source 109
-    target 33
-  ]
-  edge
-  [
-    source 109
-    target 103
-  ]
-  edge
-  [
-    source 109
-    target 105
-  ]
-  edge
-  [
-    source 109
-    target 45
-  ]
-  edge
-  [
-    source 109
-    target 25
-  ]
-  edge
-  [
-    source 109
-    target 89
-  ]
-  edge
-  [
-    source 109
-    target 37
-  ]
-  edge
-  [
-    source 110
-    target 67
-  ]
-  edge
-  [
-    source 110
-    target 13
-  ]
-  edge
-  [
-    source 110
-    target 24
-  ]
-  edge
-  [
-    source 110
-    target 80
-  ]
-  edge
-  [
-    source 110
-    target 88
-  ]
-  edge
-  [
-    source 110
-    target 49
-  ]
-  edge
-  [
-    source 110
-    target 73
-  ]
-  edge
-  [
-    source 110
-    target 46
-  ]
-  edge
-  [
-    source 110
-    target 83
-  ]
-  edge
-  [
-    source 110
-    target 53
-  ]
-  edge
-  [
-    source 111
-    target 23
-  ]
-  edge
-  [
-    source 111
-    target 64
-  ]
-  edge
-  [
-    source 111
-    target 46
-  ]
-  edge
-  [
-    source 111
-    target 78
-  ]
-  edge
-  [
-    source 111
-    target 8
-  ]
-  edge
-  [
-    source 111
-    target 21
-  ]
-  edge
-  [
-    source 111
-    target 51
-  ]
-  edge
-  [
-    source 111
-    target 7
-  ]
-  edge
-  [
-    source 111
-    target 108
-  ]
-  edge
-  [
-    source 111
-    target 68
-  ]
-  edge
-  [
-    source 111
-    target 77
-  ]
-  edge
-  [
-    source 112
-    target 52
-  ]
-  edge
-  [
-    source 112
-    target 96
-  ]
-  edge
-  [
-    source 112
-    target 97
-  ]
-  edge
-  [
-    source 112
-    target 57
-  ]
-  edge
-  [
-    source 112
-    target 66
-  ]
-  edge
-  [
-    source 112
-    target 63
-  ]
-  edge
-  [
-    source 112
-    target 44
-  ]
-  edge
-  [
-    source 112
-    target 92
-  ]
-  edge
-  [
-    source 112
-    target 75
-  ]
-  edge
-  [
-    source 112
-    target 91
-  ]
-  edge
-  [
-    source 113
-    target 28
-  ]
-  edge
-  [
-    source 113
-    target 20
-  ]
-  edge
-  [
-    source 113
-    target 95
-  ]
-  edge
-  [
-    source 113
-    target 59
-  ]
-  edge
-  [
-    source 113
-    target 70
-  ]
-  edge
-  [
-    source 113
-    target 17
-  ]
-  edge
-  [
-    source 113
-    target 87
-  ]
-  edge
-  [
-    source 113
-    target 76
-  ]
-  edge
-  [
-    source 113
-    target 65
-  ]
-  edge
-  [
-    source 113
-    target 96
-  ]
-  edge
-  [
-    source 114
-    target 83
-  ]
-  edge
-  [
-    source 114
-    target 88
-  ]
-  edge
-  [
-    source 114
-    target 110
-  ]
-  edge
-  [
-    source 114
-    target 53
-  ]
-  edge
-  [
-    source 114
-    target 49
-  ]
-  edge
-  [
-    source 114
-    target 73
-  ]
-  edge
-  [
-    source 114
-    target 46
-  ]
-  edge
-  [
-    source 114
-    target 67
-  ]
-  edge
-  [
-    source 114
-    target 58
-  ]
-  edge
-  [
-    source 114
-    target 15
-  ]
-  edge
-  [
-    source 114
-    target 104
-  ]
-]
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_id" for="node" attr.name="id" attr.type="double"/>
+  <key id="v_label" for="node" attr.name="label" attr.type="string"/>
+  <key id="v_value" for="node" attr.name="value" attr.type="double"/>
+  <key id="v_x" for="node" attr.name="x" attr.type="double"/>
+  <key id="v_y" for="node" attr.name="y" attr.type="double"/>
+  <graph id="G" edgedefault="undirected">
+    <node id="n0">
+      <data key="v_id">0</data>
+      <data key="v_label">BrighamYoung</data>
+      <data key="v_value">7</data>
+      <data key="v_x">-53.3765</data>
+      <data key="v_y">-17.4174</data>
+    </node>
+    <node id="n1">
+      <data key="v_id">1</data>
+      <data key="v_label">FloridaState</data>
+      <data key="v_value">0</data>
+      <data key="v_x">-55.3579</data>
+      <data key="v_y">21.2357</data>
+    </node>
+    <node id="n2">
+      <data key="v_id">2</data>
+      <data key="v_label">Iowa</data>
+      <data key="v_value">2</data>
+      <data key="v_x">-85.2293</data>
+      <data key="v_y">-19.3652</data>
+    </node>
+    <node id="n3">
+      <data key="v_id">3</data>
+      <data key="v_label">KansasState</data>
+      <data key="v_value">3</data>
+      <data key="v_x">-54.1903</data>
+      <data key="v_y">-26.8882</data>
+    </node>
+    <node id="n4">
+      <data key="v_id">4</data>
+      <data key="v_label">NewMexico</data>
+      <data key="v_value">7</data>
+      <data key="v_x">-52.111</data>
+      <data key="v_y">-47.5952</data>
+    </node>
+    <node id="n5">
+      <data key="v_id">5</data>
+      <data key="v_label">TexasTech</data>
+      <data key="v_value">3</data>
+      <data key="v_x">-35.5927</data>
+      <data key="v_y">-44.2514</data>
+    </node>
+    <node id="n6">
+      <data key="v_id">6</data>
+      <data key="v_label">PennState</data>
+      <data key="v_value">2</data>
+      <data key="v_x">-93.4083</data>
+      <data key="v_y">-10.5521</data>
+    </node>
+    <node id="n7">
+      <data key="v_id">7</data>
+      <data key="v_label">SouthernCalifornia</data>
+      <data key="v_value">8</data>
+      <data key="v_x">-87.3099</data>
+      <data key="v_y">-46.5737</data>
+    </node>
+    <node id="n8">
+      <data key="v_id">8</data>
+      <data key="v_label">ArizonaState</data>
+      <data key="v_value">8</data>
+      <data key="v_x">-73.5514</data>
+      <data key="v_y">-62.3959</data>
+    </node>
+    <node id="n9">
+      <data key="v_id">9</data>
+      <data key="v_label">SanDiegoState</data>
+      <data key="v_value">7</data>
+      <data key="v_x">-68.2842</data>
+      <data key="v_y">-47.8454</data>
+    </node>
+    <node id="n10">
+      <data key="v_id">10</data>
+      <data key="v_label">Baylor</data>
+      <data key="v_value">3</data>
+      <data key="v_x">-48.2806</data>
+      <data key="v_y">-37.4332</data>
+    </node>
+    <node id="n11">
+      <data key="v_id">11</data>
+      <data key="v_label">NorthTexas</data>
+      <data key="v_value">10</data>
+      <data key="v_x">-33.5997</data>
+      <data key="v_y">-36.4292</data>
+    </node>
+    <node id="n12">
+      <data key="v_id">12</data>
+      <data key="v_label">NorthernIllinois</data>
+      <data key="v_value">6</data>
+      <data key="v_x">-82.311</data>
+      <data key="v_y">17.9931</data>
+    </node>
+    <node id="n13">
+      <data key="v_id">13</data>
+      <data key="v_label">Northwestern</data>
+      <data key="v_value">2</data>
+      <data key="v_x">-89.0573</data>
+      <data key="v_y">-3.40224</data>
+    </node>
+    <node id="n14">
+      <data key="v_id">14</data>
+      <data key="v_label">WesternMichigan</data>
+      <data key="v_value">6</data>
+      <data key="v_x">-99.3968</data>
+      <data key="v_y">6.89554</data>
+    </node>
+    <node id="n15">
+      <data key="v_id">15</data>
+      <data key="v_label">Wisconsin</data>
+      <data key="v_value">2</data>
+      <data key="v_x">-91.6771</data>
+      <data key="v_y">-17.6274</data>
+    </node>
+    <node id="n16">
+      <data key="v_id">16</data>
+      <data key="v_label">Wyoming</data>
+      <data key="v_value">7</data>
+      <data key="v_x">-58.3178</data>
+      <data key="v_y">-30.2995</data>
+    </node>
+    <node id="n17">
+      <data key="v_id">17</data>
+      <data key="v_label">Auburn</data>
+      <data key="v_value">9</data>
+      <data key="v_x">-41.4924</data>
+      <data key="v_y">5.89947</data>
+    </node>
+    <node id="n18">
+      <data key="v_id">18</data>
+      <data key="v_label">Akron</data>
+      <data key="v_value">6</data>
+      <data key="v_x">-93.1441</data>
+      <data key="v_y">25.5735</data>
+    </node>
+    <node id="n19">
+      <data key="v_id">19</data>
+      <data key="v_label">VirginiaTech</data>
+      <data key="v_value">1</data>
+      <data key="v_x">-76.4949</data>
+      <data key="v_y">27.6606</data>
+    </node>
+    <node id="n20">
+      <data key="v_id">20</data>
+      <data key="v_label">Alabama</data>
+      <data key="v_value">9</data>
+      <data key="v_x">-39.8147</data>
+      <data key="v_y">-1.91772</data>
+    </node>
+    <node id="n21">
+      <data key="v_id">21</data>
+      <data key="v_label">UCLA</data>
+      <data key="v_value">8</data>
+      <data key="v_x">-79.4415</data>
+      <data key="v_y">-41.7997</data>
+    </node>
+    <node id="n22">
+      <data key="v_id">22</data>
+      <data key="v_label">Arizona</data>
+      <data key="v_value">8</data>
+      <data key="v_x">-88.8511</data>
+      <data key="v_y">-56.8416</data>
+    </node>
+    <node id="n23">
+      <data key="v_id">23</data>
+      <data key="v_label">Utah</data>
+      <data key="v_value">7</data>
+      <data key="v_x">-62.9889</data>
+      <data key="v_y">-51.783</data>
+    </node>
+    <node id="n24">
+      <data key="v_id">24</data>
+      <data key="v_label">ArkansasState</data>
+      <data key="v_value">10</data>
+      <data key="v_x">-39.7161</data>
+      <data key="v_y">-21.5228</data>
+    </node>
+    <node id="n25">
+      <data key="v_id">25</data>
+      <data key="v_label">NorthCarolinaState</data>
+      <data key="v_value">0</data>
+      <data key="v_x">-56.9158</data>
+      <data key="v_y">13.7571</data>
+    </node>
+    <node id="n26">
+      <data key="v_id">26</data>
+      <data key="v_label">BallState</data>
+      <data key="v_value">6</data>
+      <data key="v_x">-74.874</data>
+      <data key="v_y">12.4023</data>
+    </node>
+    <node id="n27">
+      <data key="v_id">27</data>
+      <data key="v_label">Florida</data>
+      <data key="v_value">9</data>
+      <data key="v_x">-36.2867</data>
+      <data key="v_y">22.366</data>
+    </node>
+    <node id="n28">
+      <data key="v_id">28</data>
+      <data key="v_label">BoiseState</data>
+      <data key="v_value">11</data>
+      <data key="v_x">-48.363</data>
+      <data key="v_y">-28.2972</data>
+    </node>
+    <node id="n29">
+      <data key="v_id">29</data>
+      <data key="v_label">BostonCollege</data>
+      <data key="v_value">1</data>
+      <data key="v_x">-78.3186</data>
+      <data key="v_y">15.057</data>
+    </node>
+    <node id="n30">
+      <data key="v_id">30</data>
+      <data key="v_label">WestVirginia</data>
+      <data key="v_value">1</data>
+      <data key="v_x">-73.7169</data>
+      <data key="v_y">7.64248</data>
+    </node>
+    <node id="n31">
+      <data key="v_id">31</data>
+      <data key="v_label">BowlingGreenState</data>
+      <data key="v_value">6</data>
+      <data key="v_x">-104.942</data>
+      <data key="v_y">19.3142</data>
+    </node>
+    <node id="n32">
+      <data key="v_id">32</data>
+      <data key="v_label">Michigan</data>
+      <data key="v_value">2</data>
+      <data key="v_x">-99.5798</data>
+      <data key="v_y">-16.7717</data>
+    </node>
+    <node id="n33">
+      <data key="v_id">33</data>
+      <data key="v_label">Virginia</data>
+      <data key="v_value">0</data>
+      <data key="v_x">-56.1369</data>
+      <data key="v_y">26.9228</data>
+    </node>
+    <node id="n34">
+      <data key="v_id">34</data>
+      <data key="v_label">Buffalo</data>
+      <data key="v_value">6</data>
+      <data key="v_x">-96.8826</data>
+      <data key="v_y">25.8391</data>
+    </node>
+    <node id="n35">
+      <data key="v_id">35</data>
+      <data key="v_label">Syracuse</data>
+      <data key="v_value">1</data>
+      <data key="v_x">-73.0924</data>
+      <data key="v_y">16.6456</data>
+    </node>
+    <node id="n36">
+      <data key="v_id">36</data>
+      <data key="v_label">CentralFlorida</data>
+      <data key="v_value">5</data>
+      <data key="v_x">-64.168</data>
+      <data key="v_y">20.1577</data>
+    </node>
+    <node id="n37">
+      <data key="v_id">37</data>
+      <data key="v_label">GeorgiaTech</data>
+      <data key="v_value">0</data>
+      <data key="v_x">-50.5366</data>
+      <data key="v_y">32.1685</data>
+    </node>
+    <node id="n38">
+      <data key="v_id">38</data>
+      <data key="v_label">CentralMichigan</data>
+      <data key="v_value">6</data>
+      <data key="v_x">-84.7261</data>
+      <data key="v_y">0.296523</data>
+    </node>
+    <node id="n39">
+      <data key="v_id">39</data>
+      <data key="v_label">Purdue</data>
+      <data key="v_value">2</data>
+      <data key="v_x">-102.128</data>
+      <data key="v_y">-8.18959</data>
+    </node>
+    <node id="n40">
+      <data key="v_id">40</data>
+      <data key="v_label">Colorado</data>
+      <data key="v_value">3</data>
+      <data key="v_x">-58.26</data>
+      <data key="v_y">-45.8557</data>
+    </node>
+    <node id="n41">
+      <data key="v_id">41</data>
+      <data key="v_label">ColoradoState</data>
+      <data key="v_value">7</data>
+      <data key="v_x">-57.0151</data>
+      <data key="v_y">-52.0242</data>
+    </node>
+    <node id="n42">
+      <data key="v_id">42</data>
+      <data key="v_label">Connecticut</data>
+      <data key="v_value">5</data>
+      <data key="v_x">-72.9774</data>
+      <data key="v_y">32.0283</data>
+    </node>
+    <node id="n43">
+      <data key="v_id">43</data>
+      <data key="v_label">EasternMichigan</data>
+      <data key="v_value">6</data>
+      <data key="v_x">-81.0838</data>
+      <data key="v_y">23.4528</data>
+    </node>
+    <node id="n44">
+      <data key="v_id">44</data>
+      <data key="v_label">EastCarolina</data>
+      <data key="v_value">4</data>
+      <data key="v_x">-49.9632</data>
+      <data key="v_y">12.9515</data>
+    </node>
+    <node id="n45">
+      <data key="v_id">45</data>
+      <data key="v_label">Duke</data>
+      <data key="v_value">0</data>
+      <data key="v_x">-62.1312</data>
+      <data key="v_y">28.2999</data>
+    </node>
+    <node id="n46">
+      <data key="v_id">46</data>
+      <data key="v_label">FresnoState</data>
+      <data key="v_value">11</data>
+      <data key="v_x">-84.7456</data>
+      <data key="v_y">-36.2888</data>
+    </node>
+    <node id="n47">
+      <data key="v_id">47</data>
+      <data key="v_label">OhioState</data>
+      <data key="v_value">2</data>
+      <data key="v_x">-100.087</data>
+      <data key="v_y">-23.9962</data>
+    </node>
+    <node id="n48">
+      <data key="v_id">48</data>
+      <data key="v_label">Houston</data>
+      <data key="v_value">4</data>
+      <data key="v_x">-41.9483</data>
+      <data key="v_y">-9.53353</data>
+    </node>
+    <node id="n49">
+      <data key="v_id">49</data>
+      <data key="v_label">Rice</data>
+      <data key="v_value">11</data>
+      <data key="v_x">-71.1483</data>
+      <data key="v_y">-30.4699</data>
+    </node>
+    <node id="n50">
+      <data key="v_id">50</data>
+      <data key="v_label">Idaho</data>
+      <data key="v_value">10</data>
+      <data key="v_x">-59.9259</data>
+      <data key="v_y">-35.2177</data>
+    </node>
+    <node id="n51">
+      <data key="v_id">51</data>
+      <data key="v_label">Washington</data>
+      <data key="v_value">8</data>
+      <data key="v_x">-81.3237</data>
+      <data key="v_y">-45.7948</data>
+    </node>
+    <node id="n52">
+      <data key="v_id">52</data>
+      <data key="v_label">Kansas</data>
+      <data key="v_value">3</data>
+      <data key="v_x">-42.9517</data>
+      <data key="v_y">-32.8788</data>
+    </node>
+    <node id="n53">
+      <data key="v_id">53</data>
+      <data key="v_label">SouthernMethodist</data>
+      <data key="v_value">11</data>
+      <data key="v_x">-62.4423</data>
+      <data key="v_y">-20.7618</data>
+    </node>
+    <node id="n54">
+      <data key="v_id">54</data>
+      <data key="v_label">Kent</data>
+      <data key="v_value">6</data>
+      <data key="v_x">-108.691</data>
+      <data key="v_y">13.5488</data>
+    </node>
+    <node id="n55">
+      <data key="v_id">55</data>
+      <data key="v_label">Pittsburgh</data>
+      <data key="v_value">1</data>
+      <data key="v_x">-91.9735</data>
+      <data key="v_y">19.6205</data>
+    </node>
+    <node id="n56">
+      <data key="v_id">56</data>
+      <data key="v_label">Kentucky</data>
+      <data key="v_value">9</data>
+      <data key="v_x">-33.3255</data>
+      <data key="v_y">14.7822</data>
+    </node>
+    <node id="n57">
+      <data key="v_id">57</data>
+      <data key="v_label">Louisville</data>
+      <data key="v_value">4</data>
+      <data key="v_x">-43.575</data>
+      <data key="v_y">14.1464</data>
+    </node>
+    <node id="n58">
+      <data key="v_id">58</data>
+      <data key="v_label">LouisianaTech</data>
+      <data key="v_value">11</data>
+      <data key="v_x">-61.9035</data>
+      <data key="v_y">-6.32967</data>
+    </node>
+    <node id="n59">
+      <data key="v_id">59</data>
+      <data key="v_label">LouisianaMonroe</data>
+      <data key="v_value">10</data>
+      <data key="v_x">-45.4338</data>
+      <data key="v_y">3.1023</data>
+    </node>
+    <node id="n60">
+      <data key="v_id">60</data>
+      <data key="v_label">Minnesota</data>
+      <data key="v_value">2</data>
+      <data key="v_x">-80.9935</data>
+      <data key="v_y">-12.9927</data>
+    </node>
+    <node id="n61">
+      <data key="v_id">61</data>
+      <data key="v_label">MiamiOhio</data>
+      <data key="v_value">6</data>
+      <data key="v_x">-87.8177</data>
+      <data key="v_y">11.5272</data>
+    </node>
+    <node id="n62">
+      <data key="v_id">62</data>
+      <data key="v_label">Vanderbilt</data>
+      <data key="v_value">9</data>
+      <data key="v_x">-43.1465</data>
+      <data key="v_y">21.038</data>
+    </node>
+    <node id="n63">
+      <data key="v_id">63</data>
+      <data key="v_label">MiddleTennesseeState</data>
+      <data key="v_value">10</data>
+      <data key="v_x">-53.4877</data>
+      <data key="v_y">6.87304</data>
+    </node>
+    <node id="n64">
+      <data key="v_id">64</data>
+      <data key="v_label">Illinois</data>
+      <data key="v_value">2</data>
+      <data key="v_x">-86.459</data>
+      <data key="v_y">-23.7457</data>
+    </node>
+    <node id="n65">
+      <data key="v_id">65</data>
+      <data key="v_label">MississippiState</data>
+      <data key="v_value">9</data>
+      <data key="v_x">-28.0978</data>
+      <data key="v_y">6.87262</data>
+    </node>
+    <node id="n66">
+      <data key="v_id">66</data>
+      <data key="v_label">Memphis</data>
+      <data key="v_value">4</data>
+      <data key="v_x">-32.772</data>
+      <data key="v_y">3.05752</data>
+    </node>
+    <node id="n67">
+      <data key="v_id">67</data>
+      <data key="v_label">Nevada</data>
+      <data key="v_value">11</data>
+      <data key="v_x">-71.3938</data>
+      <data key="v_y">-41.1175</data>
+    </node>
+    <node id="n68">
+      <data key="v_id">68</data>
+      <data key="v_label">Oregon</data>
+      <data key="v_value">8</data>
+      <data key="v_x">-86.4331</data>
+      <data key="v_y">-51.5324</data>
+    </node>
+    <node id="n69">
+      <data key="v_id">69</data>
+      <data key="v_label">NewMexicoState</data>
+      <data key="v_value">10</data>
+      <data key="v_x">-42.6793</data>
+      <data key="v_y">-20.02</data>
+    </node>
+    <node id="n70">
+      <data key="v_id">70</data>
+      <data key="v_label">SouthCarolina</data>
+      <data key="v_value">9</data>
+      <data key="v_x">-38.1772</data>
+      <data key="v_y">14.8023</data>
+    </node>
+    <node id="n71">
+      <data key="v_id">71</data>
+      <data key="v_label">Ohio</data>
+      <data key="v_value">6</data>
+      <data key="v_x">-97.7726</data>
+      <data key="v_y">2.98831</data>
+    </node>
+    <node id="n72">
+      <data key="v_id">72</data>
+      <data key="v_label">IowaState</data>
+      <data key="v_value">3</data>
+      <data key="v_x">-65.4101</data>
+      <data key="v_y">-28.709</data>
+    </node>
+    <node id="n73">
+      <data key="v_id">73</data>
+      <data key="v_label">SanJoseState</data>
+      <data key="v_value">11</data>
+      <data key="v_x">-77.5188</data>
+      <data key="v_y">-38.5187</data>
+    </node>
+    <node id="n74">
+      <data key="v_id">74</data>
+      <data key="v_label">Nebraska</data>
+      <data key="v_value">3</data>
+      <data key="v_x">-60.2292</data>
+      <data key="v_y">-39.0645</data>
+    </node>
+    <node id="n75">
+      <data key="v_id">75</data>
+      <data key="v_label">SouthernMississippi</data>
+      <data key="v_value">4</data>
+      <data key="v_x">-30.2915</data>
+      <data key="v_y">-1.21172</data>
+    </node>
+    <node id="n76">
+      <data key="v_id">76</data>
+      <data key="v_label">Tennessee</data>
+      <data key="v_value">9</data>
+      <data key="v_x">-22.5607</data>
+      <data key="v_y">15.0822</data>
+    </node>
+    <node id="n77">
+      <data key="v_id">77</data>
+      <data key="v_label">Stanford</data>
+      <data key="v_value">8</data>
+      <data key="v_x">-75.8914</data>
+      <data key="v_y">-53.0395</data>
+    </node>
+    <node id="n78">
+      <data key="v_id">78</data>
+      <data key="v_label">WashingtonState</data>
+      <data key="v_value">8</data>
+      <data key="v_x">-72.1065</data>
+      <data key="v_y">-57.5587</data>
+    </node>
+    <node id="n79">
+      <data key="v_id">79</data>
+      <data key="v_label">Temple</data>
+      <data key="v_value">1</data>
+      <data key="v_x">-84.6761</data>
+      <data key="v_y">27.9904</data>
+    </node>
+    <node id="n80">
+      <data key="v_id">80</data>
+      <data key="v_label">Navy</data>
+      <data key="v_value">5</data>
+      <data key="v_x">-67.9895</data>
+      <data key="v_y">7.16925</data>
+    </node>
+    <node id="n81">
+      <data key="v_id">81</data>
+      <data key="v_label">TexasA&amp;M</data>
+      <data key="v_value">3</data>
+      <data key="v_x">-52.2854</data>
+      <data key="v_y">-42.5181</data>
+    </node>
+    <node id="n82">
+      <data key="v_id">82</data>
+      <data key="v_label">NotreDame</data>
+      <data key="v_value">5</data>
+      <data key="v_x">-78.6163</data>
+      <data key="v_y">-17.9844</data>
+    </node>
+    <node id="n83">
+      <data key="v_id">83</data>
+      <data key="v_label">TexasElPaso</data>
+      <data key="v_value">11</data>
+      <data key="v_x">-65.6514</data>
+      <data key="v_y">-37.7388</data>
+    </node>
+    <node id="n84">
+      <data key="v_id">84</data>
+      <data key="v_label">Oklahoma</data>
+      <data key="v_value">3</data>
+      <data key="v_x">-45.1254</data>
+      <data key="v_y">-42.6214</data>
+    </node>
+    <node id="n85">
+      <data key="v_id">85</data>
+      <data key="v_label">Toledo</data>
+      <data key="v_value">6</data>
+      <data key="v_x">-95.9437</data>
+      <data key="v_y">13.7434</data>
+    </node>
+    <node id="n86">
+      <data key="v_id">86</data>
+      <data key="v_label">Tulane</data>
+      <data key="v_value">4</data>
+      <data key="v_x">-43.026</data>
+      <data key="v_y">-1.27473</data>
+    </node>
+    <node id="n87">
+      <data key="v_id">87</data>
+      <data key="v_label">Mississippi</data>
+      <data key="v_value">9</data>
+      <data key="v_x">-27.1981</data>
+      <data key="v_y">-4.70375</data>
+    </node>
+    <node id="n88">
+      <data key="v_id">88</data>
+      <data key="v_label">Tulsa</data>
+      <data key="v_value">11</data>
+      <data key="v_x">-67.0678</data>
+      <data key="v_y">-19.6268</data>
+    </node>
+    <node id="n89">
+      <data key="v_id">89</data>
+      <data key="v_label">NorthCarolina</data>
+      <data key="v_value">0</data>
+      <data key="v_x">-69.5171</data>
+      <data key="v_y">23.688</data>
+    </node>
+    <node id="n90">
+      <data key="v_id">90</data>
+      <data key="v_label">UtahState</data>
+      <data key="v_value">5</data>
+      <data key="v_x">-44.3501</data>
+      <data key="v_y">-46.8917</data>
+    </node>
+    <node id="n91">
+      <data key="v_id">91</data>
+      <data key="v_label">Army</data>
+      <data key="v_value">4</data>
+      <data key="v_x">-50.9496</data>
+      <data key="v_y">-1.01735</data>
+    </node>
+    <node id="n92">
+      <data key="v_id">92</data>
+      <data key="v_label">Cincinnati</data>
+      <data key="v_value">4</data>
+      <data key="v_x">-58.1369</data>
+      <data key="v_y">1.39502</data>
+    </node>
+    <node id="n93">
+      <data key="v_id">93</data>
+      <data key="v_label">AirForce</data>
+      <data key="v_value">7</data>
+      <data key="v_x">-60.9257</data>
+      <data key="v_y">-28.0371</data>
+    </node>
+    <node id="n94">
+      <data key="v_id">94</data>
+      <data key="v_label">Rutgers</data>
+      <data key="v_value">1</data>
+      <data key="v_x">-87.2646</data>
+      <data key="v_y">15.8786</data>
+    </node>
+    <node id="n95">
+      <data key="v_id">95</data>
+      <data key="v_label">Georgia</data>
+      <data key="v_value">9</data>
+      <data key="v_x">-27.2593</data>
+      <data key="v_y">14.5805</data>
+    </node>
+    <node id="n96">
+      <data key="v_id">96</data>
+      <data key="v_label">LouisianaState</data>
+      <data key="v_value">9</data>
+      <data key="v_x">-20.1498</data>
+      <data key="v_y">7.16118</data>
+    </node>
+    <node id="n97">
+      <data key="v_id">97</data>
+      <data key="v_label">LouisianaLafayette</data>
+      <data key="v_value">10</data>
+      <data key="v_x">-33.5</data>
+      <data key="v_y">-17.4077</data>
+    </node>
+    <node id="n98">
+      <data key="v_id">98</data>
+      <data key="v_label">Texas</data>
+      <data key="v_value">3</data>
+      <data key="v_x">-40.9545</data>
+      <data key="v_y">-40.0517</data>
+    </node>
+    <node id="n99">
+      <data key="v_id">99</data>
+      <data key="v_label">Marshall</data>
+      <data key="v_value">6</data>
+      <data key="v_x">-102.935</data>
+      <data key="v_y">15.817</data>
+    </node>
+    <node id="n100">
+      <data key="v_id">100</data>
+      <data key="v_label">MichiganState</data>
+      <data key="v_value">2</data>
+      <data key="v_x">-96.416</data>
+      <data key="v_y">-13.2823</data>
+    </node>
+    <node id="n101">
+      <data key="v_id">101</data>
+      <data key="v_label">MiamiFlorida</data>
+      <data key="v_value">1</data>
+      <data key="v_x">-80.1001</data>
+      <data key="v_y">4.42412</data>
+    </node>
+    <node id="n102">
+      <data key="v_id">102</data>
+      <data key="v_label">Missouri</data>
+      <data key="v_value">3</data>
+      <data key="v_x">-56.1262</data>
+      <data key="v_y">-20.7089</data>
+    </node>
+    <node id="n103">
+      <data key="v_id">103</data>
+      <data key="v_label">Clemson</data>
+      <data key="v_value">0</data>
+      <data key="v_x">-50.2485</data>
+      <data key="v_y">24.041</data>
+    </node>
+    <node id="n104">
+      <data key="v_id">104</data>
+      <data key="v_label">NevadaLasVegas</data>
+      <data key="v_value">7</data>
+      <data key="v_x">-51.7867</data>
+      <data key="v_y">-36.4449</data>
+    </node>
+    <node id="n105">
+      <data key="v_id">105</data>
+      <data key="v_label">WakeForest</data>
+      <data key="v_value">0</data>
+      <data key="v_x">-55.3247</data>
+      <data key="v_y">36.1054</data>
+    </node>
+    <node id="n106">
+      <data key="v_id">106</data>
+      <data key="v_label">Indiana</data>
+      <data key="v_value">2</data>
+      <data key="v_x">-76.8054</data>
+      <data key="v_y">-4.11457</data>
+    </node>
+    <node id="n107">
+      <data key="v_id">107</data>
+      <data key="v_label">OklahomaState</data>
+      <data key="v_value">3</data>
+      <data key="v_x">-39.6144</data>
+      <data key="v_y">-31.5468</data>
+    </node>
+    <node id="n108">
+      <data key="v_id">108</data>
+      <data key="v_label">OregonState</data>
+      <data key="v_value">8</data>
+      <data key="v_x">-79.695</data>
+      <data key="v_y">-63.2083</data>
+    </node>
+    <node id="n109">
+      <data key="v_id">109</data>
+      <data key="v_label">Maryland</data>
+      <data key="v_value">0</data>
+      <data key="v_x">-62.5999</data>
+      <data key="v_y">33.532</data>
+    </node>
+    <node id="n110">
+      <data key="v_id">110</data>
+      <data key="v_label">TexasChristian</data>
+      <data key="v_value">4</data>
+      <data key="v_x">-72.8697</data>
+      <data key="v_y">-22.627</data>
+    </node>
+    <node id="n111">
+      <data key="v_id">111</data>
+      <data key="v_label">California</data>
+      <data key="v_value">8</data>
+      <data key="v_x">-85.1625</data>
+      <data key="v_y">-56.764</data>
+    </node>
+    <node id="n112">
+      <data key="v_id">112</data>
+      <data key="v_label">AlabamaBirmingham</data>
+      <data key="v_value">4</data>
+      <data key="v_x">-34.5401</data>
+      <data key="v_y">-3.65425</data>
+    </node>
+    <node id="n113">
+      <data key="v_id">113</data>
+      <data key="v_label">Arkansas</data>
+      <data key="v_value">9</data>
+      <data key="v_x">-22.839</data>
+      <data key="v_y">-0.149093</data>
+    </node>
+    <node id="n114">
+      <data key="v_id">114</data>
+      <data key="v_label">Hawaii</data>
+      <data key="v_value">11</data>
+      <data key="v_x">-76.6574</data>
+      <data key="v_y">-30.0116</data>
+    </node>
+    <edge source="n0" target="n1">
+    </edge>
+    <edge source="n2" target="n3">
+    </edge>
+    <edge source="n0" target="n4">
+    </edge>
+    <edge source="n4" target="n5">
+    </edge>
+    <edge source="n3" target="n5">
+    </edge>
+    <edge source="n2" target="n6">
+    </edge>
+    <edge source="n6" target="n7">
+    </edge>
+    <edge source="n7" target="n8">
+    </edge>
+    <edge source="n8" target="n9">
+    </edge>
+    <edge source="n0" target="n9">
+    </edge>
+    <edge source="n4" target="n9">
+    </edge>
+    <edge source="n5" target="n10">
+    </edge>
+    <edge source="n10" target="n11">
+    </edge>
+    <edge source="n5" target="n11">
+    </edge>
+    <edge source="n3" target="n11">
+    </edge>
+    <edge source="n12" target="n13">
+    </edge>
+    <edge source="n2" target="n13">
+    </edge>
+    <edge source="n2" target="n14">
+    </edge>
+    <edge source="n12" target="n14">
+    </edge>
+    <edge source="n14" target="n15">
+    </edge>
+    <edge source="n13" target="n15">
+    </edge>
+    <edge source="n2" target="n15">
+    </edge>
+    <edge source="n4" target="n16">
+    </edge>
+    <edge source="n9" target="n16">
+    </edge>
+    <edge source="n0" target="n16">
+    </edge>
+    <edge source="n16" target="n17">
+    </edge>
+    <edge source="n12" target="n17">
+    </edge>
+    <edge source="n12" target="n18">
+    </edge>
+    <edge source="n18" target="n19">
+    </edge>
+    <edge source="n17" target="n20">
+    </edge>
+    <edge source="n20" target="n21">
+    </edge>
+    <edge source="n8" target="n21">
+    </edge>
+    <edge source="n7" target="n21">
+    </edge>
+    <edge source="n9" target="n22">
+    </edge>
+    <edge source="n7" target="n22">
+    </edge>
+    <edge source="n21" target="n22">
+    </edge>
+    <edge source="n8" target="n22">
+    </edge>
+    <edge source="n22" target="n23">
+    </edge>
+    <edge source="n9" target="n23">
+    </edge>
+    <edge source="n4" target="n23">
+    </edge>
+    <edge source="n16" target="n23">
+    </edge>
+    <edge source="n0" target="n23">
+    </edge>
+    <edge source="n11" target="n24">
+    </edge>
+    <edge source="n24" target="n25">
+    </edge>
+    <edge source="n1" target="n25">
+    </edge>
+    <edge source="n3" target="n26">
+    </edge>
+    <edge source="n12" target="n26">
+    </edge>
+    <edge source="n14" target="n26">
+    </edge>
+    <edge source="n26" target="n27">
+    </edge>
+    <edge source="n17" target="n27">
+    </edge>
+    <edge source="n1" target="n27">
+    </edge>
+    <edge source="n4" target="n28">
+    </edge>
+    <edge source="n11" target="n28">
+    </edge>
+    <edge source="n24" target="n28">
+    </edge>
+    <edge source="n19" target="n29">
+    </edge>
+    <edge source="n29" target="n30">
+    </edge>
+    <edge source="n19" target="n30">
+    </edge>
+    <edge source="n18" target="n31">
+    </edge>
+    <edge source="n31" target="n32">
+    </edge>
+    <edge source="n21" target="n32">
+    </edge>
+    <edge source="n15" target="n32">
+    </edge>
+    <edge source="n13" target="n32">
+    </edge>
+    <edge source="n6" target="n32">
+    </edge>
+    <edge source="n0" target="n33">
+    </edge>
+    <edge source="n1" target="n33">
+    </edge>
+    <edge source="n25" target="n33">
+    </edge>
+    <edge source="n19" target="n33">
+    </edge>
+    <edge source="n31" target="n34">
+    </edge>
+    <edge source="n26" target="n34">
+    </edge>
+    <edge source="n12" target="n34">
+    </edge>
+    <edge source="n18" target="n34">
+    </edge>
+    <edge source="n34" target="n35">
+    </edge>
+    <edge source="n0" target="n35">
+    </edge>
+    <edge source="n29" target="n35">
+    </edge>
+    <edge source="n19" target="n35">
+    </edge>
+    <edge source="n30" target="n35">
+    </edge>
+    <edge source="n18" target="n36">
+    </edge>
+    <edge source="n12" target="n36">
+    </edge>
+    <edge source="n20" target="n36">
+    </edge>
+    <edge source="n19" target="n36">
+    </edge>
+    <edge source="n36" target="n37">
+    </edge>
+    <edge source="n1" target="n37">
+    </edge>
+    <edge source="n25" target="n37">
+    </edge>
+    <edge source="n33" target="n37">
+    </edge>
+    <edge source="n18" target="n38">
+    </edge>
+    <edge source="n16" target="n38">
+    </edge>
+    <edge source="n28" target="n38">
+    </edge>
+    <edge source="n26" target="n38">
+    </edge>
+    <edge source="n14" target="n38">
+    </edge>
+    <edge source="n12" target="n38">
+    </edge>
+    <edge source="n38" target="n39">
+    </edge>
+    <edge source="n6" target="n39">
+    </edge>
+    <edge source="n32" target="n39">
+    </edge>
+    <edge source="n13" target="n39">
+    </edge>
+    <edge source="n15" target="n39">
+    </edge>
+    <edge source="n7" target="n40">
+    </edge>
+    <edge source="n3" target="n40">
+    </edge>
+    <edge source="n40" target="n41">
+    </edge>
+    <edge source="n8" target="n41">
+    </edge>
+    <edge source="n4" target="n41">
+    </edge>
+    <edge source="n23" target="n41">
+    </edge>
+    <edge source="n9" target="n41">
+    </edge>
+    <edge source="n0" target="n41">
+    </edge>
+    <edge source="n16" target="n41">
+    </edge>
+    <edge source="n34" target="n42">
+    </edge>
+    <edge source="n29" target="n42">
+    </edge>
+    <edge source="n18" target="n42">
+    </edge>
+    <edge source="n26" target="n42">
+    </edge>
+    <edge source="n42" target="n43">
+    </edge>
+    <edge source="n36" target="n43">
+    </edge>
+    <edge source="n26" target="n43">
+    </edge>
+    <edge source="n31" target="n43">
+    </edge>
+    <edge source="n38" target="n43">
+    </edge>
+    <edge source="n12" target="n43">
+    </edge>
+    <edge source="n14" target="n43">
+    </edge>
+    <edge source="n19" target="n44">
+    </edge>
+    <edge source="n35" target="n44">
+    </edge>
+    <edge source="n30" target="n44">
+    </edge>
+    <edge source="n44" target="n45">
+    </edge>
+    <edge source="n13" target="n45">
+    </edge>
+    <edge source="n33" target="n45">
+    </edge>
+    <edge source="n1" target="n45">
+    </edge>
+    <edge source="n37" target="n45">
+    </edge>
+    <edge source="n25" target="n45">
+    </edge>
+    <edge source="n21" target="n46">
+    </edge>
+    <edge source="n46" target="n47">
+    </edge>
+    <edge source="n22" target="n47">
+    </edge>
+    <edge source="n6" target="n47">
+    </edge>
+    <edge source="n15" target="n47">
+    </edge>
+    <edge source="n2" target="n47">
+    </edge>
+    <edge source="n39" target="n47">
+    </edge>
+    <edge source="n32" target="n47">
+    </edge>
+    <edge source="n44" target="n48">
+    </edge>
+    <edge source="n48" target="n49">
+    </edge>
+    <edge source="n32" target="n49">
+    </edge>
+    <edge source="n46" target="n49">
+    </edge>
+    <edge source="n30" target="n50">
+    </edge>
+    <edge source="n24" target="n50">
+    </edge>
+    <edge source="n11" target="n50">
+    </edge>
+    <edge source="n28" target="n50">
+    </edge>
+    <edge source="n50" target="n51">
+    </edge>
+    <edge source="n40" target="n51">
+    </edge>
+    <edge source="n8" target="n51">
+    </edge>
+    <edge source="n22" target="n51">
+    </edge>
+    <edge source="n21" target="n51">
+    </edge>
+    <edge source="n3" target="n52">
+    </edge>
+    <edge source="n40" target="n52">
+    </edge>
+    <edge source="n5" target="n52">
+    </edge>
+    <edge source="n52" target="n53">
+    </edge>
+    <edge source="n25" target="n53">
+    </edge>
+    <edge source="n48" target="n53">
+    </edge>
+    <edge source="n49" target="n53">
+    </edge>
+    <edge source="n46" target="n53">
+    </edge>
+    <edge source="n39" target="n54">
+    </edge>
+    <edge source="n31" target="n54">
+    </edge>
+    <edge source="n38" target="n54">
+    </edge>
+    <edge source="n14" target="n54">
+    </edge>
+    <edge source="n34" target="n54">
+    </edge>
+    <edge source="n18" target="n54">
+    </edge>
+    <edge source="n54" target="n55">
+    </edge>
+    <edge source="n31" target="n55">
+    </edge>
+    <edge source="n6" target="n55">
+    </edge>
+    <edge source="n35" target="n55">
+    </edge>
+    <edge source="n29" target="n55">
+    </edge>
+    <edge source="n19" target="n55">
+    </edge>
+    <edge source="n30" target="n55">
+    </edge>
+    <edge source="n27" target="n56">
+    </edge>
+    <edge source="n56" target="n57">
+    </edge>
+    <edge source="n1" target="n57">
+    </edge>
+    <edge source="n42" target="n57">
+    </edge>
+    <edge source="n44" target="n57">
+    </edge>
+    <edge source="n48" target="n57">
+    </edge>
+    <edge source="n3" target="n58">
+    </edge>
+    <edge source="n6" target="n58">
+    </edge>
+    <edge source="n17" target="n58">
+    </edge>
+    <edge source="n36" target="n58">
+    </edge>
+    <edge source="n36" target="n59">
+    </edge>
+    <edge source="n58" target="n59">
+    </edge>
+    <edge source="n59" target="n60">
+    </edge>
+    <edge source="n10" target="n60">
+    </edge>
+    <edge source="n39" target="n60">
+    </edge>
+    <edge source="n6" target="n60">
+    </edge>
+    <edge source="n47" target="n60">
+    </edge>
+    <edge source="n13" target="n60">
+    </edge>
+    <edge source="n15" target="n60">
+    </edge>
+    <edge source="n2" target="n60">
+    </edge>
+    <edge source="n43" target="n61">
+    </edge>
+    <edge source="n47" target="n61">
+    </edge>
+    <edge source="n54" target="n61">
+    </edge>
+    <edge source="n18" target="n61">
+    </edge>
+    <edge source="n26" target="n61">
+    </edge>
+    <edge source="n31" target="n61">
+    </edge>
+    <edge source="n34" target="n61">
+    </edge>
+    <edge source="n61" target="n62">
+    </edge>
+    <edge source="n20" target="n62">
+    </edge>
+    <edge source="n45" target="n62">
+    </edge>
+    <edge source="n17" target="n62">
+    </edge>
+    <edge source="n27" target="n62">
+    </edge>
+    <edge source="n56" target="n62">
+    </edge>
+    <edge source="n27" target="n63">
+    </edge>
+    <edge source="n58" target="n63">
+    </edge>
+    <edge source="n59" target="n63">
+    </edge>
+    <edge source="n42" target="n63">
+    </edge>
+    <edge source="n63" target="n64">
+    </edge>
+    <edge source="n9" target="n64">
+    </edge>
+    <edge source="n32" target="n64">
+    </edge>
+    <edge source="n60" target="n64">
+    </edge>
+    <edge source="n2" target="n64">
+    </edge>
+    <edge source="n6" target="n64">
+    </edge>
+    <edge source="n47" target="n64">
+    </edge>
+    <edge source="n13" target="n64">
+    </edge>
+    <edge source="n0" target="n65">
+    </edge>
+    <edge source="n27" target="n65">
+    </edge>
+    <edge source="n17" target="n65">
+    </edge>
+    <edge source="n63" target="n65">
+    </edge>
+    <edge source="n56" target="n65">
+    </edge>
+    <edge source="n20" target="n65">
+    </edge>
+    <edge source="n65" target="n66">
+    </edge>
+    <edge source="n59" target="n66">
+    </edge>
+    <edge source="n24" target="n66">
+    </edge>
+    <edge source="n44" target="n66">
+    </edge>
+    <edge source="n48" target="n66">
+    </edge>
+    <edge source="n16" target="n67">
+    </edge>
+    <edge source="n41" target="n67">
+    </edge>
+    <edge source="n46" target="n67">
+    </edge>
+    <edge source="n53" target="n67">
+    </edge>
+    <edge source="n49" target="n67">
+    </edge>
+    <edge source="n67" target="n68">
+    </edge>
+    <edge source="n15" target="n68">
+    </edge>
+    <edge source="n50" target="n68">
+    </edge>
+    <edge source="n21" target="n68">
+    </edge>
+    <edge source="n51" target="n68">
+    </edge>
+    <edge source="n7" target="n68">
+    </edge>
+    <edge source="n22" target="n68">
+    </edge>
+    <edge source="n8" target="n68">
+    </edge>
+    <edge source="n4" target="n69">
+    </edge>
+    <edge source="n24" target="n69">
+    </edge>
+    <edge source="n28" target="n69">
+    </edge>
+    <edge source="n50" target="n69">
+    </edge>
+    <edge source="n11" target="n69">
+    </edge>
+    <edge source="n69" target="n70">
+    </edge>
+    <edge source="n43" target="n70">
+    </edge>
+    <edge source="n65" target="n70">
+    </edge>
+    <edge source="n20" target="n70">
+    </edge>
+    <edge source="n56" target="n70">
+    </edge>
+    <edge source="n62" target="n70">
+    </edge>
+    <edge source="n27" target="n70">
+    </edge>
+    <edge source="n60" target="n71">
+    </edge>
+    <edge source="n18" target="n71">
+    </edge>
+    <edge source="n14" target="n71">
+    </edge>
+    <edge source="n34" target="n71">
+    </edge>
+    <edge source="n54" target="n71">
+    </edge>
+    <edge source="n38" target="n71">
+    </edge>
+    <edge source="n61" target="n71">
+    </edge>
+    <edge source="n31" target="n71">
+    </edge>
+    <edge source="n71" target="n72">
+    </edge>
+    <edge source="n2" target="n72">
+    </edge>
+    <edge source="n10" target="n72">
+    </edge>
+    <edge source="n3" target="n72">
+    </edge>
+    <edge source="n40" target="n72">
+    </edge>
+    <edge source="n52" target="n72">
+    </edge>
+    <edge source="n7" target="n73">
+    </edge>
+    <edge source="n49" target="n73">
+    </edge>
+    <edge source="n53" target="n73">
+    </edge>
+    <edge source="n67" target="n73">
+    </edge>
+    <edge source="n46" target="n73">
+    </edge>
+    <edge source="n73" target="n74">
+    </edge>
+    <edge source="n2" target="n74">
+    </edge>
+    <edge source="n72" target="n74">
+    </edge>
+    <edge source="n5" target="n74">
+    </edge>
+    <edge source="n10" target="n74">
+    </edge>
+    <edge source="n52" target="n74">
+    </edge>
+    <edge source="n3" target="n74">
+    </edge>
+    <edge source="n40" target="n74">
+    </edge>
+    <edge source="n20" target="n75">
+    </edge>
+    <edge source="n66" target="n75">
+    </edge>
+    <edge source="n48" target="n75">
+    </edge>
+    <edge source="n57" target="n75">
+    </edge>
+    <edge source="n44" target="n75">
+    </edge>
+    <edge source="n75" target="n76">
+    </edge>
+    <edge source="n27" target="n76">
+    </edge>
+    <edge source="n59" target="n76">
+    </edge>
+    <edge source="n20" target="n76">
+    </edge>
+    <edge source="n70" target="n76">
+    </edge>
+    <edge source="n66" target="n76">
+    </edge>
+    <edge source="n56" target="n76">
+    </edge>
+    <edge source="n62" target="n76">
+    </edge>
+    <edge source="n73" target="n77">
+    </edge>
+    <edge source="n22" target="n77">
+    </edge>
+    <edge source="n7" target="n77">
+    </edge>
+    <edge source="n51" target="n77">
+    </edge>
+    <edge source="n21" target="n77">
+    </edge>
+    <edge source="n8" target="n77">
+    </edge>
+    <edge source="n77" target="n78">
+    </edge>
+    <edge source="n23" target="n78">
+    </edge>
+    <edge source="n50" target="n78">
+    </edge>
+    <edge source="n28" target="n78">
+    </edge>
+    <edge source="n22" target="n78">
+    </edge>
+    <edge source="n8" target="n78">
+    </edge>
+    <edge source="n68" target="n78">
+    </edge>
+    <edge source="n7" target="n78">
+    </edge>
+    <edge source="n51" target="n78">
+    </edge>
+    <edge source="n31" target="n79">
+    </edge>
+    <edge source="n43" target="n79">
+    </edge>
+    <edge source="n30" target="n79">
+    </edge>
+    <edge source="n19" target="n79">
+    </edge>
+    <edge source="n29" target="n79">
+    </edge>
+    <edge source="n35" target="n79">
+    </edge>
+    <edge source="n55" target="n79">
+    </edge>
+    <edge source="n79" target="n80">
+    </edge>
+    <edge source="n37" target="n80">
+    </edge>
+    <edge source="n29" target="n80">
+    </edge>
+    <edge source="n16" target="n81">
+    </edge>
+    <edge source="n5" target="n81">
+    </edge>
+    <edge source="n40" target="n81">
+    </edge>
+    <edge source="n10" target="n81">
+    </edge>
+    <edge source="n72" target="n81">
+    </edge>
+    <edge source="n3" target="n81">
+    </edge>
+    <edge source="n81" target="n82">
+    </edge>
+    <edge source="n74" target="n82">
+    </edge>
+    <edge source="n39" target="n82">
+    </edge>
+    <edge source="n77" target="n82">
+    </edge>
+    <edge source="n80" target="n82">
+    </edge>
+    <edge source="n30" target="n82">
+    </edge>
+    <edge source="n29" target="n82">
+    </edge>
+    <edge source="n7" target="n82">
+    </edge>
+    <edge source="n53" target="n83">
+    </edge>
+    <edge source="n81" target="n83">
+    </edge>
+    <edge source="n69" target="n83">
+    </edge>
+    <edge source="n73" target="n83">
+    </edge>
+    <edge source="n46" target="n83">
+    </edge>
+    <edge source="n67" target="n83">
+    </edge>
+    <edge source="n49" target="n83">
+    </edge>
+    <edge source="n83" target="n84">
+    </edge>
+    <edge source="n24" target="n84">
+    </edge>
+    <edge source="n49" target="n84">
+    </edge>
+    <edge source="n52" target="n84">
+    </edge>
+    <edge source="n3" target="n84">
+    </edge>
+    <edge source="n74" target="n84">
+    </edge>
+    <edge source="n10" target="n84">
+    </edge>
+    <edge source="n81" target="n84">
+    </edge>
+    <edge source="n5" target="n84">
+    </edge>
+    <edge source="n3" target="n84">
+    </edge>
+    <edge source="n6" target="n85">
+    </edge>
+    <edge source="n14" target="n85">
+    </edge>
+    <edge source="n38" target="n85">
+    </edge>
+    <edge source="n43" target="n85">
+    </edge>
+    <edge source="n80" target="n85">
+    </edge>
+    <edge source="n12" target="n85">
+    </edge>
+    <edge source="n26" target="n85">
+    </edge>
+    <edge source="n31" target="n85">
+    </edge>
+    <edge source="n44" target="n86">
+    </edge>
+    <edge source="n53" target="n86">
+    </edge>
+    <edge source="n75" target="n86">
+    </edge>
+    <edge source="n57" target="n86">
+    </edge>
+    <edge source="n48" target="n86">
+    </edge>
+    <edge source="n80" target="n86">
+    </edge>
+    <edge source="n66" target="n86">
+    </edge>
+    <edge source="n86" target="n87">
+    </edge>
+    <edge source="n17" target="n87">
+    </edge>
+    <edge source="n62" target="n87">
+    </edge>
+    <edge source="n56" target="n87">
+    </edge>
+    <edge source="n24" target="n87">
+    </edge>
+    <edge source="n20" target="n87">
+    </edge>
+    <edge source="n65" target="n87">
+    </edge>
+    <edge source="n49" target="n88">
+    </edge>
+    <edge source="n58" target="n88">
+    </edge>
+    <edge source="n83" target="n88">
+    </edge>
+    <edge source="n69" target="n88">
+    </edge>
+    <edge source="n46" target="n88">
+    </edge>
+    <edge source="n53" target="n88">
+    </edge>
+    <edge source="n73" target="n88">
+    </edge>
+    <edge source="n67" target="n88">
+    </edge>
+    <edge source="n88" target="n89">
+    </edge>
+    <edge source="n1" target="n89">
+    </edge>
+    <edge source="n37" target="n89">
+    </edge>
+    <edge source="n25" target="n89">
+    </edge>
+    <edge source="n33" target="n89">
+    </edge>
+    <edge source="n55" target="n89">
+    </edge>
+    <edge source="n45" target="n89">
+    </edge>
+    <edge source="n5" target="n90">
+    </edge>
+    <edge source="n8" target="n90">
+    </edge>
+    <edge source="n23" target="n90">
+    </edge>
+    <edge source="n0" target="n90">
+    </edge>
+    <edge source="n11" target="n90">
+    </edge>
+    <edge source="n50" target="n90">
+    </edge>
+    <edge source="n24" target="n90">
+    </edge>
+    <edge source="n69" target="n90">
+    </edge>
+    <edge source="n28" target="n90">
+    </edge>
+    <edge source="n29" target="n91">
+    </edge>
+    <edge source="n48" target="n91">
+    </edge>
+    <edge source="n66" target="n91">
+    </edge>
+    <edge source="n69" target="n91">
+    </edge>
+    <edge source="n44" target="n91">
+    </edge>
+    <edge source="n86" target="n91">
+    </edge>
+    <edge source="n57" target="n91">
+    </edge>
+    <edge source="n80" target="n91">
+    </edge>
+    <edge source="n91" target="n92">
+    </edge>
+    <edge source="n35" target="n92">
+    </edge>
+    <edge source="n15" target="n92">
+    </edge>
+    <edge source="n86" target="n92">
+    </edge>
+    <edge source="n48" target="n92">
+    </edge>
+    <edge source="n57" target="n92">
+    </edge>
+    <edge source="n61" target="n92">
+    </edge>
+    <edge source="n66" target="n92">
+    </edge>
+    <edge source="n75" target="n92">
+    </edge>
+    <edge source="n0" target="n93">
+    </edge>
+    <edge source="n23" target="n93">
+    </edge>
+    <edge source="n80" target="n93">
+    </edge>
+    <edge source="n16" target="n93">
+    </edge>
+    <edge source="n4" target="n93">
+    </edge>
+    <edge source="n82" target="n93">
+    </edge>
+    <edge source="n91" target="n93">
+    </edge>
+    <edge source="n41" target="n93">
+    </edge>
+    <edge source="n9" target="n93">
+    </edge>
+    <edge source="n34" target="n94">
+    </edge>
+    <edge source="n19" target="n94">
+    </edge>
+    <edge source="n55" target="n94">
+    </edge>
+    <edge source="n79" target="n94">
+    </edge>
+    <edge source="n80" target="n94">
+    </edge>
+    <edge source="n29" target="n94">
+    </edge>
+    <edge source="n30" target="n94">
+    </edge>
+    <edge source="n82" target="n94">
+    </edge>
+    <edge source="n35" target="n94">
+    </edge>
+    <edge source="n70" target="n95">
+    </edge>
+    <edge source="n69" target="n95">
+    </edge>
+    <edge source="n76" target="n95">
+    </edge>
+    <edge source="n62" target="n95">
+    </edge>
+    <edge source="n56" target="n95">
+    </edge>
+    <edge source="n27" target="n95">
+    </edge>
+    <edge source="n17" target="n95">
+    </edge>
+    <edge source="n87" target="n95">
+    </edge>
+    <edge source="n37" target="n95">
+    </edge>
+    <edge source="n48" target="n96">
+    </edge>
+    <edge source="n17" target="n96">
+    </edge>
+    <edge source="n76" target="n96">
+    </edge>
+    <edge source="n27" target="n96">
+    </edge>
+    <edge source="n56" target="n96">
+    </edge>
+    <edge source="n65" target="n96">
+    </edge>
+    <edge source="n20" target="n96">
+    </edge>
+    <edge source="n87" target="n96">
+    </edge>
+    <edge source="n5" target="n97">
+    </edge>
+    <edge source="n86" target="n97">
+    </edge>
+    <edge source="n58" target="n97">
+    </edge>
+    <edge source="n11" target="n97">
+    </edge>
+    <edge source="n59" target="n97">
+    </edge>
+    <edge source="n63" target="n97">
+    </edge>
+    <edge source="n97" target="n98">
+    </edge>
+    <edge source="n77" target="n98">
+    </edge>
+    <edge source="n48" target="n98">
+    </edge>
+    <edge source="n84" target="n98">
+    </edge>
+    <edge source="n40" target="n98">
+    </edge>
+    <edge source="n10" target="n98">
+    </edge>
+    <edge source="n5" target="n98">
+    </edge>
+    <edge source="n52" target="n98">
+    </edge>
+    <edge source="n81" target="n98">
+    </edge>
+    <edge source="n89" target="n99">
+    </edge>
+    <edge source="n34" target="n99">
+    </edge>
+    <edge source="n14" target="n99">
+    </edge>
+    <edge source="n85" target="n99">
+    </edge>
+    <edge source="n54" target="n99">
+    </edge>
+    <edge source="n18" target="n99">
+    </edge>
+    <edge source="n31" target="n99">
+    </edge>
+    <edge source="n61" target="n99">
+    </edge>
+    <edge source="n71" target="n99">
+    </edge>
+    <edge source="n14" target="n99">
+    </edge>
+    <edge source="n99" target="n100">
+    </edge>
+    <edge source="n82" target="n100">
+    </edge>
+    <edge source="n13" target="n100">
+    </edge>
+    <edge source="n2" target="n100">
+    </edge>
+    <edge source="n15" target="n100">
+    </edge>
+    <edge source="n32" target="n100">
+    </edge>
+    <edge source="n64" target="n100">
+    </edge>
+    <edge source="n47" target="n100">
+    </edge>
+    <edge source="n39" target="n100">
+    </edge>
+    <edge source="n6" target="n100">
+    </edge>
+    <edge source="n51" target="n101">
+    </edge>
+    <edge source="n30" target="n101">
+    </edge>
+    <edge source="n94" target="n101">
+    </edge>
+    <edge source="n1" target="n101">
+    </edge>
+    <edge source="n79" target="n101">
+    </edge>
+    <edge source="n58" target="n101">
+    </edge>
+    <edge source="n19" target="n101">
+    </edge>
+    <edge source="n55" target="n101">
+    </edge>
+    <edge source="n35" target="n101">
+    </edge>
+    <edge source="n29" target="n101">
+    </edge>
+    <edge source="n100" target="n102">
+    </edge>
+    <edge source="n74" target="n102">
+    </edge>
+    <edge source="n52" target="n102">
+    </edge>
+    <edge source="n98" target="n102">
+    </edge>
+    <edge source="n72" target="n102">
+    </edge>
+    <edge source="n40" target="n102">
+    </edge>
+    <edge source="n10" target="n102">
+    </edge>
+    <edge source="n3" target="n102">
+    </edge>
+    <edge source="n102" target="n103">
+    </edge>
+    <edge source="n33" target="n103">
+    </edge>
+    <edge source="n45" target="n103">
+    </edge>
+    <edge source="n25" target="n103">
+    </edge>
+    <edge source="n89" target="n103">
+    </edge>
+    <edge source="n37" target="n103">
+    </edge>
+    <edge source="n1" target="n103">
+    </edge>
+    <edge source="n70" target="n103">
+    </edge>
+    <edge source="n72" target="n104">
+    </edge>
+    <edge source="n11" target="n104">
+    </edge>
+    <edge source="n0" target="n104">
+    </edge>
+    <edge source="n93" target="n104">
+    </edge>
+    <edge source="n67" target="n104">
+    </edge>
+    <edge source="n41" target="n104">
+    </edge>
+    <edge source="n16" target="n104">
+    </edge>
+    <edge source="n87" target="n104">
+    </edge>
+    <edge source="n23" target="n104">
+    </edge>
+    <edge source="n4" target="n104">
+    </edge>
+    <edge source="n9" target="n104">
+    </edge>
+    <edge source="n89" target="n105">
+    </edge>
+    <edge source="n103" target="n105">
+    </edge>
+    <edge source="n33" target="n105">
+    </edge>
+    <edge source="n62" target="n105">
+    </edge>
+    <edge source="n37" target="n105">
+    </edge>
+    <edge source="n45" target="n105">
+    </edge>
+    <edge source="n1" target="n105">
+    </edge>
+    <edge source="n80" target="n105">
+    </edge>
+    <edge source="n25" target="n105">
+    </edge>
+    <edge source="n25" target="n106">
+    </edge>
+    <edge source="n56" target="n106">
+    </edge>
+    <edge source="n92" target="n106">
+    </edge>
+    <edge source="n2" target="n106">
+    </edge>
+    <edge source="n13" target="n106">
+    </edge>
+    <edge source="n32" target="n106">
+    </edge>
+    <edge source="n60" target="n106">
+    </edge>
+    <edge source="n6" target="n106">
+    </edge>
+    <edge source="n64" target="n106">
+    </edge>
+    <edge source="n15" target="n106">
+    </edge>
+    <edge source="n39" target="n106">
+    </edge>
+    <edge source="n88" target="n107">
+    </edge>
+    <edge source="n75" target="n107">
+    </edge>
+    <edge source="n98" target="n107">
+    </edge>
+    <edge source="n102" target="n107">
+    </edge>
+    <edge source="n72" target="n107">
+    </edge>
+    <edge source="n40" target="n107">
+    </edge>
+    <edge source="n81" target="n107">
+    </edge>
+    <edge source="n5" target="n107">
+    </edge>
+    <edge source="n10" target="n107">
+    </edge>
+    <edge source="n84" target="n107">
+    </edge>
+    <edge source="n4" target="n108">
+    </edge>
+    <edge source="n9" target="n108">
+    </edge>
+    <edge source="n7" target="n108">
+    </edge>
+    <edge source="n51" target="n108">
+    </edge>
+    <edge source="n77" target="n108">
+    </edge>
+    <edge source="n21" target="n108">
+    </edge>
+    <edge source="n78" target="n108">
+    </edge>
+    <edge source="n22" target="n108">
+    </edge>
+    <edge source="n68" target="n108">
+    </edge>
+    <edge source="n79" target="n109">
+    </edge>
+    <edge source="n30" target="n109">
+    </edge>
+    <edge source="n63" target="n109">
+    </edge>
+    <edge source="n1" target="n109">
+    </edge>
+    <edge source="n33" target="n109">
+    </edge>
+    <edge source="n103" target="n109">
+    </edge>
+    <edge source="n105" target="n109">
+    </edge>
+    <edge source="n45" target="n109">
+    </edge>
+    <edge source="n25" target="n109">
+    </edge>
+    <edge source="n89" target="n109">
+    </edge>
+    <edge source="n37" target="n109">
+    </edge>
+    <edge source="n67" target="n110">
+    </edge>
+    <edge source="n13" target="n110">
+    </edge>
+    <edge source="n24" target="n110">
+    </edge>
+    <edge source="n80" target="n110">
+    </edge>
+    <edge source="n88" target="n110">
+    </edge>
+    <edge source="n49" target="n110">
+    </edge>
+    <edge source="n73" target="n110">
+    </edge>
+    <edge source="n46" target="n110">
+    </edge>
+    <edge source="n83" target="n110">
+    </edge>
+    <edge source="n53" target="n110">
+    </edge>
+    <edge source="n23" target="n111">
+    </edge>
+    <edge source="n64" target="n111">
+    </edge>
+    <edge source="n46" target="n111">
+    </edge>
+    <edge source="n78" target="n111">
+    </edge>
+    <edge source="n8" target="n111">
+    </edge>
+    <edge source="n21" target="n111">
+    </edge>
+    <edge source="n51" target="n111">
+    </edge>
+    <edge source="n7" target="n111">
+    </edge>
+    <edge source="n108" target="n111">
+    </edge>
+    <edge source="n68" target="n111">
+    </edge>
+    <edge source="n77" target="n111">
+    </edge>
+    <edge source="n52" target="n112">
+    </edge>
+    <edge source="n96" target="n112">
+    </edge>
+    <edge source="n97" target="n112">
+    </edge>
+    <edge source="n57" target="n112">
+    </edge>
+    <edge source="n66" target="n112">
+    </edge>
+    <edge source="n63" target="n112">
+    </edge>
+    <edge source="n44" target="n112">
+    </edge>
+    <edge source="n92" target="n112">
+    </edge>
+    <edge source="n75" target="n112">
+    </edge>
+    <edge source="n91" target="n112">
+    </edge>
+    <edge source="n28" target="n113">
+    </edge>
+    <edge source="n20" target="n113">
+    </edge>
+    <edge source="n95" target="n113">
+    </edge>
+    <edge source="n59" target="n113">
+    </edge>
+    <edge source="n70" target="n113">
+    </edge>
+    <edge source="n17" target="n113">
+    </edge>
+    <edge source="n87" target="n113">
+    </edge>
+    <edge source="n76" target="n113">
+    </edge>
+    <edge source="n65" target="n113">
+    </edge>
+    <edge source="n96" target="n113">
+    </edge>
+    <edge source="n83" target="n114">
+    </edge>
+    <edge source="n88" target="n114">
+    </edge>
+    <edge source="n110" target="n114">
+    </edge>
+    <edge source="n53" target="n114">
+    </edge>
+    <edge source="n49" target="n114">
+    </edge>
+    <edge source="n73" target="n114">
+    </edge>
+    <edge source="n46" target="n114">
+    </edge>
+    <edge source="n67" target="n114">
+    </edge>
+    <edge source="n58" target="n114">
+    </edge>
+    <edge source="n15" target="n114">
+    </edge>
+    <edge source="n104" target="n114">
+    </edge>
+  </graph>
+</graphml>
