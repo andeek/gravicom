@@ -1,15 +1,5 @@
-# .libPaths("/home/andeek/R/library")
-# addResourcePath('images', '~/ShinyApps/DevNetworkGraph/images')
-# addResourcePath('scripts', '~/ShinyApps/DevNetworkGraph/scripts')
-# addResourcePath('data', '~/ShinyApps/DevNetworkGraph/data')
-#addResourcePath('images', '/var/shiny-server/www/D3/Network\ Graph/images') 
-#addResourcePath('images', 'U:/Documents/Projects/Community-Detection/Prototype\ D3-Shiny/Network\ Graph/images')
-#addResourcePath('images', '~/Documents/Projects/Community-Detection/Prototype\ D3-Shiny/Network\ Graph/images')
-
 library(plyr)
 
-#data_sets <- c("data/football.gml", "data/karate.gml")
-#layouts <- c("force")
 data_sets <- paste("data/", list.files("data/", pattern="*.gml"), sep="")
 
 getXMLfromFile <- function(file) {
@@ -37,13 +27,6 @@ shinyServer(function(input, output) {
     selectInput("dataset", "Data set", as.list(data_sets))
   })
   
-  # Layouts
-  #output$choose_layout <- reactiveUI(function() {
-    # If missing input, return to avoid error later in function
-  #  if(is.null(input$dataset)) return()
-  #  selectInput("layout", "Graph Layout", as.list(layouts))
-  #})
-  
   data <- reactive({
     #if(is.null(input$dataset) | is.null(input$layout))    
     supported_formats<-c("gml")
@@ -65,8 +48,7 @@ shinyServer(function(input, output) {
           xml <- getXMLfromFile(input$dataset_up$datapath)
           return(list(data_json=GraphMLtoJSON(xml$loc), index = xml$index))
         }, error = function(e) {
-          d <-  tempdir()
-          unlink(d, recursive=TRUE)
+          file.remove(paste(substring(input$dataset_up$datapath, 1, nchar(input$dataset_up$datapath) - 2), list.files(substring(input$dataset_up$datapath, 1, nchar(input$dataset_up$datapath) - 2)), sep="/"))
           return()
         })
       } else {
@@ -77,7 +59,7 @@ shinyServer(function(input, output) {
   output$d3io <- reactive({ data() })
   
   datasetInput <- reactive({    
-    empty<-data.frame(Within=0, Outside=0, Proportion=NA, row.names="Connections")
+    empty<-data.frame(Within=0, Outside=0, Ratio=NA, row.names="Connections")
     
     if(exists("input") && length(names(input)) > 0){
       if(names(input)[1] == "d3io") {
@@ -98,7 +80,7 @@ shinyServer(function(input, output) {
             n_total_selected<-0
             n_within_selected<-0
           }        
-          empty<-data.frame(Within=n_within_selected, Outside=n_total_selected - n_within_selected, Proportion=ifelse(n_total_selected - n_within_selected != 0, round(as.numeric(n_within_selected)/as.numeric(n_total_selected - n_within_selected), 4),NA), row.names="Connections")
+          empty<-data.frame(Within=n_within_selected, Outside=n_total_selected - n_within_selected, Ratio=ifelse(n_total_selected - n_within_selected != 0, round(as.numeric(n_within_selected)/as.numeric(n_total_selected - n_within_selected), 4),NA), row.names="Connections")
           
         }
       }
@@ -114,6 +96,7 @@ shinyServer(function(input, output) {
     supported_formats<-c("gml")
     graph.df<-list(vertices=data.frame(id=character(), label=character(), value=character()), edges=data.frame(from=character(), to=character()))
     empty<-data.frame(Node=character(), Group=character())
+    
     
     if(!input$upload) {
       if(is.null(input$dataset)) return()
@@ -217,7 +200,6 @@ shinyServer(function(input, output) {
     html<-paste(html, "<script> $( '#accordion' ).accordion({active: false, collapsible: true});</script>", sep="")
     return(html)
   })
-  
   
   output$downloadData <- downloadHandler(
     filename = "network.gml",
