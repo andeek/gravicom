@@ -1,12 +1,16 @@
 ---
 layout: layout
-title: gravicom
+title: intRo
 ---
 {% for nav in site.data.nav.structure %}
 	{% for sub in nav.subsection %}
 	<article id={{ sub }} class="panel">
 		{% capture foo %}{{ sub }}.html{% endcapture %}
 		{% include {{foo}} %}
+		<ul class="pager">
+			<li><a id="previous" href="#">← Previous</a></li>
+			<li><a id="next" href="#">Next →</a></li>
+		</ul>
 	</article>
 	{% endfor %}
 {% endfor %}

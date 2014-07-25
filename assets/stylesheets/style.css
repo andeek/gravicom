@@ -32,7 +32,7 @@ li.active {
 }
 #nav
 {
-	text-align: right;
+	text-align: left;
 	height: 4.25em;
 	cursor: default;
 }

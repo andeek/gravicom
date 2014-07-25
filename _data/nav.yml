@@ -1,6 +1,8 @@
 structure:
-- section: Intro
-  subsection: [background, welcome]
-- section: Goodbye
-  subsection: [liquid]
+- section: Welcome
+  subsection: [motivation, interface]
+- section: Modules
+  subsection: [data, graphical-summaries, numeric-summaries, regression, t-test]
+- section: Utilities
+  subsection: [code, printing]
 
