@@ -1,10 +1,12 @@
+addResourcePath(prefix="images", directoryPath="images/")
+
 dynGraph <- function(inputoutputId) 
 {
   div(id = inputoutputId, class="d3graph")
 }
 
 shinyUI(
-  navbarPage("[ gravicom ]",
+  navbarPage("gravicom",
              id="top-nav",  theme = "bootstrap.min.css", inverse=TRUE,
              
              
@@ -47,9 +49,10 @@ shinyUI(
              footer=tagList(
                includeScript("scripts/jquery.min.js"),
                includeScript("scripts/jquery-ui.js"),
-               includeScript("scripts/d3.v3.js"),
-               includeScript("scripts/top-nav-links.js"),
+               #includeScript("scripts/d3.v3.js"),
+               includeScript("http://d3js.org/d3.v3.min.js"),
                includeHTML("scripts/graph_2.js"),
+               includeScript("scripts/top-nav-links.js"),
                includeCSS("css/jquery-ui.css")
              ),
              tags$head(tags$link(rel="shortcut icon", href="images/icon.png"))

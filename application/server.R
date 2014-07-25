@@ -23,7 +23,7 @@ getXMLfromFile <- function(file) {
 shinyServer(function(input, output) {
   source("code/GraphMLtoJSON.R")
   # Drop-down selection box for which data set
-  output$choose_dataset <- reactiveUI(function() {
+  output$choose_dataset <- renderUI({
     selectInput("dataset", "Data set", as.list(data_sets))
   })
   
