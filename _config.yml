@@ -1,13 +1,13 @@
-name: intRo
+name: gravicom
 pygments: true
 markdown: rdiscount
-baseurl: /intRo
+baseurl: /gravicom
 permalink: :categories/:title
 rdiscount extensions: [smart]
 
 links:
-- name: intRo
-  href: https://erichare.shinyapps.io/intRo/
+- name: gravicom
+  href: http://glimmer.rstudio.com/andeek/gravicom/
   class: fa-home
   target: _blank
   level: 1
@@ -16,29 +16,15 @@ links:
   class: fa-question-circle
   target: _self
   level: 1
-- name: github
-  href: http://github.com/harekaplan/intRo
+- name: contact
+  href: 'http://andeekaplan.com'
+  class: fa-envelope
+  target: _blank
+  level: 1
+ - name: github
+  href: http://github.com/andeek/gravicom
   class: fa-github
   target: _blank
   level: 1
-- name: contact
-  href: '#'
-  class: fa-envelope
-  target: _self
-  level: 1
-  type: dropdown
-- name: Eric Hare
-  href: http://erichare.net
-  class: ''
-  target: _blank
-  level: 2
-  parent: contact
-- name: Andee Kaplan
-  href: http://andeekaplan.com
-  class: ''
-  target: _blank
-  level: 2
-  parent: contact
-
 
 
