@@ -21,10 +21,9 @@ links:
   class: fa-envelope
   target: _blank
   level: 1
- - name: github
+- name: github
   href: http://github.com/andeek/gravicom
   class: fa-github
   target: _blank
   level: 1
-
 
