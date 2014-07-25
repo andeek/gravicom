@@ -3,38 +3,55 @@ dynGraph <- function(inputoutputId)
   div(id = inputoutputId, class="d3graph")
 }
 
-shinyUI(pageWithSidebar(
-  
-  headerPanel("gravicom: Graphical Visualization of Communities"),
-  
-  sidebarPanel(
-    includeScript("scripts/jquery.min.js"),
-    includeScript("scripts/jquery-ui.js"),
-    includeScript("scripts/d3.v3.js"),
-    includeCSS("css/jquery-ui.css"),
-    includeHTML("scripts/graph_2.js"),
-    helpText(HTML("<p>Select a dataset from the drop down or upload your own. To start detecting communities, select points and monitor the table below for updates on number of edges within your selection versus outside. When you are happy with the community selected, click a selected point to group them and continue.</p><p>Tip: Use the shift key for multiple selections!</p>")),
-    conditionalPanel(
-      condition = "input.upload == false",
-      uiOutput("choose_dataset")
-    ),
-    checkboxInput("upload", "Upload new dataset", FALSE),
-    conditionalPanel(
-      condition = "input.upload == true",
-      fileInput('dataset_up', 'Choose GML File',
-                accept="text/xml; subtype='gml/3.1.1'")
-    ),   
-    downloadButton('downloadData', 'Download current dataset'),
-    #uiOutput("choose_layout"),
-    p(HTML("<h4>User Selection</h4>")),
-    tableOutput('d3summary'),
-    helpText(HTML("All source available on <a href = 'https://github.com/andeek/gravicom' target='_blank'>Github</a>"))
-  ),
-  
-  mainPanel(    
-    tabsetPanel(      
-      tabPanel("Graph", dynGraph(inputoutputId = 'd3io')),
-      tabPanel("Groups", htmlOutput("groupTable"))
-    )
+shinyUI(
+  navbarPage("[ gravicom ]",
+             id="top-nav",  theme = "bootstrap.min.css", inverse=TRUE,
+             
+             
+             tabPanel(title="", icon=icon("home"),  
+                      column(5,
+                             wellPanel(
+                                h4("gravicom:"),
+                                h5("Graphical Visualization of Communities"),
+                                p("A web application for facilitating the detection of community structures through direct user interaction. Built on the R package Shiny and the JavaScript library D3."),
+                                p("For more information and instructions on use, click the question mark above."),
+                                hr(),
+                                conditionalPanel(
+                                  condition = "input.upload == false",
+                                  uiOutput("choose_dataset")
+                                ),
+                                checkboxInput("upload", "Upload new dataset", FALSE),
+                                conditionalPanel(
+                                  condition = "input.upload == true",
+                                  fileInput('dataset_up', 'Choose GML File',
+                                            accept="text/xml; subtype='gml/3.1.1'")
+                                ),   
+                                downloadButton('downloadData', 'Download current dataset'),
+                                #uiOutput("choose_layout"),
+                                hr(),
+                                p("User Selection"),
+                                tableOutput('d3summary')
+                              )
+                      ),
+                
+                      column(7,    
+                        tabsetPanel(      
+                          tabPanel("Graph", dynGraph(inputoutputId = 'd3io')),
+                          tabPanel("Groups", htmlOutput("groupTable"))
+                          )
+                      )
+                ),
+             tabPanel(title="", value="http://andeekaplan.com/gravicom", icon=icon('question-circle')),
+             tabPanel(title="", value="http://andeekaplan.com", icon=icon('envelope')),
+             tabPanel(title="", value="http://github.com/andeek/gravicom", icon=icon("github")),
+             footer=tagList(
+               includeScript("scripts/jquery.min.js"),
+               includeScript("scripts/jquery-ui.js"),
+               includeScript("scripts/d3.v3.js"),
+               includeScript("scripts/top-nav-links.js"),
+               includeHTML("scripts/graph_2.js"),
+               includeCSS("css/jquery-ui.css")
+             ),
+             tags$head(tags$link(rel="shortcut icon", href="images/icon.png"))
   )
-))
+)

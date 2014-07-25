@@ -379,6 +379,6 @@ function wrapper(el, data) {
     shiftKey = d3.event.shiftKey;
   }
   
-}
+};
 </script>
   

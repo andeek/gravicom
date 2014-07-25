@@ -5,108 +5,178 @@
          http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
 <!-- Created by igraph -->
   <key id="v_id" for="node" attr.name="id" attr.type="double"/>
+  <key id="v_x" for="node" attr.name="x" attr.type="double"/>
+  <key id="v_y" for="node" attr.name="y" attr.type="double"/>
   <graph id="G" edgedefault="undirected">
     <node id="n0">
       <data key="v_id">1</data>
+      <data key="v_x">-1.74892</data>
+      <data key="v_y">-3.57167</data>
     </node>
     <node id="n1">
       <data key="v_id">2</data>
+      <data key="v_x">-1.03547</data>
+      <data key="v_y">-3.17505</data>
     </node>
     <node id="n2">
       <data key="v_id">3</data>
+      <data key="v_x">-1.67576</data>
+      <data key="v_y">-2.59774</data>
     </node>
     <node id="n3">
       <data key="v_id">4</data>
+      <data key="v_x">-0.559103</data>
+      <data key="v_y">-3.11017</data>
     </node>
     <node id="n4">
       <data key="v_id">5</data>
+      <data key="v_x">-2.43222</data>
+      <data key="v_y">-4.21954</data>
     </node>
     <node id="n5">
       <data key="v_id">6</data>
+      <data key="v_x">-2.60942</data>
+      <data key="v_y">-4.53554</data>
     </node>
     <node id="n6">
       <data key="v_id">7</data>
+      <data key="v_x">-2.01024</data>
+      <data key="v_y">-4.76218</data>
     </node>
     <node id="n7">
       <data key="v_id">8</data>
+      <data key="v_x">-1.20314</data>
+      <data key="v_y">-3.58587</data>
     </node>
     <node id="n8">
       <data key="v_id">9</data>
+      <data key="v_x">-1.46337</data>
+      <data key="v_y">-2.27453</data>
     </node>
     <node id="n9">
       <data key="v_id">10</data>
+      <data key="v_x">-0.573061</data>
+      <data key="v_y">-1.6732</data>
     </node>
     <node id="n10">
       <data key="v_id">11</data>
+      <data key="v_x">-2.96606</data>
+      <data key="v_y">-3.93388</data>
     </node>
     <node id="n11">
       <data key="v_id">12</data>
+      <data key="v_x">-1.37312</data>
+      <data key="v_y">-4.74149</data>
     </node>
     <node id="n12">
       <data key="v_id">13</data>
+      <data key="v_x">-0.241892</data>
+      <data key="v_y">-3.90627</data>
     </node>
     <node id="n13">
       <data key="v_id">14</data>
+      <data key="v_x">-1.04484</data>
+      <data key="v_y">-2.49437</data>
     </node>
     <node id="n14">
       <data key="v_id">15</data>
+      <data key="v_x">-2.77774</data>
+      <data key="v_y">-0.675692</data>
     </node>
     <node id="n15">
       <data key="v_id">16</data>
+      <data key="v_x">-0.917146</data>
+      <data key="v_y">-0.609354</data>
     </node>
     <node id="n16">
       <data key="v_id">17</data>
+      <data key="v_x">-2.79072</data>
+      <data key="v_y">-5.58936</data>
     </node>
     <node id="n17">
       <data key="v_id">18</data>
+      <data key="v_x">-0.999819</data>
+      <data key="v_y">-4.33925</data>
     </node>
     <node id="n18">
       <data key="v_id">19</data>
+      <data key="v_x">-1.25706</data>
+      <data key="v_y">-0.395727</data>
     </node>
     <node id="n19">
       <data key="v_id">20</data>
+      <data key="v_x">-2.03662</data>
+      <data key="v_y">-2.69385</data>
     </node>
     <node id="n20">
       <data key="v_id">21</data>
+      <data key="v_x">-0.651559</data>
+      <data key="v_y">-0.885417</data>
     </node>
     <node id="n21">
       <data key="v_id">22</data>
+      <data key="v_x">-0.599869</data>
+      <data key="v_y">-4.16224</data>
     </node>
     <node id="n22">
       <data key="v_id">23</data>
+      <data key="v_x">-1.69538</data>
+      <data key="v_y">-0.360418</data>
     </node>
     <node id="n23">
       <data key="v_id">24</data>
+      <data key="v_x">-3.03085</data>
+      <data key="v_y">-1.16353</data>
     </node>
     <node id="n24">
       <data key="v_id">25</data>
+      <data key="v_x">-3.70319</data>
+      <data key="v_y">-2.65877</data>
     </node>
     <node id="n25">
       <data key="v_id">26</data>
+      <data key="v_x">-3.79367</data>
+      <data key="v_y">-1.98346</data>
     </node>
     <node id="n26">
       <data key="v_id">27</data>
+      <data key="v_x">-2.07486</data>
+      <data key="v_y">-0.0536105</data>
     </node>
     <node id="n27">
       <data key="v_id">28</data>
+      <data key="v_x">-2.80086</data>
+      <data key="v_y">-1.98049</data>
     </node>
     <node id="n28">
       <data key="v_id">29</data>
+      <data key="v_x">-2.40525</data>
+      <data key="v_y">-1.82749</data>
     </node>
     <node id="n29">
       <data key="v_id">30</data>
+      <data key="v_x">-2.47592</data>
+      <data key="v_y">-0.564686</data>
     </node>
     <node id="n30">
       <data key="v_id">31</data>
+      <data key="v_x">-0.818997</data>
+      <data key="v_y">-1.90869</data>
     </node>
     <node id="n31">
       <data key="v_id">32</data>
+      <data key="v_x">-2.56827</data>
+      <data key="v_y">-2.50318</data>
     </node>
     <node id="n32">
       <data key="v_id">33</data>
+      <data key="v_x">-1.90227</data>
+      <data key="v_y">-1.3247</data>
     </node>
     <node id="n33">
       <data key="v_id">34</data>
+      <data key="v_x">-1.70661</data>
+      <data key="v_y">-1.40558</data>
     </node>
     <edge source="n0" target="n1">
     </edge>
