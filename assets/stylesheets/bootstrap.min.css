@@ -27,5 +27,6 @@
  }
  
 #comp_list li{
-  display: inline;
+  float: left;
+  margin-right: 40px;
 }
