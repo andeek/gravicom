@@ -1,8 +1,8 @@
 structure:
 - section: Welcome
-  subsection: [motivation, interface]
-- section: Modules
-  subsection: [data, graphical-summaries, numeric-summaries, regression, t-test]
-- section: Utilities
-  subsection: [code, printing]
+  subsection: [motivation, functionality]
+- section: How To
+  subsection: [interface, selecting-and-grouping, your-data, saving]
+- section: Graphical Devices
+  subsection: [graph-layout, motifs]
 
