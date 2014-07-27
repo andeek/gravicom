@@ -1,0 +1,34 @@
+<h3>Interface</h3>
+
+<p>The interface of <em>gravicom</em> can be thought of as six main components.</p>
+
+<img alt="Components making up the user interface of gravicom." src="images/sitecomponents.png" style="width: 100%" />
+<p><ol>
+  <li>Navbar</li>
+  <li>Control Panel</li>
+  <li>Data Management</li>
+  <li>Connection Table</li>
+  <li>Graph Display</li>
+  <li>Tabset</li>
+</ol></p>
+
+Each part provides a means for the user to interact with gravicom, either through controls that allow user input to gravicom or through direct interaction with diagnostics and visualization of a graph. Their placement on the gravicom interface can be seen above.
+
+<h4>Navbar</h4>
+<p></p>
+
+<h4>Control Panel</h4>
+<p>The control panel serves as the starting point for a user's session in gravicom. It contains the means for a user to select a data set, save and download a data set, and numerical summaries of the graph (such as a diagnostic connection table explained below).</p>
+
+<h4>Data Management</h4>
+<p>The data management component is made up of two main parts, data selection and data download. The data selection can be accomplished in two ways, the first being a drop down to select pre-loaded data sets to display. Currently there are two well-known network data sets provided in gravicom, a college football data set detailing games played for the 2000 season and a karate club data set detailing social interactions. From the dropdown the user can change the data set to display in the graph. The second approach to data selection gives the user the ability to upload his own data set. Upon clicking the "Upload new data set" checkbox, a file selection control appears which gives the user the ability to upload his own graph data to explore with gravicom.</p>
+
+<img alt="Uploading new data" src="images/uploadnewdataset.png"/>
+
+<p>The work performed by a user in visualizing graphs and community structure can also be downloaded as a data set from gravicom with current communities stored. This feature can be used as a save point in processing a graph or as a means to export changes made in gravicom to another tool.</p>
+
+<h4>Connection Table</h4>
+<p>The connection table is a quantitative diagnostic tool for the user in assessing the strength of a community structure in a graph. The idea behind the connection table is that a community of nodes will have proportionally more edge connections within the node cluster compared to edge connections to nodes outside the community. The table displays the number of edge connections within a user's selection of nodes in the graph and the number of connections from nodes in a user's selection to nodes not in the selection. The comparison of these two numbers can give the user a rough idea of if the plausibility or extend to which the node selection constitutes a community. To aid in the comparison, there is also a column that displays the ratio of number of connections within a node selection to the number of connections outside the selection.</p>
+
+<h4>Graph Display</h4>
+<p>The graph display shows an interactive graphical representation of  the selected (or uploaded) graph data. Upon load, the graph displays all nodes and edges in the data set using a force-directed layout algorithm. The user has several ways to interact with the graph: drag, select, and group.</p>
