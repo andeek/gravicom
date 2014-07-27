@@ -1,10 +1,10 @@
 <h3>Motivation</h3>
 
-<p><em>gravicom</em> is a A web application for facilitating the detection of community structures in graphs through direct user interaction. Built on the R package Shiny and the JavaScript library D3.</p>
+<p><em>gravicom</em> is a a web application for facilitating the detection of community structures in graphs through direct user interaction. Built on the <code><a href="http://r-project.org" target="_blank">R</a></code> package <code><a href="http://shiny.studio.com" target="_blank">Shiny</a></code> and the JavaScript library <a href="http://d3js.org" target="_blank">D3</a>.</p>
 
 <h4>Graphs</h4>
 
-<p>Many relationships easily conceptualized as a graph/network. A <em>graph</em> is defined as a collection of nodes (entities) and edges (relationships). Examples of such relationships include: social networks(sociology), the world wide web (computer science), and protein networks (biology). </p>
+<p>Many relationships are easily conceptualized as a graph/network. A <em>graph</em> is defined as a collection of nodes (entities) and edges (relationships). Examples of such relationships include: social networks(sociology), the world wide web (computer science), and protein networks (biology). </p>
 
 <a title="Zachary's Karate Club Network" src="http://www1.ind.ku.dk/complexLearning/zachary1977.pdf"><img alt="Social network of a karate club." src="images/social_network.png" style="width: 32%" /></a>
 <a title="Internet as of 2005 By The Opte Project [CC-BY-2.5 (http://creativecommons.org/licenses/by/2.5) or CC-BY-2.5 (http://creativecommons.org/licenses/by/2.5)], via Wikimedia Commons" href="http://commons.wikimedia.org/wiki/File%3AInternet_map_1024_-_transparent.png"><img alt="Internet map 1024 - transparent" src="images/internet_network.png" style="width: 33%;"/></a>
@@ -12,15 +12,15 @@
 
 <h4>Community Detection</h4>
 
-<p>A <emph>community</emph> is defined as a group of nodes in a graph that share properties and can be characterized as having an easility recognizable structure. This community structure is a collection of nodes which are densely linked to nodes within the community and sparsely linked to notes outside the community. Current methodology for community detection often involves an algorithmic approach, which is acheived by partitioning a graph into node clusters iteratively before stopping criterion is met. In this approach, first an objective function must be defined and then optimized.</p>
+<p>A <em>community</em> is defined as a group of nodes in a graph that share properties and can be characterized as having an easility recognizable structure. This community structure is a collection of nodes which are densely linked to nodes within the community and sparsely linked to notes outside the community. Current methodology for community detection often involves an algorithmic approach, which is acheived by partitioning a graph into node clusters iteratively before stopping criterion is met. In this approach, first an objective function must be defined and then optimized.</p>
 
 <p>Typically the search for an optimal objective function value is an NP-hard problem due to the fact that the number of possible partitions of the network requires \(2^n\) complexity. Current solutions to this issue use heuristics to optimize the objective function in a reasonable amount of time. Heuristic-based clustering is useful because this offers an automated way to perform community detection.</p>
 
 <blockquote>The main elements of the problem themselves [graph clustering], i.e. the concepts of community and partition, are not rigorously defined, and require some degree of arbitrariness and/or common sense. (Fortunato, 2010)</blockquote>
 
-<p>Clearly, hueristics are not <emph>the</emph> solution.</p>
+<p>Clearly, hueristics are not <em>the</em> solution.</p>
 
 <h4>The Human Visual System</h4>
-
+Communities are often fuzzily-defined human concepts and the detection of communities is an ill-posed problem. We address this by adding element of human judgement through leveraging the human visual system through used of a novel visualization-based community detection tool, <em>gravicom</em>.
 
 
