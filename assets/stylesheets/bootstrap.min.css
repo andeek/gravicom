@@ -25,3 +25,11 @@
  h4 {
    color: #09d;
  }
+ 
+#comp_list ol{
+  list-style: none;
+}
+
+#comp_list li{
+  display: inline;
+}
