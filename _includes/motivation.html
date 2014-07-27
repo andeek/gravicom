@@ -1,11 +1,28 @@
 <h3>Motivation</h3>
 
-<p>This tutorial serves as an introduction to a statistics education tool, called <code>intRo</code>. The goal of <code>intRo</code> is to foster a student interest in coding while learning basic statistics, or at a minimum, help students to learn a bit more about working with data.</p>
+<p><em>gravicom</em> is a A web application for facilitating the detection of community structures in graphs through direct user interaction. Built on the R package Shiny and the JavaScript library D3.</p>
+
+<h4>Graphs</h4>
+
+<p>Many relationships easily conceptualized as a graph/network. A <em>graph</em> is defined as a collection of nodes (entities) and edges (relationships). Examples of such relationships include: social networks(sociology), the world wide web (computer science), and protein networks (biology). </p>
+
+<a title="Zachary's Karate Club Network" src="http://www1.ind.ku.dk/complexLearning/zachary1977.pdf"><img alt="Social network of a karate club." src="images/social_network.png" style="width: 32%" /></a>
+<a title="Internet as of 2005 By The Opte Project [CC-BY-2.5 (http://creativecommons.org/licenses/by/2.5) or CC-BY-2.5 (http://creativecommons.org/licenses/by/2.5)], via Wikimedia Commons" href="http://commons.wikimedia.org/wiki/File%3AInternet_map_1024_-_transparent.png"><img alt="Internet map 1024 - transparent" src="images/internet_network.png" style="width: 33%;"/></a>
+<a title="Treponema pallidum By Häuser et al. [CC-BY-1.0 (http://creativecommons.org/licenses/by/1.0)], via Wikimedia Commons" href="http://commons.wikimedia.org/wiki/File%3AThe_protein_interaction_network_of_Treponema_pallidum.png"><img alt="The protein interaction network of Treponema pallidum" src="images/protein_network.png" style="width: 33%;"/></a>
 
 <p>As a web-based application, this tool is immediately more familiar to students than a desktop application. The need for dealing with software licenses, installation configuration, and supported platforms has been eliminated. This allows students to spend more time working with the data and learning statistics than having to struggle to get the software running.</p>
 
-<h4>Why intRo?</h4>
+<h4>Community Detection</h4>
 
-<p>Unlike JMP, intRo requires no software licenses or manual installation. intRo's 'functionality is focused on introductory statistics students, and nothing more (no extraneous functionality that must be navigated around to get to the content they need). intRo provides students an opportunity to see the underlying functionality of the buttons, text boxes, and other UI elements, in an attempt to foster an interest in coding. However, the functionality of intRo is point-and-click so those uninterested in coding will not be intimidated by the features of intRo.</p>
+<p>A <emph>community</emph> is defined as a group of nodes in a graph that share properties and can be characterized as having an easility recognizable structure. This community structure is a collection of nodes which are densely linked to nodes within the community and sparsely linked to notes outside the community. Current methodology for community detection often involves an algorithmic approach, which is acheived by partitioning a graph into node clusters iteratively before stopping criterion is met. In this approach, first an objective function must be defined and then optimized.</p>
 
-<p>Deducer provides a GUI for R which, like intRo, allows the viewing of underlying code. However, Deducer requires a manual installation dependent on Java. While intRo presents a minimal set of options for statistical analysis, Deducer provides many of the advanced features of R that may not be applicable for an introductory statistics student.</p>
+<p>Typically the search for an optimal objective function value is an NP-hard problem due to the fact that the number of possible partitions of the network requires \(2^n\) complexity. Current solutions to this issue use heuristics to optimize the objective function in a reasonable amount of time. Heuristic-based clustering is useful because this offers an automated way to perform community detection. 
+
+<q>The main elements of the problem themselves [graph clustering], i.e. the concepts of community and partition, are not rigorously defined, and require some degree of arbitrariness and/or common sense. (Fortunato, 2010)</q>
+
+<p>Clearly, hueristics are not <emph>the</emph> solution.</p>
+
+<h4>The Human Visual System</h4>
+
+
+
