@@ -1,0 +1,9 @@
+<h3>Graph Layout</h3>
+
+<p>Graph layout is the assignment of a Cartesian coordinate to each node for display in two or three dimensions. Layout of a graph significantly affects the number of communities that users detect within a graph. Since we are using humans to detect communities within <em>gravicom</em>, special attention was paid to the layout being used in the application.</p>
+
+<p>According to McGrath, Blythe, and Krackhardt, location of a node spatially relative to other nodes in a cluster has a significant effect on user. In fact, they state, "adjacent nodes must be placed near to each other if possible" in their 1996 paper, <a href='http://link.springer.com/chapter/10.1007/BFb0021789#page-1', target='_blank'>The effect of graph layout on inference from social network data</a>.</p>
+
+<h4>Force-Directed Layout</h4>
+
+<p>One layout that achieve this desired spatial orienation of relative nodes the the force-directed layout. The force-directed layout is a physics based algorithm for graph drawing in which repulsive forces placed on the nodes (charged particles) are used to separate all pairs of nodes. The links are maximal fixed-distance geometric constraints with the physical equivalent of springs placed on their ends holding nodes that are connected only so far apart. In this way, groups of nodes sharing multiple edges are pulled in closer proximity. Additionally, a pseudo-gravity force keeps nodes centered in the visible area and avoids expulsion of disconnected subgraphs.</p>
