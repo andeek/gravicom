@@ -1,0 +1,31 @@
+<h3>Your Data</h3>
+<p>One of the great features of <em>gravicom</em> that allows it to be widely used is the ability of the user to upload their own datasets for visualization and community detection. The process is very simple, with only the requirement that the files be in a specific format.</p>
+
+<h4>GML File Structure</h4>
+<p>GML stands for <em>graph modelling language</em> and is a hierarchical ASCII-based file format for describing graphs. The basic structure is displayed below.</p>
+<pre><code>graph
+[
+  directed 0
+  node
+  [
+    id 0
+    label &quot;Node 1&quot;
+    value 100
+  ]
+  node
+  [
+    id 1
+    label &quot;Node 2&quot;
+    value 200
+  ]
+  edge
+  [
+    source 1
+    target 0
+  ]
+]
+</code></pre>
+
+<p>In order for a user to use their own graph data with <em>gravicom</em>, she will need to have a file in this format. Specifically, the <code>id</code> values need to be integers (not characters).</p>
+
+<p>Once a user has her data in this format, the upload to <em>gravicom</em> is straight forward. Simply click 'Upload New Dataset', then 'Choose file', and navigate to the location of the GML file. The data will be stored temporarily on the server while in use and then removed when the user's session is complete.</p>
