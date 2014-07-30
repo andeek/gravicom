@@ -2,7 +2,7 @@ structure:
 - section: Welcome
   subsection: [motivation, functionality]
 - section: How To
-  subsection: [interface, selecting-and-grouping, your-data, saving]
+  subsection: [interface, interacting, your-data, saving]
 - section: Graphical Devices
   subsection: [graph-layout, motifs]
 

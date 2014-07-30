@@ -1,0 +1,13 @@
+<h3>Interacting with the graph</h3>
+<p>The user has three ways to interact with the graph: drag, select, and group. A user can drag a node at any time. Upon dragging, the force-directed layout is rerun, giving an altered view of the graph. The image below shows a graph in the process of being dragged.</p>
+<img src="images/graphdrag.png" alt="A graph being dragged in gravicom." />
+
+<h4>Selecting and Grouping</h4>
+<p>Selection and grouping of nodes are actions intended to work together. In order to group nodes, a user first determines a node cluster or potential community based on a visual appraisal of the graph. To select nodes the user clicks and drags a selection box around nodes. See the figure below for the results of selection in the interface. The shift key can also be used for multiple selections. Upon selection, the connection table is updated and the user can evaluate the selection as a community and alter the selection if need be (the shift key selection is useful in this step).</p>
+<img src="images/graphselect.png" alt="Selecting in gravicom." />
+
+<p>Selected nodes can be grouped together into one consolidated "super-node" or grouped-node. Once grouped, the size and edges of the super-node represent the number of nodes in the potential community and the number of edges to the grouped community nodes, respectively. The force-directed layout is again run, showing the new graph with previous nodes grouped. This is illustrated in the image below. This process of node grouping can be repeated until all nodes have been grouped or until the user is satisfied that all communities have been selected. Additionally, grouped nodes can be ungrouped by clicking on a grouped node. </p> 
+<img src="images/graphgroup.png" alt="A graph being grouped in gravicom" />
+
+<h3>Ungrouping</h3>
+<p>Additionally, super-nodes can be ungrouped by clicking the grouped supernode. This will remove the contained nodes from a group and allow the user to start searching for communities from the previous point in time.</p>
