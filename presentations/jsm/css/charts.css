@@ -1,0 +1,21 @@
+
+.chart {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.chart .background {
+  fill: none;
+}
+
+rect {
+  fill: none;
+  pointer-events: all;
+}
+
+circle {
+  fill: none;
+  stroke-width: 2.5px;
+}
+
