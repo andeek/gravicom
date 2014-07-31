@@ -826,20 +826,6 @@ hljs.initHighlightingOnLoad();
 </div>
 
 </section>
-<section data-transition="linear" data-transition-speed="default">
-<h3>Outline</h3>
-<div class="slideContent" >
-<ul>
-<li>Introduction/Background</li>
-<li>Demo</li>
-<li>Graphical Devices</li>
-<li>Technical Aspects</li>
-<li>Conclusions/Further Work</li>
-</ul>
-
-</div>
-
-</section>
 <section data-state="section" data-transition="linear" data-transition-speed="default">
 <h2>Introduction</h2>
 <div class="slideContent" >
@@ -854,6 +840,7 @@ hljs.initHighlightingOnLoad();
 <ul>
 <li>Many relationships easily conceptualized as a graph/network</li>
 <li>A <del>graph</del> is defined as a collection of nodes (entities) and edges (relationships)</li>
+<li>A <del>community</del> is defined as a group of nodes in a graph that share properties</li>
 <li>Examples of such relationships include:
 
 <ul>
@@ -867,23 +854,12 @@ hljs.initHighlightingOnLoad();
 
 </section>
 <section data-transition="linear" data-transition-speed="default">
-<h3>Community Detection</h3>
-<div class="slideContent" >
-<ul>
-<li>A <del>community</del> is defined as a group of nodes in a graph that share properties</li>
-<li><del>Community structure</del> - collection of nodes which are densely linked to nodes within the community and sparsely linked to notes outside</li>
-<li>Current methodology for <del>community detection</del> often involves an algorithmic approach; partitions a graph into node clusters iteratively before stopping criterion</li>
-<li>First define an objective function and then optimize</li>
-<li>Many different objective functions possible, providing many ways to split a graph.</li>
-</ul>
-
-</div>
-
-</section>
-<section data-transition="linear" data-transition-speed="default">
 <h3>The Problem</h3>
 <div class="slideContent" >
 <ul>
+<li>Current methodology for <del>community detection</del> often involves an algorithmic approach; partitions a graph into node clusters iteratively before stopping criterion</li>
+<li>First define an objective function and then optimize</li>
+<li>Many different objective functions possible, providing many ways to split a graph.</li>
 <li>The optimization of an objective function is typically an NP-hard problem</li>
 <li>The number of possible partitions of the network requires \( 2^n \) complexity</li>
 </ul>
@@ -944,6 +920,12 @@ hljs.initHighlightingOnLoad();
 <div class="slideContent" >
 <p><a href="http://glimmer.rstudio.com/andeek/gravicom">http://glimmer.rstudio.com/andeek/gravicom</a></p>
 
+<ul>
+<li>Shiny: Server-client interaction</li>
+<li>D3: User interface and graph layout</li>
+<li>igraph/rjson: Data formatting</li>
+</ul>
+
 </div>
 
 </section>
@@ -960,7 +942,7 @@ hljs.initHighlightingOnLoad();
 <div class="slideContent" >
 <!-- html table generated in R 3.1.1 by xtable 1.7-3 package -->
 
-<!-- Wed Jul 30 16:43:05 2014 -->
+<!-- Thu Jul 31 11:00:02 2014 -->
 
 <TABLE border=1>
 <TR> <TH> Conference </TH> <TH> Teams Identified </TH> <TH> Proportion </TH> <TH> Accuracy </TH>  </TR>
@@ -981,7 +963,7 @@ hljs.initHighlightingOnLoad();
 <div class="slideContent" >
 <!-- html table generated in R 3.1.1 by xtable 1.7-3 package -->
 
-<!-- Wed Jul 30 16:43:05 2014 -->
+<!-- Thu Jul 31 11:00:02 2014 -->
 
 <TABLE border=1>
 <TR> <TH> Conference </TH> <TH> Teams Identified </TH> <TH> Proportion </TH> <TH> Accuracy </TH>  </TR>
@@ -1031,26 +1013,6 @@ hljs.initHighlightingOnLoad();
 <li>Replace repeated patterns in a graph by a representation, to simplify a network</li>
 <li>Fewer nodes and edges to display \(  \Rightarrow  \) visual complexity of the graph visualization is greatly reduced</li>
 <li>Allows the user to analyze the network structure more accurately</li>
-</ul>
-
-</div>
-
-</section>
-<section data-state="section" data-transition="linear" data-transition-speed="default">
-<h2>Technical Aspects</h2>
-<div class="slideContent" >
-<p>What makes it tick?</p>
-
-</div>
-
-</section>
-<section data-transition="linear" data-transition-speed="default">
-<h3>Tools</h3>
-<div class="slideContent particle-chart" >
-<ul>
-<li><del>Shiny</del>: Server-client interaction</li>
-<li><del>D3</del>: User interface and graph layout</li>
-<li><del>igraph/rjson</del>: Data formatting</li>
 </ul>
 
 </div>
