@@ -83,15 +83,6 @@ A web-based tool for community detection in networks
 <br/><br/><br/>
 <img src="images/jsm.jpg" width=15%/>
 
-Outline
-========================================================
-
-- Introduction/Background
-- Demo
-- Graphical Devices
-- Technical Aspects
-- Conclusions/Further Work
-
 Introduction
 ========================================================
 type: section
@@ -102,22 +93,18 @@ Networks
 ========================================================
 - Many relationships easily conceptualized as a graph/network
 - A ~~graph~~ is defined as a collection of nodes (entities) and edges (relationships)
+- A ~~community~~ is defined as a group of nodes in a graph that share properties
 - Examples of such relationships include:
   - social networks (sociology)
   - the world wide web (computer science)
   - protein networks (biology)
 
-Community Detection
-========================================================
-- A ~~community~~ is defined as a group of nodes in a graph that share properties
-- ~~Community structure~~ - collection of nodes which are densely linked to nodes within the community and sparsely linked to notes outside
-- Current methodology for ~~community detection~~ often involves an algorithmic approach; partitions a graph into node clusters iteratively before stopping criterion
-- First define an objective function and then optimize
-- Many different objective functions possible, providing many ways to split a graph.
-
 
 The Problem
 ========================================================
+- Current methodology for ~~community detection~~ often involves an algorithmic approach; partitions a graph into node clusters iteratively before stopping criterion
+- First define an objective function and then optimize
+- Many different objective functions possible, providing many ways to split a graph.
 - The optimization of an objective function is typically an NP-hard problem
 - The number of possible partitions of the network requires \(2^n\) complexity
 
@@ -152,6 +139,10 @@ type: section
 
 http://glimmer.rstudio.com/andeek/gravicom
 
+- Shiny: Server-client interaction
+- D3: User interface and graph layout
+- igraph/rjson: Data formatting
+
 Football Example
 ========================================================
 ![Site Components](images/football_progression.png)
@@ -161,7 +152,7 @@ Football Example (Cont'd)
 
 
 <!-- html table generated in R 3.1.1 by xtable 1.7-3 package -->
-<!-- Wed Jul 30 16:43:05 2014 -->
+<!-- Thu Jul 31 11:00:02 2014 -->
 <TABLE border=1>
 <TR> <TH> Conference </TH> <TH> Teams Identified </TH> <TH> Proportion </TH> <TH> Accuracy </TH>  </TR>
   <TR> <TD align="center"> SEC </TD> <TD> Vanderbilt,  Florida,  Louisiana State,  South Carolina,  Mississippi,  Arkansas,  Auburn,  Kentucky,  Georgia,  Mississippi State,  Alabama,  Tennessee </TD> <TD align="center"> 1.50 </TD> <TD align="center"> 100% </TD> </TR>
@@ -176,7 +167,7 @@ Football Example (Cont'd)
 Football Example (Cont'd)
 ========================================================
 <!-- html table generated in R 3.1.1 by xtable 1.7-3 package -->
-<!-- Wed Jul 30 16:43:05 2014 -->
+<!-- Thu Jul 31 11:00:02 2014 -->
 <TABLE border=1>
 <TR> <TH> Conference </TH> <TH> Teams Identified </TH> <TH> Proportion </TH> <TH> Accuracy </TH>  </TR>
   <TR> <TD align="center"> WAC </TD> <TD> Nevada,  Fresno State, <i><del> Texas Christian</del></i>,  Tulsa,  Hawaii,  Rice,  Southern Methodist,  San Jose State,  Texas El Paso </TD> <TD align="center"> 1.20 </TD> <TD align="center"> 88.9% </TD> </TR>
@@ -209,21 +200,6 @@ Graph Simplification
 - Replace repeated patterns in a graph by a representation, to simplify a network
 - Fewer nodes and edges to display \( \Rightarrow \) visual complexity of the graph visualization is greatly reduced
 - Allows the user to analyze the network structure more accurately
-
-Technical Aspects
-========================================================
-type: section
-
-What makes it tick?
-
-
-Tools
-========================================================
-class: particle-chart
-
-- ~~Shiny~~: Server-client interaction
-- ~~D3~~: User interface and graph layout
-- ~~igraph/rjson~~: Data formatting
 
 Conclusions/Further Work
 ========================================================
