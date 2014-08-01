@@ -73,7 +73,7 @@
 
 gravicom
 ========================================================
-author: Andee Kaplan
+author: Andee Kaplan, Heike Hofmann, Daniel Nordman
 date: August 3, 2014
 font-family: Helvetica
 css: css/charts.css
@@ -152,7 +152,7 @@ Football Example (Cont'd)
 
 
 <!-- html table generated in R 3.1.1 by xtable 1.7-3 package -->
-<!-- Thu Jul 31 11:00:02 2014 -->
+<!-- Fri Aug 01 14:58:45 2014 -->
 <TABLE border=1>
 <TR> <TH> Conference </TH> <TH> Teams Identified </TH> <TH> Proportion </TH> <TH> Accuracy </TH>  </TR>
   <TR> <TD align="center"> SEC </TD> <TD> Vanderbilt,  Florida,  Louisiana State,  South Carolina,  Mississippi,  Arkansas,  Auburn,  Kentucky,  Georgia,  Mississippi State,  Alabama,  Tennessee </TD> <TD align="center"> 1.50 </TD> <TD align="center"> 100% </TD> </TR>
@@ -167,7 +167,7 @@ Football Example (Cont'd)
 Football Example (Cont'd)
 ========================================================
 <!-- html table generated in R 3.1.1 by xtable 1.7-3 package -->
-<!-- Thu Jul 31 11:00:02 2014 -->
+<!-- Fri Aug 01 14:58:45 2014 -->
 <TABLE border=1>
 <TR> <TH> Conference </TH> <TH> Teams Identified </TH> <TH> Proportion </TH> <TH> Accuracy </TH>  </TR>
   <TR> <TD align="center"> WAC </TD> <TD> Nevada,  Fresno State, <i><del> Texas Christian</del></i>,  Tulsa,  Hawaii,  Rice,  Southern Methodist,  San Jose State,  Texas El Paso </TD> <TD align="center"> 1.20 </TD> <TD align="center"> 88.9% </TD> </TR>
