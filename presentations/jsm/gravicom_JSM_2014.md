@@ -104,7 +104,7 @@ The Problem
 ========================================================
 - Current methodology for ~~community detection~~ often involves an algorithmic approach; partitions a graph into node clusters iteratively before stopping criterion
 - First define an objective function and then optimize
-- Many different objective functions possible, providing many ways to split a graph.
+- Many different objective functions possible, providing many ways to split a graph
 - The optimization of an objective function is typically an NP-hard problem
 - The number of possible partitions of the network requires \(2^n\) complexity
 
@@ -117,7 +117,7 @@ Current Solutions
 >The main elements of the problem themselves [graph clustering], i.e. the concepts of community and partition, are not rigorously defined, and require some degree of arbitrariness and/or common sense. (Fortunato, 2010)
 
 
-- Heuristics are not ~~the~~ solution.
+- Heuristics are not ~~the~~ solution
 
 Leverage the Human Visual System
 ========================================================
@@ -152,7 +152,7 @@ Football Example (Cont'd)
 
 
 <!-- html table generated in R 3.1.1 by xtable 1.7-3 package -->
-<!-- Fri Aug 01 14:58:45 2014 -->
+<!-- Sun Aug 03 10:34:40 2014 -->
 <TABLE border=1>
 <TR> <TH> Conference </TH> <TH> Teams Identified </TH> <TH> Proportion </TH> <TH> Accuracy </TH>  </TR>
   <TR> <TD align="center"> SEC </TD> <TD> Vanderbilt,  Florida,  Louisiana State,  South Carolina,  Mississippi,  Arkansas,  Auburn,  Kentucky,  Georgia,  Mississippi State,  Alabama,  Tennessee </TD> <TD align="center"> 1.50 </TD> <TD align="center"> 100% </TD> </TR>
@@ -167,7 +167,7 @@ Football Example (Cont'd)
 Football Example (Cont'd)
 ========================================================
 <!-- html table generated in R 3.1.1 by xtable 1.7-3 package -->
-<!-- Fri Aug 01 14:58:45 2014 -->
+<!-- Sun Aug 03 10:34:40 2014 -->
 <TABLE border=1>
 <TR> <TH> Conference </TH> <TH> Teams Identified </TH> <TH> Proportion </TH> <TH> Accuracy </TH>  </TR>
   <TR> <TD align="center"> WAC </TD> <TD> Nevada,  Fresno State, <i><del> Texas Christian</del></i>,  Tulsa,  Hawaii,  Rice,  Southern Methodist,  San Jose State,  Texas El Paso </TD> <TD align="center"> 1.20 </TD> <TD align="center"> 88.9% </TD> </TR>
@@ -178,7 +178,7 @@ Football Example (Cont'd)
   <TR> <TD align="center"> Independent </TD> <TD> Notre Dame,  Notre Dame,  Navy,  Navy </TD> <TD align="center"> 0.00 </TD> <TD align="center"> 100% </TD> </TR>
    <A NAME=tab:football_final></A>
 </TABLE>
-- Through manual specification of conferences, we were able to correctly classify 91.3 % of the football teams into their conferences. 
+- Through manual specification of conferences, we were able to correctly classify 91.3 % of the football teams into their conferences 
 
 Graphical Devices
 ========================================================

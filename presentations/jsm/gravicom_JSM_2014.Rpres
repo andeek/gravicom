@@ -104,7 +104,7 @@ The Problem
 ========================================================
 - Current methodology for ~~community detection~~ often involves an algorithmic approach; partitions a graph into node clusters iteratively before stopping criterion
 - First define an objective function and then optimize
-- Many different objective functions possible, providing many ways to split a graph.
+- Many different objective functions possible, providing many ways to split a graph
 - The optimization of an objective function is typically an NP-hard problem
 - The number of possible partitions of the network requires \(2^n\) complexity
 
@@ -117,7 +117,7 @@ Current Solutions
 >The main elements of the problem themselves [graph clustering], i.e. the concepts of community and partition, are not rigorously defined, and require some degree of arbitrariness and/or common sense. (Fortunato, 2010)
 
 
-- Heuristics are not ~~the~~ solution.
+- Heuristics are not ~~the~~ solution
 
 Leverage the Human Visual System
 ========================================================
@@ -220,7 +220,7 @@ Football Example (Cont'd)
 ```{r echo=FALSE, results='asis'}
 print(xtable(results[with(results, order(-Proportion)),][7:nrow(results),], align=c("c", "c","p{10cm}","c", "c"), label='tab:football_final'), include.rownames=FALSE, table.placement='H', type="html", sanitize.text.function = function(x)gsub('&lt', '<', gsub('&gt', '>', x)))
 ```
-- Through manual specification of conferences, we were able to correctly classify `r round(100*percent_correct, 2)` % of the football teams into their conferences. 
+- Through manual specification of conferences, we were able to correctly classify `r round(100*percent_correct, 2)` % of the football teams into their conferences 
 
 Graphical Devices
 ========================================================
