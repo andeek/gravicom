@@ -14,806 +14,806 @@
       <data key="v_id">0</data>
       <data key="v_label">BrighamYoung</data>
       <data key="v_value">7</data>
-      <data key="v_x">-38.7491</data>
-      <data key="v_y">16.1513</data>
+      <data key="v_x">-38.4234</data>
+      <data key="v_y">-23.0817</data>
     </node>
     <node id="n1">
       <data key="v_id">1</data>
       <data key="v_label">FloridaState</data>
       <data key="v_value">0</data>
-      <data key="v_x">-16.7363</data>
-      <data key="v_y">46.0285</data>
+      <data key="v_x">-74.8565</data>
+      <data key="v_y">-12.4005</data>
     </node>
     <node id="n2">
       <data key="v_id">2</data>
       <data key="v_label">Iowa</data>
       <data key="v_value">2</data>
-      <data key="v_x">-22.965</data>
-      <data key="v_y">-5.2073</data>
+      <data key="v_x">-45.5548</data>
+      <data key="v_y">-48.6086</data>
     </node>
     <node id="n3">
       <data key="v_id">3</data>
       <data key="v_label">KansasState</data>
       <data key="v_value">3</data>
-      <data key="v_x">-52.4466</data>
-      <data key="v_y">7.67421</data>
+      <data key="v_x">-29.7999</data>
+      <data key="v_y">-21.1645</data>
     </node>
     <node id="n4">
       <data key="v_id">4</data>
       <data key="v_label">NewMexico</data>
       <data key="v_value">7</data>
-      <data key="v_x">-55.9604</data>
-      <data key="v_y">-7.09491</data>
+      <data key="v_x">-8.98945</data>
+      <data key="v_y">-28.9371</data>
     </node>
     <node id="n5">
       <data key="v_id">5</data>
       <data key="v_label">TexasTech</data>
       <data key="v_value">3</data>
-      <data key="v_x">-76.1391</data>
-      <data key="v_y">4.58562</data>
+      <data key="v_x">-7.08244</data>
+      <data key="v_y">-8.73206</data>
     </node>
     <node id="n6">
       <data key="v_id">6</data>
       <data key="v_label">PennState</data>
       <data key="v_value">2</data>
-      <data key="v_x">-7.73916</data>
-      <data key="v_y">-2.5107</data>
+      <data key="v_x">-56.4049</data>
+      <data key="v_y">-56.4825</data>
     </node>
     <node id="n7">
       <data key="v_id">7</data>
       <data key="v_label">SouthernCalifornia</data>
       <data key="v_value">8</data>
-      <data key="v_x">-33.7436</data>
-      <data key="v_y">-26.8442</data>
+      <data key="v_x">-20.2795</data>
+      <data key="v_y">-60.7287</data>
     </node>
     <node id="n8">
       <data key="v_id">8</data>
       <data key="v_label">ArizonaState</data>
       <data key="v_value">8</data>
-      <data key="v_x">-50.736</data>
-      <data key="v_y">-31.5101</data>
+      <data key="v_x">-1.84579</data>
+      <data key="v_y">-54.2817</data>
     </node>
     <node id="n9">
       <data key="v_id">9</data>
       <data key="v_label">SanDiegoState</data>
       <data key="v_value">7</data>
-      <data key="v_x">-44.075</data>
-      <data key="v_y">-17.5048</data>
+      <data key="v_x">-13.5657</data>
+      <data key="v_y">-45.2152</data>
     </node>
     <node id="n10">
       <data key="v_id">10</data>
       <data key="v_label">Baylor</data>
       <data key="v_value">3</data>
-      <data key="v_x">-64.0946</data>
-      <data key="v_y">-1.36485</data>
+      <data key="v_x">-18.7356</data>
+      <data key="v_y">-17.2961</data>
     </node>
     <node id="n11">
       <data key="v_id">11</data>
       <data key="v_label">NorthTexas</data>
       <data key="v_value">10</data>
-      <data key="v_x">-70.4073</data>
-      <data key="v_y">14.843</data>
+      <data key="v_x">-13.9232</data>
+      <data key="v_y">-5.862</data>
     </node>
     <node id="n12">
       <data key="v_id">12</data>
       <data key="v_label">NorthernIllinois</data>
       <data key="v_value">6</data>
-      <data key="v_x">1.76237</data>
-      <data key="v_y">27.0009</data>
+      <data key="v_x">-81.9866</data>
+      <data key="v_y">-37.6397</data>
     </node>
     <node id="n13">
       <data key="v_id">13</data>
       <data key="v_label">Northwestern</data>
       <data key="v_value">2</data>
-      <data key="v_x">-8.27354</data>
-      <data key="v_y">6.27076</data>
+      <data key="v_x">-60.9344</data>
+      <data key="v_y">-49.2836</data>
     </node>
     <node id="n14">
       <data key="v_id">14</data>
       <data key="v_label">WesternMichigan</data>
       <data key="v_value">6</data>
-      <data key="v_x">6.63223</data>
-      <data key="v_y">7.15608</data>
+      <data key="v_x">-75.3261</data>
+      <data key="v_y">-56.7163</data>
     </node>
     <node id="n15">
       <data key="v_id">15</data>
       <data key="v_label">Wisconsin</data>
       <data key="v_value">2</data>
-      <data key="v_x">-14.6447</data>
-      <data key="v_y">-5.46241</data>
+      <data key="v_x">-48.2134</data>
+      <data key="v_y">-55.2278</data>
     </node>
     <node id="n16">
       <data key="v_id">16</data>
       <data key="v_label">Wyoming</data>
       <data key="v_value">7</data>
-      <data key="v_x">-43.2803</data>
-      <data key="v_y">3.78396</data>
+      <data key="v_x">-27.9909</data>
+      <data key="v_y">-29.8213</data>
     </node>
     <node id="n17">
       <data key="v_id">17</data>
       <data key="v_label">Auburn</data>
       <data key="v_value">9</data>
-      <data key="v_x">-36.2052</data>
-      <data key="v_y">42.9017</data>
+      <data key="v_x">-60.0143</data>
+      <data key="v_y">-3.50787</data>
     </node>
     <node id="n18">
       <data key="v_id">18</data>
       <data key="v_label">Akron</data>
       <data key="v_value">6</data>
-      <data key="v_x">14.6656</data>
-      <data key="v_y">25.645</data>
+      <data key="v_x">-92.0038</data>
+      <data key="v_y">-45.9026</data>
     </node>
     <node id="n19">
       <data key="v_id">19</data>
       <data key="v_label">VirginiaTech</data>
       <data key="v_value">1</data>
-      <data key="v_x">2.64134</data>
-      <data key="v_y">37.6587</data>
+      <data key="v_x">-84.6643</data>
+      <data key="v_y">-30.8739</data>
     </node>
     <node id="n20">
       <data key="v_id">20</data>
       <data key="v_label">Alabama</data>
       <data key="v_value">9</data>
-      <data key="v_x">-41.3175</data>
-      <data key="v_y">38.8641</data>
+      <data key="v_x">-53.3398</data>
+      <data key="v_y">-3.56647</data>
     </node>
     <node id="n21">
       <data key="v_id">21</data>
       <data key="v_label">UCLA</data>
       <data key="v_value">8</data>
-      <data key="v_x">-33.0433</data>
-      <data key="v_y">-17.9959</data>
+      <data key="v_x">-25.5333</data>
+      <data key="v_y">-54.2732</data>
     </node>
     <node id="n22">
       <data key="v_id">22</data>
       <data key="v_label">Arizona</data>
       <data key="v_value">8</data>
-      <data key="v_x">-37.436</data>
-      <data key="v_y">-36.4945</data>
+      <data key="v_x">-12.4113</data>
+      <data key="v_y">-66.5534</data>
     </node>
     <node id="n23">
       <data key="v_id">23</data>
       <data key="v_label">Utah</data>
       <data key="v_value">7</data>
-      <data key="v_x">-50.7761</data>
-      <data key="v_y">-16.2863</data>
+      <data key="v_x">-8.38951</data>
+      <data key="v_y">-40.8698</data>
     </node>
     <node id="n24">
       <data key="v_id">24</data>
       <data key="v_label">ArkansasState</data>
       <data key="v_value">10</data>
-      <data key="v_x">-56.6575</data>
-      <data key="v_y">23.1796</data>
+      <data key="v_x">-29.9826</data>
+      <data key="v_y">-7.79785</data>
     </node>
     <node id="n25">
       <data key="v_id">25</data>
       <data key="v_label">NorthCarolinaState</data>
       <data key="v_value">0</data>
-      <data key="v_x">-21.9731</data>
-      <data key="v_y">39.6952</data>
+      <data key="v_x">-68.1518</data>
+      <data key="v_y">-14.887</data>
     </node>
     <node id="n26">
       <data key="v_id">26</data>
       <data key="v_label">BallState</data>
       <data key="v_value">6</data>
-      <data key="v_x">-8.83418</data>
-      <data key="v_y">26.468</data>
+      <data key="v_x">-76.1066</data>
+      <data key="v_y">-31.2457</data>
     </node>
     <node id="n27">
       <data key="v_id">27</data>
       <data key="v_label">Florida</data>
       <data key="v_value">9</data>
-      <data key="v_x">-30.4967</data>
-      <data key="v_y">59.0566</data>
+      <data key="v_x">-74.6932</data>
+      <data key="v_y">6.72198</data>
     </node>
     <node id="n28">
       <data key="v_id">28</data>
       <data key="v_label">BoiseState</data>
       <data key="v_value">11</data>
-      <data key="v_x">-51.8107</data>
-      <data key="v_y">13.4723</data>
+      <data key="v_x">-26.7076</data>
+      <data key="v_y">-18.7667</data>
     </node>
     <node id="n29">
       <data key="v_id">29</data>
       <data key="v_label">BostonCollege</data>
       <data key="v_value">1</data>
-      <data key="v_x">-4.2585</data>
-      <data key="v_y">26.0021</data>
+      <data key="v_x">-72.6498</data>
+      <data key="v_y">-36.5404</data>
     </node>
     <node id="n30">
       <data key="v_id">30</data>
       <data key="v_label">WestVirginia</data>
       <data key="v_value">1</data>
-      <data key="v_x">-12.1221</data>
-      <data key="v_y">24.0925</data>
+      <data key="v_x">-65.817</data>
+      <data key="v_y">-33.48</data>
     </node>
     <node id="n31">
       <data key="v_id">31</data>
       <data key="v_label">BowlingGreenState</data>
       <data key="v_value">6</data>
-      <data key="v_x">19.5024</data>
-      <data key="v_y">13.4393</data>
+      <data key="v_x">-88.4808</data>
+      <data key="v_y">-59.2125</data>
     </node>
     <node id="n32">
       <data key="v_id">32</data>
       <data key="v_label">Michigan</data>
       <data key="v_value">2</data>
-      <data key="v_x">-6.2179</data>
-      <data key="v_y">-10.2392</data>
+      <data key="v_x">-52.2562</data>
+      <data key="v_y">-63.3378</data>
     </node>
     <node id="n33">
       <data key="v_id">33</data>
       <data key="v_label">Virginia</data>
       <data key="v_value">0</data>
-      <data key="v_x">-12.6471</data>
-      <data key="v_y">50.3681</data>
+      <data key="v_x">-80.3005</data>
+      <data key="v_y">-12.3325</data>
     </node>
     <node id="n34">
       <data key="v_id">34</data>
       <data key="v_label">Buffalo</data>
       <data key="v_value">6</data>
-      <data key="v_x">16.9854</data>
-      <data key="v_y">22.6815</data>
+      <data key="v_x">-91.4097</data>
+      <data key="v_y">-49.6414</data>
     </node>
     <node id="n35">
       <data key="v_id">35</data>
       <data key="v_label">Syracuse</data>
       <data key="v_value">1</data>
-      <data key="v_x">-6.06183</data>
-      <data key="v_y">31.0774</data>
+      <data key="v_x">-72.3914</data>
+      <data key="v_y">-31.585</data>
     </node>
     <node id="n36">
       <data key="v_id">36</data>
       <data key="v_label">CentralFlorida</data>
       <data key="v_value">5</data>
-      <data key="v_x">-11.2489</data>
-      <data key="v_y">39.574</data>
+      <data key="v_x">-78.5816</data>
+      <data key="v_y">-20.3114</data>
     </node>
     <node id="n37">
       <data key="v_id">37</data>
       <data key="v_label">GeorgiaTech</data>
       <data key="v_value">0</data>
-      <data key="v_x">-14.4121</data>
-      <data key="v_y">57.5365</data>
+      <data key="v_x">-85.3879</data>
+      <data key="v_y">-5.21088</data>
     </node>
     <node id="n38">
       <data key="v_id">38</data>
       <data key="v_label">CentralMichigan</data>
       <data key="v_value">6</data>
-      <data key="v_x">-6.55909</data>
-      <data key="v_y">11.5654</data>
+      <data key="v_x">-65.5332</data>
+      <data key="v_y">-45.3371</data>
     </node>
     <node id="n39">
       <data key="v_id">39</data>
       <data key="v_label">Purdue</data>
       <data key="v_value">2</data>
-      <data key="v_x">-0.284936</data>
-      <data key="v_y">-5.90838</data>
+      <data key="v_x">-60.4254</data>
+      <data key="v_y">-63.3595</data>
     </node>
     <node id="n40">
       <data key="v_id">40</data>
       <data key="v_label">Colorado</data>
       <data key="v_value">3</data>
-      <data key="v_x">-61.5802</data>
-      <data key="v_y">-12.1799</data>
+      <data key="v_x">-12.7188</data>
+      <data key="v_y">-30.2872</data>
     </node>
     <node id="n41">
       <data key="v_id">41</data>
       <data key="v_label">ColoradoState</data>
       <data key="v_value">7</data>
-      <data key="v_x">-55.5611</data>
-      <data key="v_y">-13.8766</data>
+      <data key="v_x">-6.08654</data>
+      <data key="v_y">-35.2506</data>
     </node>
     <node id="n42">
       <data key="v_id">42</data>
       <data key="v_label">Connecticut</data>
       <data key="v_value">5</data>
-      <data key="v_x">1.6805</data>
-      <data key="v_y">42.8647</data>
+      <data key="v_x">-90.5638</data>
+      <data key="v_y">-25.0631</data>
     </node>
     <node id="n43">
       <data key="v_id">43</data>
       <data key="v_label">EasternMichigan</data>
       <data key="v_value">6</data>
-      <data key="v_x">4.30434</data>
-      <data key="v_y">31.8455</data>
+      <data key="v_x">-88.954</data>
+      <data key="v_y">-35.0374</data>
     </node>
     <node id="n44">
       <data key="v_id">44</data>
       <data key="v_label">EastCarolina</data>
       <data key="v_value">4</data>
-      <data key="v_x">-28.8653</data>
-      <data key="v_y">42.1301</data>
+      <data key="v_x">-63.8482</data>
+      <data key="v_y">-7.87283</data>
     </node>
     <node id="n45">
       <data key="v_id">45</data>
       <data key="v_label">Duke</data>
       <data key="v_value">0</data>
-      <data key="v_x">-8.40442</data>
-      <data key="v_y">47.1593</data>
+      <data key="v_x">-84.2101</data>
+      <data key="v_y">-15.9558</data>
     </node>
     <node id="n46">
       <data key="v_id">46</data>
       <data key="v_label">FresnoState</data>
       <data key="v_value">11</data>
-      <data key="v_x">-33.6316</data>
-      <data key="v_y">-13.373</data>
+      <data key="v_x">-25.9968</data>
+      <data key="v_y">-50.794</data>
     </node>
     <node id="n47">
       <data key="v_id">47</data>
       <data key="v_label">OhioState</data>
       <data key="v_value">2</data>
-      <data key="v_x">-11.2138</data>
-      <data key="v_y">-16.7938</data>
+      <data key="v_x">-45.4687</data>
+      <data key="v_y">-64.9969</data>
     </node>
     <node id="n48">
       <data key="v_id">48</data>
       <data key="v_label">Houston</data>
       <data key="v_value">4</data>
-      <data key="v_x">-50.5</data>
-      <data key="v_y">30.4242</data>
+      <data key="v_x">-40.6224</data>
+      <data key="v_y">-4.23484</data>
     </node>
     <node id="n49">
       <data key="v_id">49</data>
       <data key="v_label">Rice</data>
       <data key="v_value">11</data>
-      <data key="v_x">-40.688</data>
-      <data key="v_y">-2.37662</data>
+      <data key="v_x">-27.4628</data>
+      <data key="v_y">-38.5452</data>
     </node>
     <node id="n50">
       <data key="v_id">50</data>
       <data key="v_label">Idaho</data>
       <data key="v_value">10</data>
-      <data key="v_x">-48.0496</data>
-      <data key="v_y">0.776451</data>
+      <data key="v_x">-22.3491</data>
+      <data key="v_y">-32.266</data>
     </node>
     <node id="n51">
       <data key="v_id">51</data>
       <data key="v_label">Washington</data>
       <data key="v_value">8</data>
-      <data key="v_x">-36.8375</data>
-      <data key="v_y">-21.9583</data>
+      <data key="v_x">-19.2533</data>
+      <data key="v_y">-55.1559</data>
     </node>
     <node id="n52">
       <data key="v_id">52</data>
       <data key="v_label">Kansas</data>
       <data key="v_value">3</data>
-      <data key="v_x">-67.4752</data>
-      <data key="v_y">9.65259</data>
+      <data key="v_x">-20.8498</data>
+      <data key="v_y">-10.4779</data>
     </node>
     <node id="n53">
       <data key="v_id">53</data>
       <data key="v_label">SouthernMethodist</data>
       <data key="v_value">11</data>
-      <data key="v_x">-43.3143</data>
-      <data key="v_y">11.0998</data>
+      <data key="v_x">-33.9623</data>
+      <data key="v_y">-26.2133</data>
     </node>
     <node id="n54">
       <data key="v_id">54</data>
       <data key="v_label">Kent</data>
       <data key="v_value">6</data>
-      <data key="v_x">18.9724</data>
-      <data key="v_y">6.51666</data>
+      <data key="v_x">-83.9573</data>
+      <data key="v_y">-64.2176</data>
     </node>
     <node id="n55">
       <data key="v_id">55</data>
       <data key="v_label">Pittsburgh</data>
       <data key="v_value">1</data>
-      <data key="v_x">9.76915</data>
-      <data key="v_y">21.8475</data>
+      <data key="v_x">-82.5245</data>
+      <data key="v_y">-47.4842</data>
     </node>
     <node id="n56">
       <data key="v_id">56</data>
       <data key="v_label">Kentucky</data>
       <data key="v_value">9</data>
-      <data key="v_x">-37.5885</data>
-      <data key="v_y">55.6648</data>
+      <data key="v_x">-67.5299</data>
+      <data key="v_y">7.82271</data>
     </node>
     <node id="n57">
       <data key="v_id">57</data>
       <data key="v_label">Louisville</data>
       <data key="v_value">4</data>
-      <data key="v_x">-33.9335</data>
-      <data key="v_y">47.4802</data>
+      <data key="v_x">-63.7415</data>
+      <data key="v_y">0.0557723</data>
     </node>
     <node id="n58">
       <data key="v_id">58</data>
       <data key="v_label">LouisianaTech</data>
       <data key="v_value">11</data>
-      <data key="v_x">-30.5875</data>
-      <data key="v_y">20.47</data>
+      <data key="v_x">-51.0824</data>
+      <data key="v_y">-24.7178</data>
     </node>
     <node id="n59">
       <data key="v_id">59</data>
       <data key="v_label">LouisianaMonroe</data>
       <data key="v_value">10</data>
-      <data key="v_x">-37.996</data>
-      <data key="v_y">36.8271</data>
+      <data key="v_x">-55.6301</data>
+      <data key="v_y">-6.23047</data>
     </node>
     <node id="n60">
       <data key="v_id">60</data>
       <data key="v_label">Minnesota</data>
       <data key="v_value">2</data>
-      <data key="v_x">-20.8041</data>
-      <data key="v_y">2.3698</data>
+      <data key="v_x">-49.9557</data>
+      <data key="v_y">-43.5883</data>
     </node>
     <node id="n61">
       <data key="v_id">61</data>
       <data key="v_label">MiamiOhio</data>
       <data key="v_value">6</data>
-      <data key="v_x">1.27997</data>
-      <data key="v_y">18.1789</data>
+      <data key="v_x">-78.2328</data>
+      <data key="v_y">-43.1271</data>
     </node>
     <node id="n62">
       <data key="v_id">62</data>
       <data key="v_label">Vanderbilt</data>
       <data key="v_value">9</data>
-      <data key="v_x">-25.8994</data>
-      <data key="v_y">54.2845</data>
+      <data key="v_x">-75.8012</data>
+      <data key="v_y">0.22772</data>
     </node>
     <node id="n63">
       <data key="v_id">63</data>
       <data key="v_label">MiddleTennesseeState</data>
       <data key="v_value">10</data>
-      <data key="v_x">-28.2306</data>
-      <data key="v_y">35.2754</data>
+      <data key="v_x">-61.5621</data>
+      <data key="v_y">-13.7271</data>
     </node>
     <node id="n64">
       <data key="v_id">64</data>
       <data key="v_label">Illinois</data>
       <data key="v_value">2</data>
-      <data key="v_x">-19.1226</data>
-      <data key="v_y">-8.38989</data>
+      <data key="v_x">-41.609</data>
+      <data key="v_y">-53.3307</data>
     </node>
     <node id="n65">
       <data key="v_id">65</data>
       <data key="v_label">MississippiState</data>
       <data key="v_value">9</data>
-      <data key="v_x">-44.8718</data>
-      <data key="v_y">51.6399</data>
+      <data key="v_x">-57.6311</data>
+      <data key="v_y">8.6382</data>
     </node>
     <node id="n66">
       <data key="v_id">66</data>
       <data key="v_label">Memphis</data>
       <data key="v_value">4</data>
-      <data key="v_x">-48.7696</data>
-      <data key="v_y">45.3312</data>
+      <data key="v_x">-48.6602</data>
+      <data key="v_y">8.86848</data>
     </node>
     <node id="n67">
       <data key="v_id">67</data>
       <data key="v_label">Nevada</data>
       <data key="v_value">11</data>
-      <data key="v_x">-45.0467</data>
-      <data key="v_y">-9.98083</data>
+      <data key="v_x">-17.7357</data>
+      <data key="v_y">-41.3015</data>
     </node>
     <node id="n68">
       <data key="v_id">68</data>
       <data key="v_label">Oregon</data>
       <data key="v_value">8</data>
-      <data key="v_x">-38.06</data>
-      <data key="v_y">-28.9882</data>
+      <data key="v_x">-15.2733</data>
+      <data key="v_y">-61.3199</data>
     </node>
     <node id="n69">
       <data key="v_id">69</data>
       <data key="v_label">NewMexicoState</data>
       <data key="v_value">10</data>
-      <data key="v_x">-52.5421</data>
-      <data key="v_y">23.466</data>
+      <data key="v_x">-32.9328</data>
+      <data key="v_y">-9.98985</data>
     </node>
     <node id="n70">
       <data key="v_id">70</data>
       <data key="v_label">SouthCarolina</data>
       <data key="v_value">9</data>
-      <data key="v_x">-33.0285</data>
-      <data key="v_y">52.9612</data>
+      <data key="v_x">-68.5977</data>
+      <data key="v_y">2.61512</data>
     </node>
     <node id="n71">
       <data key="v_id">71</data>
       <data key="v_label">Ohio</data>
       <data key="v_value">6</data>
-      <data key="v_x">2.48398</data>
-      <data key="v_y">4.3042</data>
+      <data key="v_x">-70.8778</data>
+      <data key="v_y">-55.443</data>
     </node>
     <node id="n72">
       <data key="v_id">72</data>
       <data key="v_label">IowaState</data>
       <data key="v_value">3</data>
-      <data key="v_x">-45.8794</data>
-      <data key="v_y">-3.155</data>
+      <data key="v_x">-32.1636</data>
+      <data key="v_y">-30.3312</data>
     </node>
     <node id="n73">
       <data key="v_id">73</data>
       <data key="v_label">SanJoseState</data>
       <data key="v_value">11</data>
-      <data key="v_x">-43.8251</data>
-      <data key="v_y">-13.4814</data>
+      <data key="v_x">-19.6299</data>
+      <data key="v_y">-45.615</data>
     </node>
     <node id="n74">
       <data key="v_id">74</data>
       <data key="v_label">Nebraska</data>
       <data key="v_value">3</data>
-      <data key="v_x">-56.9421</data>
-      <data key="v_y">-4.08778</data>
+      <data key="v_x">-20.3071</data>
+      <data key="v_y">-27.8481</data>
     </node>
     <node id="n75">
       <data key="v_id">75</data>
       <data key="v_label">SouthernMississippi</data>
       <data key="v_value">4</data>
-      <data key="v_x">-55.1954</data>
-      <data key="v_y">41.8796</data>
+      <data key="v_x">-43.778</data>
+      <data key="v_y">9.1637</data>
     </node>
     <node id="n76">
       <data key="v_id">76</data>
       <data key="v_label">Tennessee</data>
       <data key="v_value">9</data>
-      <data key="v_x">-46.624</data>
-      <data key="v_y">61.2773</data>
+      <data key="v_x">-63.0494</data>
+      <data key="v_y">18.0952</data>
     </node>
     <node id="n77">
       <data key="v_id">77</data>
       <data key="v_label">Stanford</data>
       <data key="v_value">8</data>
-      <data key="v_x">-45.89</data>
-      <data key="v_y">-27.0976</data>
+      <data key="v_x">-10.2354</data>
+      <data key="v_y">-52.2953</data>
     </node>
     <node id="n78">
       <data key="v_id">78</data>
       <data key="v_label">WashingtonState</data>
       <data key="v_value">8</data>
-      <data key="v_x">-50.8767</data>
-      <data key="v_y">-25.9246</data>
+      <data key="v_x">-5.12666</data>
+      <data key="v_y">-50.5157</data>
     </node>
     <node id="n79">
       <data key="v_id">79</data>
       <data key="v_label">Temple</data>
       <data key="v_value">1</data>
-      <data key="v_x">9.48354</data>
-      <data key="v_y">32.877</data>
+      <data key="v_x">-87.0677</data>
+      <data key="v_y">-39.6103</data>
     </node>
     <node id="n80">
       <data key="v_id">80</data>
       <data key="v_label">Navy</data>
       <data key="v_value">5</data>
-      <data key="v_x">-16.9594</data>
-      <data key="v_y">27.4991</data>
+      <data key="v_x">-63.9433</data>
+      <data key="v_y">-27.7693</data>
     </node>
     <node id="n81">
       <data key="v_id">81</data>
       <data key="v_label">TexasA&amp;M</data>
       <data key="v_value">3</data>
-      <data key="v_x">-63.7356</data>
-      <data key="v_y">-5.93187</data>
+      <data key="v_x">-13.1658</data>
+      <data key="v_y">-22.8414</data>
     </node>
     <node id="n82">
       <data key="v_id">82</data>
       <data key="v_label">NotreDame</data>
       <data key="v_value">5</data>
-      <data key="v_x">-25.1913</data>
-      <data key="v_y">0.250801</data>
+      <data key="v_x">-42.5627</data>
+      <data key="v_y">-44.4523</data>
     </node>
     <node id="n83">
       <data key="v_id">83</data>
       <data key="v_label">TexasElPaso</data>
       <data key="v_value">11</data>
-      <data key="v_x">-51.9245</data>
-      <data key="v_y">-2.49976</data>
+      <data key="v_x">-17.6992</data>
+      <data key="v_y">-33.8223</data>
     </node>
     <node id="n84">
       <data key="v_id">84</data>
       <data key="v_label">Oklahoma</data>
       <data key="v_value">3</data>
-      <data key="v_x">-70.5543</data>
-      <data key="v_y">4.00008</data>
+      <data key="v_x">-9.70098</data>
+      <data key="v_y">-16.1993</data>
     </node>
     <node id="n85">
       <data key="v_id">85</data>
       <data key="v_label">Toledo</data>
       <data key="v_value">6</data>
-      <data key="v_x">9.34416</data>
-      <data key="v_y">14.8936</data>
+      <data key="v_x">-81.6367</data>
+      <data key="v_y">-52.089</data>
     </node>
     <node id="n86">
       <data key="v_id">86</data>
       <data key="v_label">Tulane</data>
       <data key="v_value">4</data>
-      <data key="v_x">-45.3372</data>
-      <data key="v_y">36.3587</data>
+      <data key="v_x">-47.8051</data>
+      <data key="v_y">-3.20185</data>
     </node>
     <node id="n87">
       <data key="v_id">87</data>
       <data key="v_label">Mississippi</data>
       <data key="v_value">9</data>
-      <data key="v_x">-53.565</data>
-      <data key="v_y">45.7535</data>
+      <data key="v_x">-49.0325</data>
+      <data key="v_y">5.95031</data>
     </node>
     <node id="n88">
       <data key="v_id">88</data>
       <data key="v_label">Tulsa</data>
       <data key="v_value">11</data>
-      <data key="v_x">-36.9403</data>
-      <data key="v_y">8.95972</data>
+      <data key="v_x">-37.6433</data>
+      <data key="v_y">-31.8213</data>
     </node>
     <node id="n89">
       <data key="v_id">89</data>
       <data key="v_label">NorthCarolina</data>
       <data key="v_value">0</data>
-      <data key="v_x">-5.74818</data>
-      <data key="v_y">38.789</data>
+      <data key="v_x">-80.6974</data>
+      <data key="v_y">-24.9645</data>
     </node>
     <node id="n90">
       <data key="v_id">90</data>
       <data key="v_label">UtahState</data>
       <data key="v_value">5</data>
-      <data key="v_x">-62.7248</data>
-      <data key="v_y">2.18958</data>
+      <data key="v_x">-7.94572</data>
+      <data key="v_y">-21.4141</data>
     </node>
     <node id="n91">
       <data key="v_id">91</data>
       <data key="v_label">Army</data>
       <data key="v_value">4</data>
-      <data key="v_x">-36.2235</data>
-      <data key="v_y">31.221</data>
+      <data key="v_x">-50.5816</data>
+      <data key="v_y">-12.2494</data>
     </node>
     <node id="n92">
       <data key="v_id">92</data>
       <data key="v_label">Cincinnati</data>
       <data key="v_value">4</data>
-      <data key="v_x">-29.8324</data>
-      <data key="v_y">28.763</data>
+      <data key="v_x">-55.7979</data>
+      <data key="v_y">-17.4177</data>
     </node>
     <node id="n93">
       <data key="v_id">93</data>
       <data key="v_label">AirForce</data>
       <data key="v_value">7</data>
-      <data key="v_x">-39.3094</data>
-      <data key="v_y">2.65316</data>
+      <data key="v_x">-28.5848</data>
+      <data key="v_y">-33.8869</data>
     </node>
     <node id="n94">
       <data key="v_id">94</data>
       <data key="v_label">Rutgers</data>
       <data key="v_value">1</data>
-      <data key="v_x">3.43354</data>
-      <data key="v_y">21.626</data>
+      <data key="v_x">-74.6472</data>
+      <data key="v_y">-46.0284</data>
     </node>
     <node id="n95">
       <data key="v_id">95</data>
       <data key="v_label">Georgia</data>
       <data key="v_value">9</data>
-      <data key="v_x">-41.7866</data>
-      <data key="v_y">60.1218</data>
+      <data key="v_x">-64.6253</data>
+      <data key="v_y">13.0099</data>
     </node>
     <node id="n96">
       <data key="v_id">96</data>
       <data key="v_label">LouisianaState</data>
       <data key="v_value">9</data>
-      <data key="v_x">-52.6472</data>
-      <data key="v_y">57.6153</data>
+      <data key="v_x">-56.0245</data>
+      <data key="v_y">18.1608</data>
     </node>
     <node id="n97">
       <data key="v_id">97</data>
       <data key="v_label">LouisianaLafayette</data>
       <data key="v_value">10</data>
-      <data key="v_x">-60.7848</data>
-      <data key="v_y">27.4799</data>
+      <data key="v_x">-32.1612</data>
+      <data key="v_y">0.10037</data>
     </node>
     <node id="n98">
       <data key="v_id">98</data>
       <data key="v_label">Texas</data>
       <data key="v_value">3</data>
-      <data key="v_x">-69.3782</data>
-      <data key="v_y">1.06251</data>
+      <data key="v_x">-12.5437</data>
+      <data key="v_y">-13.2721</data>
     </node>
     <node id="n99">
       <data key="v_id">99</data>
       <data key="v_label">Marshall</data>
       <data key="v_value">6</data>
-      <data key="v_x">15.0351</data>
-      <data key="v_y">10.9842</data>
+      <data key="v_x">-84.148</data>
+      <data key="v_y">-58.2014</data>
     </node>
     <node id="n100">
       <data key="v_id">100</data>
       <data key="v_label">MichiganState</data>
       <data key="v_value">2</data>
-      <data key="v_x">-9.8343</data>
-      <data key="v_y">-7.24518</data>
+      <data key="v_x">-53.0502</data>
+      <data key="v_y">-57.6359</data>
     </node>
     <node id="n101">
       <data key="v_id">101</data>
       <data key="v_label">MiamiFlorida</data>
       <data key="v_value">1</data>
-      <data key="v_x">-8.44514</data>
-      <data key="v_y">17.5541</data>
+      <data key="v_x">-64.4196</data>
+      <data key="v_y">-40.5612</data>
     </node>
     <node id="n102">
       <data key="v_id">102</data>
       <data key="v_label">Missouri</data>
       <data key="v_value">3</data>
-      <data key="v_x">-47.9484</data>
-      <data key="v_y">10.1703</data>
+      <data key="v_x">-35.7939</data>
+      <data key="v_y">-19.2433</data>
     </node>
     <node id="n103">
       <data key="v_id">103</data>
       <data key="v_label">Clemson</data>
       <data key="v_value">0</data>
-      <data key="v_x">-21.0984</data>
-      <data key="v_y">48.9662</data>
+      <data key="v_x">-77.4756</data>
+      <data key="v_y">-6.14347</data>
     </node>
     <node id="n104">
       <data key="v_id">104</data>
       <data key="v_label">NevadaLasVegas</data>
       <data key="v_value">7</data>
-      <data key="v_x">-55.3999</data>
-      <data key="v_y">4.29641</data>
+      <data key="v_x">-19.2897</data>
+      <data key="v_y">-23.3416</data>
     </node>
     <node id="n105">
       <data key="v_id">105</data>
       <data key="v_label">WakeForest</data>
       <data key="v_value">0</data>
-      <data key="v_x">-8.29471</data>
-      <data key="v_y">57.6502</data>
+      <data key="v_x">-90.1048</data>
+      <data key="v_y">-8.77671</data>
     </node>
     <node id="n106">
       <data key="v_id">106</data>
       <data key="v_label">Indiana</data>
       <data key="v_value">2</data>
-      <data key="v_x">-17.1513</data>
-      <data key="v_y">13.2451</data>
+      <data key="v_x">-57.5856</data>
+      <data key="v_y">-38.0413</data>
     </node>
     <node id="n107">
       <data key="v_id">107</data>
       <data key="v_label">OklahomaState</data>
       <data key="v_value">3</data>
-      <data key="v_x">-64.782</data>
-      <data key="v_y">11.0097</data>
+      <data key="v_x">-18.6497</data>
+      <data key="v_y">-8.0691</data>
     </node>
     <node id="n108">
       <data key="v_id">108</data>
       <data key="v_label">OregonState</data>
       <data key="v_value">8</data>
-      <data key="v_x">-45.7171</data>
-      <data key="v_y">-36.465</data>
+      <data key="v_x">-3.11588</data>
+      <data key="v_y">-60.2935</data>
     </node>
     <node id="n109">
       <data key="v_id">109</data>
       <data key="v_label">Maryland</data>
       <data key="v_value">0</data>
-      <data key="v_x">-4.38791</data>
-      <data key="v_y">50.7921</data>
+      <data key="v_x">-88.8503</data>
+      <data key="v_y">-16.5466</data>
     </node>
     <node id="n110">
       <data key="v_id">110</data>
       <data key="v_label">TexasChristian</data>
       <data key="v_value">4</data>
-      <data key="v_x">-33.347</data>
-      <data key="v_y">3.46329</data>
+      <data key="v_x">-36.2433</data>
+      <data key="v_y">-38.7782</data>
     </node>
     <node id="n111">
       <data key="v_id">111</data>
       <data key="v_label">California</data>
       <data key="v_value">8</data>
-      <data key="v_x">-34.7875</data>
-      <data key="v_y">-33.6922</data>
+      <data key="v_x">-10.3514</data>
+      <data key="v_y">-63.1057</data>
     </node>
     <node id="n112">
       <data key="v_id">112</data>
       <data key="v_label">AlabamaBirmingham</data>
       <data key="v_value">4</data>
-      <data key="v_x">-51.8367</data>
-      <data key="v_y">38.4954</data>
+      <data key="v_x">-45.1402</data>
+      <data key="v_y">3.5808</data>
     </node>
     <node id="n113">
       <data key="v_id">113</data>
       <data key="v_label">Arkansas</data>
       <data key="v_value">9</data>
-      <data key="v_x">-53.7207</data>
-      <data key="v_y">51.2943</data>
+      <data key="v_x">-50.3991</data>
+      <data key="v_y">13.644</data>
     </node>
     <node id="n114">
       <data key="v_id">114</data>
       <data key="v_label">Hawaii</data>
       <data key="v_value">11</data>
-      <data key="v_x">-35.438</data>
-      <data key="v_y">-4.92964</data>
+      <data key="v_x">-30.3029</data>
+      <data key="v_y">-43.6194</data>
     </node>
     <edge source="n0" target="n1">
     </edge>
