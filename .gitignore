@@ -2,6 +2,6 @@
 .Rhistory
 .RData
 *.Rproj
-
+shinyapps/
 cite75_99.txt
 _site

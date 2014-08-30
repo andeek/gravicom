@@ -72,7 +72,7 @@ Shiny.inputBindings.register(inputBinding);
 
 function wrapper(el, data) {  
   var w = $('svg').parent().width(),
-      h = $(window).height() - $('.span12').height() - 50 - $('.nav-tabs').height(),
+      h = $(window).height() - $('.span12').height() - 50 - $('.nav-tabs').height() - $('.navbar').height(),
       r = 6,
       root,
       node,
@@ -379,6 +379,6 @@ function wrapper(el, data) {
     shiftKey = d3.event.shiftKey;
   }
   
-}
+};
 </script>
   
