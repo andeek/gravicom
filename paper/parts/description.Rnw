@@ -1,5 +1,6 @@
 Before discussing gravicom's performance and use on example data sets, we give a brief overview of the components and functionality that make up the tool. The gravicom interface is comprised of five main parts,
 \begin{enumerate}
+\item Navbar
 \item Control panel
 \item Data management
 \item Connection table 
@@ -10,10 +11,13 @@ Before discussing gravicom's performance and use on example data sets, we give a
 \begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{images/sitecomponents.png}
-\caption{\label{fig:sitecomponents} The components that make up gravicom, (1) Control panel, (2) Data management, (3) Connection table, (4) Graph display, and (5) Tabset.}
+\caption{\label{fig:sitecomponents} The components that make up gravicom, (1) Navbar, (2) Control panel, (3) Data management, (4) Connection table, (5) Graph display, and (6) Tabset.}
 \end{figure}
 
 Each part provides a means for the user to interact with gravicom, either through controls that allow user input to gravicom or through direct interaction with diagnostics and visualization of a graph. Their placement on the gravicom interface can be seen in Figure~\ref{fig:sitecomponents}.
+
+\paragraph{Navbar}
+The top navigation bar includes informational buttons. The first is a link to gravicom. The second is a link to this documentation page. The third is a link to the GitHub repository where the code for gravicom is housed. The final button is a link to my website, which contains contact information if there are any questions or comments.
 
 \paragraph{Control Panel}
 The control panel serves as the starting point for a user's session in gravicom. It contains instructions for the user, as well as the means for a user to select a data set and numerical summaries of the graph (such as a diagnostic connection table explained below). Additionally, the control panel contains a link to the source code for gravicom, should a user be interested in the inner workings of gravicom.
@@ -38,7 +42,7 @@ The graph display shows an interactive graphical representation of  the selected
 \begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{images/graphdrag.png}
-\caption{\label{fig:graphdrag} A graph in the process of being dragged. The node being dragged is marked by a red circle.}
+\caption{\label{fig:graphdrag} A graph in the process of being dragged. The node being dragged is marked by a green circle.}
 \end{figure}
 
 Selection and grouping of nodes are actions intended to work together. In order to group nodes, a user first determines a node cluster or potential community based on a visual appraisal of the graph. To select nodes the user clicks and drags a selection box around nodes. See Figure~\ref{fig:graphselect} for the results of selection in the interface. The shift key can also be used for multiple selections. Upon selection, the connection table is updated and the user can evaluate the selection as a community and alter the selection if need be (the shift key selection is useful in this step).

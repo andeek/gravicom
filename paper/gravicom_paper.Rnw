@@ -10,8 +10,7 @@
 \newcommand{\cc}[1]{{\color{green} #1}}
 
 \title{gravicom - a web-based tool for community detection in networks}
-\author{Andrea J. Kaplan}
-\date{March 27, 2014}
+\author{Andee Kaplan, Heike Hofmann, and Daniel Nordman}
 
 \begin{document}
 

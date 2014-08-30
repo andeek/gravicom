@@ -102,7 +102,7 @@ football.df.m <- merge(football.df.m, stats[-nrow(stats),], by="Group", all.x=TR
 football.df.m$label[idx] <- sprintf("{\\it %s}",football.df.m$label[idx]) 
 football.df.m$Ratio <- as.numeric(as.character(football.df.m$Ratio))
 
-results <- ddply(football.df.m, .(orig.grp), summarise, 
+results <- ddply(football.df.m[with(football.df.m, order(Group, label)),], .(orig.grp), summarise, 
                  teams=paste(label, collapse=", "), 
                  prop=min(Ratio),
                  perc.right=percent(1 - sum(value != orig.grp)/length(orig.grp)))
@@ -145,7 +145,7 @@ idx <- with(polbooks.df.m, which(value != orig.grp))
 polbooks.df.m$label[idx] <- sprintf("{\\it %s}",polbooks.df.m$label[idx]) 
 polbooks.df.m$Ratio <- as.numeric(as.character(polbooks.df.m$Ratio))
 
-results_pol <- ddply(polbooks.df.m, .(orig.grp), summarise, 
+results_pol <- ddply(polbooks.df.m[with(polbooks.df.m, order(Group, label)),], .(orig.grp), summarise, 
                  books=paste(label, collapse=", "), 
                  prop=min(Ratio),
                  perc.right=percent(1 - sum(value != orig.grp)/length(orig.grp)))
