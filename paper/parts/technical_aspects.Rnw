@@ -1,0 +1,18 @@
+gravicom utilizes three main pieces of software to establish interactive user control of a random graph as sketched out in Figure~\ref{fig:clientserver}, which are Shiny, D3, and igraph. These are used, respectively, for server/client interaction management, user interface and graph layout, and data formatting, respectively. In the following subsections, we describe the purposes of these three components in more detail.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{images/clientserverflow.png}
+\caption{\label{fig:clientserver} Relationship between client and server, specifically focusing on how data travels between the two.}
+\end{figure}
+
+There are very minimal software requirements for a user of gravicom. The client simply needs to have a JavaScript enabled internet browser with HTML5 compatibility, something which almost any modern browser fulfills (an exception is IE8 and below). 
+
+The server side requirements are more extensive, but this does not affect the user of gravicom, only those wanting to host their own instance of the application. To host gravicom, a Linux server is required, with the following installed:
+
+\begin{itemize}
+\item Node.js (0.8.16 or later)
+\item {\tt R} (2.15 or later)
+\item Shiny {\tt R} package, installed into the machine-wide site library. 
+\item Shiny Server
+\end{itemize}

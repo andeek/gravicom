@@ -1,0 +1,10 @@
+\cite{fortunato2010community}
+Many real world phenomena can be represented as a graph or network for the purposes of understanding underlying structure. Graph theory, which dates back to Euler in the 1700s, is a rich basis to study such systems. With such a wide range of applications, including sociology (social networks), computer science (world wide web), and biology (protein interactions), many disciplines have focused on the study of graphs. One important feature of a graph is the presence or absence of communities, which are also called clusters, modules, or cliques. Communities, are roughly defined as a group of nodes in a graph that share common properties. 
+
+\cite{newman2003structure}
+A graph is composed of nodes, which represent entities, that are connected by edges, which represent relationships. The nodes within a cluster are characterized as sharing more edges within the cluster than with those outside the cluster.
+
+``The human eye is an analytic tool of remarkable power, and eyeballing pictures of networks is an excellent way to gain an understanding of their structure." [when the graph isn't too big to visualize]
+
+
+

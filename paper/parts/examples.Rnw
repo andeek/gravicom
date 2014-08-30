@@ -1,0 +1,162 @@
+To demonstrate the use of gravicom, we present three real-world network data sets and explore their community structure.
+
+\subsection{College Football} \label{sec:football}
+The first data set is a representation of U.S. College Football Division 1 games from the 2000 season \cite{gn-football}. This is a default data set available in gravicom. In this network, nodes represent teams and an edge represents a regular-season game played between the two connected teams. The distances between the nodes are based on the number of games played between the teams. The network as it appears upon load in gravicom is presented in Figure~\ref{fig:football_1}. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.6\textwidth]{images/football_1.png}
+\caption{\label{fig:football_1} College Football network represented in gravicom. Communities are visually evident and will become more identifiable as other are grouped.}
+\end{figure}
+
+Colleges within the same football conference will play members of their conference more frequently than teams outside of their conference, making this an interesting data set for attempting to visually detect community structures. This is also an ideal illustrative example due to the relatively small number of nodes and edges present, making a graphical representation particularly feasible. One challenge with this data set, however is the existence of independent teams, like Notre Dame, which do not belong to any conference and so may complicate efforts of community detection. Another complication is that small conference schools typically play large conference schools at the beginning of a season in order to help fund their athletic programs, which can potentially cause more edges than perhaps expected between distinct communities, particularly between small conferences and large conferences.
+
+Upon viewing the network in gravicom, some likely communities visually emerge, and by selecting nodes to examine within and outside edges, we can classify colleges into conferences, as seen in Figure~\ref{fig:football_2}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=.49\textwidth]{images/football_2.png}
+\includegraphics[width=.49\textwidth]{images/football_4.png}
+\includegraphics[]{images/football_3.png}
+\caption{\label{fig:football_2} Selecting a potential community in gravicom and assessing the number of within verses outside selection edges. After the first community is detected, more communities become apparent in the network.}
+\end{figure}
+
+Once the user is satisfied that he has selected a viable community, he clicks to group those nodes and the graph will update to reflect this. In particular, the grouped nodes for the suspected community will be collapsed into one super-node in the updated graph. See Section~\ref{par:graph} for details. The resulting graph update allows new community structures to potentially become more easily apparent as seen in Figure~\ref{fig:football_2}. 
+
+Additionally, the user can check which nodes were grouped in each community as described in \ref{par:group}. In this example, the first community detected contains the following schools, which corresponds to the Big 10:\begin{inparaenum}[\itshape a\upshape)]
+\item Illinois;
+\item Indiana; 
+\item Iowa; 
+\item Michigan; 
+\item Michigan State; 
+\item Minnesota; 
+\item Northwestern; 
+\item Ohio State; 
+\item Penn State;
+\item Purdue; and
+\item Wisconsin.
+\end{inparaenum}
+
+After the first community has been selected, another potential community at the top of the graph has been revealed. The user can once again select and group this node cluster into a community and subsequently examine the nodes in the resulting group as seen in Figure~\ref{fig:football_6}. The second conference grouped corresponds exactly to the SEC Conference, another large college football conference. Here, the first two communities to become evident correspond to large Division 1 conferences that play the majority of their games within conference, matching our earlier assertion that small conferences should, as expected, be more difficult to detect.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=.49\textwidth]{images/football_45.png}
+\includegraphics[width=.49\textwidth]{images/football_6.png}
+\caption{\label{fig:football_6} A second community is grouped which corresponds to the SEC Conference.}
+\end{figure}
+
+This process of grouping nodes into suspected communities can be repeated until the user is satisfied with the communities selected. The entirety of this process is seen in Figure~\ref{fig:football_progression} and the resulting communities in Table~\ref{tab:football_final}. It should be noted that this is a fundamentally a subjective process and that another user with the same data may find slightly different communities. However, by leveraging the human visual system to find structure in a data set, gravicom has the ability to provide a starting point for an objective algorithm to then adopt the detection of communities. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{images/football_progression.png}
+\caption{\label{fig:football_progression}The full process of selecting and grouping communities in gravicom using the football data set.}
+\end{figure}
+
+<<example_func, echo=FALSE>>=
+community_stats <- function(path_to_gml){
+  require(igraph)
+  require(plyr)
+  
+  df <- get.data.frame(read.graph(path_to_gml, format="gml"), what="both")
+  edges_groups <- merge(merge(df$edges, df$vertices[, c("id", "Group")], by.x = "to", by.y = "id", all.x = TRUE),
+                        df$vertices[, c("id", "Group")], by.x = "from", by.y = "id", all.x = TRUE)
+  names(edges_groups)[3:4] <- c("Group.from", "Group.to")
+  
+  adj <- as.data.frame(table(edges_groups[,3:4]))
+  adj$Ratio <- adj$Freq/sum(adj$Freq)
+  
+  res <- mdply(unique(c(edges_groups$Group.from, edges_groups$Group.to)), function(x){
+    cbind(
+      Group = x,
+      Ratio = adj[with(adj, Group.from == x & Group.to == x), "Freq"]/(sum(adj[with(adj, Group.from == x & Group.to != x), "Freq"]) + sum(adj[with(adj, Group.from != x & Group.to == x), "Freq"]))
+    )
+  })
+  res$Group <- as.character(res$Group)
+  if(nrow(res[substring(res$Group,1,1) == "n",]) > 0) res[substring(res$Group,1,1) == "n",]$Group<-"independent"
+  res$Modularity <- diag(table(edges_groups[,3:4])/sum(table(edges_groups[,3:4]))) - (rowSums(table(edges_groups[,3:4])/sum(table(edges_groups[,3:4]))))^2
+  
+  return(res)
+}
+@
+
+<<football_check, echo=FALSE, warning=FALSE, results='hide', error=FALSE, results='asis'>>=
+library(igraph)
+library(plyr)
+library(scales)
+library(xtable)
+football.df <- get.data.frame(read.graph("../data/football_network.gml", format="gml"), what="vertices")
+
+#put all ungrouped as own group -- corresponds to value 5
+football.df[substring(football.df$Group,1,1) == "n",]$Group<-"independent"
+
+#create map from gravicom to original by most mapped
+map <- ddply(football.df, .(Group), summarise, orig.grp = names(sort(-table(value)))[1])
+football.df.m <- merge(football.df, map, by = "Group", all.x=TRUE)
+
+idx <- with(football.df.m, which(value != orig.grp))
+stats <- community_stats("../data/football_network.gml")
+
+football.df.m <- merge(football.df.m, stats[-nrow(stats),], by="Group", all.x=TRUE)
+football.df.m$label[idx] <- sprintf("{\\it %s}",football.df.m$label[idx]) 
+football.df.m$Ratio <- as.numeric(as.character(football.df.m$Ratio))
+
+results <- ddply(football.df.m, .(orig.grp), summarise, 
+                 teams=paste(label, collapse=", "), 
+                 prop=min(Ratio),
+                 perc.right=percent(1 - sum(value != orig.grp)/length(orig.grp)))
+results <- results[with(results, order(as.numeric(orig.grp))),]
+results$Conference <- c("ACC", "Big East", "Big 10", "Big 12", "C-USA", "Independent", "MAC", "Mountain West", "Pac-10", "SEC", "Big West", "WAC" )
+
+results <- results[,c(5,2,3,4)]
+colnames(results) <- c("Conference", "Teams Identified", "Ratio", "Accuracy")
+results$`Teams Identified` <- gsub('(.)([A-Z])',"\\1 \\2", results$`Teams Identified`)
+
+#percent school misspecified
+percent_correct <- 1 - sum(football.df.m$value != football.df.m$orig.grp)/nrow(football.df)
+
+print(xtable(results[with(results, order(-Ratio)),], align=c("c", "c","p{10cm}","c", "c"), label='tab:football_final', caption='Resulting communities detected using gravicom and the corresponding conference. Teams that have been incorrectly classified are italicized.'),sanitize.text.function = function(x)gsub('%', '\\\\%', gsub('&', '\\\\&', x)), include.rownames=FALSE, table.placement='H')
+@
+
+Using the visual approach detailed above, we were able to detect 11 community structures in the graph. There were 11 conferences and 5 independent schools in the data set. Through manual specification of conferences, we were able to correctly classify \Sexpr{round(100*percent_correct, 2)}\% of the football teams into their conferences. 
+
+\subsection{Political Books Sold}
+For illustration, we next consider a second example data set consisting of a network of political books purchased close to the 2004 United States presidential election and sold on Amazon.com \cite{polbooks}. Each node represents a book and each edge represents frequent co-purchasing of two books by the same buyers. The books are classified as being conservative, liberal, or neutral by the author of the data set \cite{krebs2004divided} and we can see a clear partition in Figure~\ref{fig:polbooks_1} between two main groups (i.e. roughly conservative and liberal) with a smaller group between, when looking at the network in gravicom. This data set is interesting because it highlights a great divide in the political books sold via Amazon that can be ascribed to the two party political system. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{images/polbooks_1.png}
+\includegraphics[width=\textwidth]{images/polbooks_2.png}
+\caption{\label{fig:polbooks_1} Political books data set as seen in gravicom prior and post community detection.}
+\end{figure}
+
+<<polbooks_check, echo=FALSE, warning=FALSE, results='asis', error=FALSE>>=
+polbooks.df <- get.data.frame(read.graph("../data/polbooks_network.gml", format="gml"), what="vertices")
+
+#create map from gravicom to original by most mapped
+map <- ddply(polbooks.df, .(Group), summarise, orig.grp = names(sort(-table(value)))[1])
+polbooks.df.m <- merge(polbooks.df, map, by = "Group", all.x=TRUE)
+
+stats <- community_stats("../data/polbooks_network.gml")
+polbooks.df.m <- merge(polbooks.df.m, stats, by="Group", all.x=TRUE)
+
+idx <- with(polbooks.df.m, which(value != orig.grp))
+polbooks.df.m$label[idx] <- sprintf("{\\it %s}",polbooks.df.m$label[idx]) 
+polbooks.df.m$Ratio <- as.numeric(as.character(polbooks.df.m$Ratio))
+
+results_pol <- ddply(polbooks.df.m, .(orig.grp), summarise, 
+                 books=paste(label, collapse=", "), 
+                 prop=min(Ratio),
+                 perc.right=percent(1 - sum(value != orig.grp)/length(orig.grp)))
+results_pol$designation <- c("Conservative", "Liberal", "Neutral")
+
+results_pol <- results_pol[,c(5,2,3,4)]
+colnames(results_pol) <- c("Classification", "Books Identified", "Ratio", "Accuracy")
+
+#percent books misspecified
+percent_correct <- 1 - sum(polbooks.df.m$value != polbooks.df.m$orig.grp)/nrow(polbooks.df)
+
+print(xtable(results_pol[with(results_pol, order(-Ratio)),], align=c("c", "c","p{10cm}","c", "c"), label='tab:polbooks_final', caption='Resulting communities detected using gravicom and the corresponding type of book. Books that have been incorrectly classified are italicized.'),sanitize.text.function = function(x)gsub('%', '\\\\%', gsub('&', '\\\\&', x)), include.rownames=FALSE, table.placement='H')
+@
+We detected visually 3 types of books in the data set using the process of selection and grouping detailed in section~\ref{sec:football}. Through subsequent manual verification of the classification of books, we found that we were able to correctly classify \Sexpr{round(100*percent_correct, 2)}\% of the books into the categories created by the author of the data set. See Table~\ref{tab:polbooks_final} for the final groups of books found using gravicom.

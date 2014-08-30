@@ -1,0 +1,20 @@
+igraph \cite{gc-igraph} is a software package used for creating and manipulating undirected and directed graphs. It is a cross-language package available for C, R, python, and Ruby. igraph also supports multiple graph file formats and visualization of graph structures.
+
+gravicom utilizes two parts of igraph, first is the conversion from a gml file to an XML file. The gml file format, short for Graph Modelling Language, is a hierarchical ASCII-based file format for describing graphs. Below is an example gml file of an undirected graph consisting of two nodes linked by a single edge. The important points to note are that  node identifiers (id) have to be numeric. An edge consists only of source and target ids of the nodes it connects, while  nodes can have other attributes, e.g.~{\tt value} in the example. For a directed graph, the parameter {\tt directed} has to be set to 1, which will result in the edge information on target and source being evaluated accordingly.
+<<gml, results='markup', echo=FALSE>>=
+cat( readLines( "../data/sample.gml" ) , sep = "\n" )
+@
+For the conversion from an  XML file  to a JSON file we make user of the R package {\tt rjson} \cite{acb-rjson}.  JSON is the native data format used in D3, which  makes working with data in the D3 library incredibly straightforward. Here is our example in the finalized JSON format:
+<<json, results='markup', echo=FALSE>>=
+cat( readLines( "../data/sample.json" ) , sep = "\n" )
+@
+Our example data will yield the graph in Figure~\ref{fig:samplegraph}.
+
+\begin{figure}[H]
+\centering
+\includegraphics{images/samplegraph.png}
+\caption{\label{fig:samplegraph} Graph created from sample gml file.}
+\end{figure}
+The second use of igraph within gravicom is to compute initial $x$ and $y$ coordinates for the nodes of the graph using a force-driven layout. This provides the initialization for the force-layout algorithm in D3. This reduces the computational load on the clients' side and helps minimize unnecessary movement by the nodes. This is critical as the extra movement at the loading of the pages creates an unnecessarily chaotic start to the user's experience. 
+
+

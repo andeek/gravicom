@@ -2,6 +2,16 @@
 .Rhistory
 .RData
 *.Rproj
-
+shinyapps/
 cite75_99.txt
 _site
+
+paper/font
+Thumbs.db
+*.tex
+*.log
+*.gz
+*.sty
+cc_kaplan_andrea.run.xml
+*.bbl
+*-blx.bib
