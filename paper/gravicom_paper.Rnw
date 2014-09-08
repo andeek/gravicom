@@ -5,6 +5,7 @@
 \addbibresource{references/refs.bib}
 
 \usepackage{color}
+%\usepackage{cite}
 \newcommand{\hh}[1]{{\color{magenta} #1}}
 \newcommand{\ak}[1]{{\color{blue} #1}}
 \newcommand{\cc}[1]{{\color{green} #1}}
@@ -17,7 +18,7 @@
 \maketitle
 
 \begin{abstract}
-The analysis of graphs, in particular the detection of community structures within network data, is of increasing interest across a broad range of disciplines. Such communities represent clusters of nodes in a network which exhibit strong intra-connections or relationships among nodes in the cluster. Current methodology for community detection often involves an algorithmic approach, and commonly partitions a graph into node clusters in an iterative manner before some stopping criterion. Because communities are often fuzzily-defined human concepts, an alternative approach is to leverage human visualization to identify communities. The work presents a new web application, called {\it gravicom}, for facilitating the detection of community structures through direct user interaction. In the process of detecting communities, the gravicom application may serve as a standalone tool or as an initialization step for use with another community detection algorithm. In this paper we discuss the design of gravicom, as a web application built on the R package Shiny and the JavaScript library D3, and demonstrate its use for community detection using several network data sets.
+The analysis of graphs, in particular the detection of community structures within network data, is of increasing interest across a broad range of disciplines. Such communities represent clusters of nodes in a network which exhibit strong intra-connections or relationships among nodes in the cluster. Current methodology for community detection often involves an algorithmic approach, and commonly partitions a graph into node clusters in an iterative manner before some stopping criterion. Less widely used statistical approaches for community detection require model choices and prior selection in Bayesian analyses, which are difficult without some amount of data inspection and pre-processing. Because communities are often fuzzily-defined human concepts, an alternative approach is to leverage human visualization to identify communities. The work presents a new web application, called {\it gravicom}, for facilitating the detection of community structures through direct user interaction. In the process of detecting communities, the gravicom application may serve as a standalone tool or as an initialization step for use with another community detection algorithm. In this paper we discuss the design of gravicom, as a web application built on the R package Shiny and the JavaScript library D3, and demonstrate its use for community detection using several network data sets.
 \end{abstract}
 
 \clearpage
@@ -35,7 +36,15 @@ The analysis of graphs, in particular the detection of community structures with
 <<examples, child='parts/examples.Rnw', eval=TRUE>>=
 @
 
-\section{Technical Aspects}
+\section{Further Work}
+<<further, child='parts/further.Rnw', eval=TRUE>>=
+@
+
+\printbibliography
+\clearpage
+\appendix
+
+\section{Technical Appendix}
 <<technical_aspects, child='parts/technical_aspects.Rnw', eval=TRUE>>=
 @
 
@@ -51,9 +60,4 @@ The analysis of graphs, in particular the detection of community structures with
 <<igraph, child='parts/igraph.Rnw', eval=TRUE>>=
 @
 
-\section{Further Work}
-<<further, child='parts/further.Rnw', eval=TRUE>>=
-@
-
-\printbibliography
 \end{document}
