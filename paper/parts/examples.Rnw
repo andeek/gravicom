@@ -1,4 +1,4 @@
-To demonstrate the use of gravicom, we present three real-world network data sets and explore their community structure.
+To demonstrate the use of gravicom, we present two real-world network data sets and explore their community structure.
 
 \subsection{College Football} \label{sec:football}
 The first data set is a representation of U.S. College Football Division 1 games from the 2000 season \cite{gn-football}. This is a default data set available in gravicom. In this network, nodes represent teams and an edge represents a regular-season game played between the two connected teams. The distances between the nodes are based on the number of games played between the teams. The network as it appears upon load in gravicom is presented in Figure~\ref{fig:football_1}. 
