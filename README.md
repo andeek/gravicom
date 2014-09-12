@@ -1,4 +1,4 @@
-Community-Detection
+gravicom
 ===================
 
 Work on community detection in graphs using interactive tools like shiny and D3.
