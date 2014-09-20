@@ -10,7 +10,7 @@
 \newcommand{\ak}[1]{{\color{blue} #1}}
 \newcommand{\cc}[1]{{\color{green} #1}}
 
-\title{gravicom - a web-based tool for community detection in networks}
+\title{An interactive graphical method for community detection in network data}
 \author{Andee Kaplan, Heike Hofmann, and Daniel Nordman}
 
 \begin{document}
