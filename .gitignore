@@ -15,4 +15,4 @@ Thumbs.db
 cc_kaplan_andrea.run.xml
 *.bbl
 *-blx.bib
-data/*.xml
+application/data/*.xml
