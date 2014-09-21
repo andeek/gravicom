@@ -1,0 +1,1 @@
+Before discussing gravicom's performance and use on example data sets, we give a brief overview of the components and functionality that make up the tool.

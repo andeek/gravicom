@@ -1,0 +1,15 @@
+\cite{dwyer2009comparison}
+This study compares the usability of three algorithmic graph layouts (orthogonal, circular, and force-directed) to six user-generated graph layout for the tasks of finding communities, chains, and cut points. A general rule of thumb has been to minimize edge crossings in a graph for an effective graph layout. This paper tests the hypothesis that edge crossings are the only important criteria for a usable and informative graph. The authors found the force-directed graph to be the most popular layout style overall, as well as most accurate and best task completion speed. The automatic orthogonal layout was difficult for users to complete the tasks, even though it had the least edge crossings.
+
+For community detection, the users had difficulty with the circular and orthogonal layouts. The force-directed layout proved to be an easier platform to detect clusters, however some users were misled by the placement of a node within the cluster. Conversely, the user-generated layouts displayed the clusters in a symmetric layout, making the edges easier to distinguish.
+
+``Unfortunately, clique layout may be a difficult task for automatic algorithms, since maximal clique detection is NP-hard."
+
+[Automatic layout algorithms will have a tough time facilitating community detection, however a force-directed layout is a good start for the user to be able to ``tweak" a layout into a more easily interpretable structure.]
+
+\cite{mcgrath1996seeing}
+This study is an experiment testing users' understanding of graphs in terms of perception of clustering of nodes in relation to graph layout. The authors tested five layouts for speed and accuracy of cluster identification in a network.
+
+The results of this study indicate location of a node spatially relative to other nodes in a cluster has a significant effect on users' ability to detect the community. The authors suggest a simple principle that will lead to clear depiction of a network: ``adjacent nodes must be placed near to each other if possible".
+
+[The force-directed algorithm used in gravicom implements edges as fixed-distance geometric constraints, meaning that groups of nodes sharing multiple edges will be pulled in closer proximity, making detection of communities easier.]

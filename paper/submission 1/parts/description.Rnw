@@ -1,0 +1,72 @@
+Before discussing gravicom's performance and use on example data sets, we give a brief overview of the components and functionality that make up the tool. The gravicom interface is comprised of six main parts,
+\begin{enumerate}
+\item Navbar
+\item Control panel
+\item Data management
+\item Connection table 
+\item Graph display
+\item Tabset.
+\end{enumerate}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{images/sitecomponents.png}
+\caption{\label{fig:sitecomponents} The components that make up gravicom, (1) Navbar, (2) Control panel, (3) Data management, (4) Connection table, (5) Graph display, and (6) Tabset.}
+\end{figure}
+
+Each part provides a means for the user to interact with gravicom, either through controls that allow user input to gravicom or through direct interaction with diagnostics and visualization of a graph. Their placement on the gravicom interface can be seen in Figure~\ref{fig:sitecomponents}.
+
+\paragraph{Navbar}
+The top navigation bar includes informational buttons. The first is a link to gravicom. The second is a link to this documentation page. The third is a link to the GitHub repository where the code for gravicom is housed. The final button is a link to an author's website, which contains contact information to address questions or comments.
+
+\paragraph{Control Panel}
+The control panel serves as the starting point for a user's session in gravicom. It contains instructions for the user, as well as the means for a user to select a data set and numerical summaries of the graph (such as a diagnostic connection table explained below). 
+
+\paragraph{Data Management}
+The data management component is made up of two main parts, data selection and data download. The data selection can be accomplished in two ways, the first being a drop down to select pre-loaded data sets to display. Currently there are two well-known network data sets provided in gravicom, a college football data set \cite{gn-football} and a karate club data set \cite{zachary1977information}. From the dropdown the user can change the data set to display in the graph. The second approach to data selection gives the user the ability to upload his own data set. Upon clicking the ``Upload new data set" checkbox, a file selection control appears which gives the user the ability to upload his own graph data to explore with gravicom. This is shown in Figure~\ref{fig:uploadnewdataset}. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[]{images/uploadnewdataset.png}
+\caption{\label{fig:uploadnewdataset} The data selection area upon clicking the ``Upload new data set" checkbox.}
+\end{figure}
+
+The work performed by a user in visualizing graphs and community structure can also be downloaded as a data set from gravicom with current communities stored. This feature can be used as a save point in processing a graph or as a means to export changes made in gravicom to another tool.
+
+\paragraph{Connection Table}
+The connection table is a quantitative diagnostic tool for the user in assessing the strength of a community structure in a graph. The idea behind the connection table is that a community of nodes will have proportionally more edge connections within the node cluster compared to edge connections to nodes outside the community. The table displays the number of edge connections within a user's selection of nodes in the graph and the number of connections from nodes in a user's selection to nodes not in the selection. The comparison of these two numbers can give the user a rough idea of if the plausibility or extend to which the node selection constitutes a community. To aid in the comparison, there is also a column that displays the ratio of number of connections within a node selection to the number of connections outside the selection. 
+
+\paragraph{Graph Display} \label{par:graph}
+The graph display shows an interactive graphical representation of  the selected (or uploaded) graph data. Upon load, the graph displays all nodes and edges in the data set using a force-directed layout algorithm. The user has several ways to interact with the graph: drag, select, and group. A user can drag a node at any time. Upon dragging, the force-directed layout is  rerun, giving an altered view of the graph. Figure~\ref{fig:graphdrag} shows a graph in the process of being dragged.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{images/graphdrag.png}
+\caption{\label{fig:graphdrag} A graph in the process of being dragged. The node being dragged is marked by a green circle.}
+\end{figure}
+
+Selection and grouping of nodes are actions intended to work together. In order to group nodes, a user first determines a node cluster or potential community based on a visual appraisal of the graph. To select nodes the user clicks and drags a selection box around nodes. See Figure~\ref{fig:graphselect} for the results of selection in the interface. The shift key can also be used for multiple selections. Upon selection, the connection table is updated and the user can evaluate the selection as a community and alter the selection if need be (the shift key selection is useful in this step).
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{images/graphselect.png}
+\includegraphics[]{images/tableselect.png}
+\caption{\label{fig:graphselect} A graph in the process of nodes being selected. Upon selection of nodes, the connection table updates to display within and outside edges.}
+\end{figure}
+
+Selected nodes can be grouped together into one consolidated ``super-node" or grouped-node. Once grouped, the size and edges of the super-node represent the number of nodes in the potential community and the number of edges to the grouped community nodes, respectively. The force-directed layout is again run, showing the new graph with previous nodes grouped. This is illustrated in Figure~\ref{fig:graphgroup}. This process of node grouping can be repeated until all nodes have been grouped or until the user is satisfied that all communities have been selected. Additionally, grouped nodes can be ungrouped by clicking on a grouped node. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{images/graphgroup.png}
+\caption{\label{fig:graphgroup} A graph after nodes have been grouped and the force-directed algorithm has been re-run.}
+\end{figure}
+
+\paragraph{Tabset} \label{par:group}
+The tabset allows the user to switch between two tabs on the screen. The first (and default tab) shows the graph display. The second tab shows the groups that a user has created in the graph. Within this tab, each node group or community summarizes the number of nodes in the group and also provides the ability to drop down and view the node IDs for that group. If the data are equipped with node labels, these will be displayed. If there are no node labels provided, node IDs will be shown as node numbers. For an example, see Figure~\ref{fig:groupstab}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{images/groupstab.png}
+\caption{\label{fig:groupstab} The groups tabset displaying which nodes have been grouped in Group 0, for example. The groups tabset also shows that Group 0 has 15 nodes, while Group 1 has 13 nodes.}
+\end{figure}
