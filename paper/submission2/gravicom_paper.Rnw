@@ -1,17 +1,41 @@
-\documentclass{article}
-\usepackage[margin=1in]{geometry}
+\documentclass[smallextended]{svjour3}  
+%\usepackage[margin=1in]{geometry}
 \usepackage{graphicx, hyperref, float, multicol, pdflscape, paralist}
-\usepackage[backend=bibtex, natbib=true]{biblatex}
-\addbibresource{references/refs.bib}
+%\usepackage[backend=bibtex, natbib=true]{biblatex}
+%\addbibresource{references/refs.bib}
 
-\usepackage{color}
-%\usepackage{cite}
-\newcommand{\hh}[1]{{\color{magenta} #1}}
-\newcommand{\ak}[1]{{\color{blue} #1}}
-\newcommand{\cc}[1]{{\color{green} #1}}
+%\usepackage{color}
+\usepackage{cite}
+%\newcommand{\hh}[1]{{\color{magenta} #1}}
+%\newcommand{\ak}[1]{{\color{blue} #1}}
+%\newcommand{\cc}[1]{{\color{green} #1}}
 
 \title{An interactive graphical method for community detection in network data}
-\author{Andee Kaplan, Heike Hofmann, and Daniel Nordman}
+\author{Andee Kaplan \and Heike Hofmann \and Daniel Nordman}
+
+\institute{A. Kaplan \at
+              1121 Snedecor Hall \\
+              Department of Statistics \\
+              Iowa State University \\
+              Ames, IA 50011-1210 \\
+              \email{ajkaplan@iastate.edu}
+          \and
+           H. Hofmann \at
+              1121 Snedecor Hall \\
+              Department of Statistics \\
+              Iowa State University \\
+              Ames, IA 50011-1210 \\
+              \email{hofmann@iastate.edu}
+          \and
+          D. Nordman \at
+              1121 Snedecor Hall \\
+              Department of Statistics \\
+              Iowa State University \\
+              Ames, IA 50011-1210 \\
+              \email{dnordman@iastate.edu}
+}
+\date{Received: date / Accepted: date}
+
 
 \begin{document}
 
@@ -20,10 +44,8 @@
 \begin{abstract}
 The analysis of graphs, in particular the detection of community structures within network data, is of increasing interest across a broad range of disciplines. Such communities represent clusters of nodes in a network which exhibit strong intra-connections or relationships among nodes in the cluster. Current methodology for community detection often involves an algorithmic approach, and commonly partitions a graph into node clusters in an iterative manner before some stopping criterion. Other statistical approaches for community detection often require model choices and prior selection in Bayesian analyses, which are difficult without some amount of data inspection and pre-processing. Because communities are often fuzzily-defined human concepts, an alternative approach is to leverage human visualization to identify communities. The work presents a new data visualization method (a web application), called {\it gravicom}, for facilitating the detection of community structures through direct user interaction. In the process of detecting communities, the gravicom application may serve as a standalone tool or as an initialization step for use with another community detection algorithm. In this paper we discuss the design of gravicom and demonstrate its use for community detection using several network data sets. An appendix describes details in the technical formulation of this web application built on the R package Shiny and the JavaScript library D3.  
 \end{abstract}
+\keywords{First keyword \and Second keyword \and More}
 
-\clearpage
-
-\setcounter{page}{1}
 \section{Introduction}
 <<intro, child='parts/intro.Rnw', eval=TRUE>>=
 @
@@ -40,7 +62,10 @@ The analysis of graphs, in particular the detection of community structures with
 <<further, child='parts/further.Rnw', eval=TRUE>>=
 @
 
-\printbibliography
+\bibliographystyle{spbasic}
+\bibliography{biblio}
+ 
+
 \clearpage
 \appendix
 

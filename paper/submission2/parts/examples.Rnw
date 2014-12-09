@@ -116,7 +116,7 @@ results$`Teams Identified` <- gsub('(.)([A-Z])',"\\1 \\2", results$`Teams Identi
 #percent school misspecified
 percent_correct <- 1 - sum(football.df.m$value != football.df.m$orig.grp)/nrow(football.df)
 
-print(xtable(results[with(results, order(-Ratio)),], align=c("c", "c","p{10cm}","c", "c"), label='tab:football_final', caption='Resulting communities detected using gravicom and the corresponding conference. Teams that have been incorrectly classified are italicized.'),sanitize.text.function = function(x)gsub('%', '\\\\%', gsub('&', '\\\\&', x)), include.rownames=FALSE, table.placement='H')
+print(xtable(results[with(results, order(-Ratio)),], align=c("c", "c","p{.55\\textwidth}","c", "c"), label='tab:football_final', caption='Resulting communities detected using gravicom and the corresponding conference. Teams that have been incorrectly classified are italicized.'),sanitize.text.function = function(x)gsub('%', '\\\\%', gsub('&', '\\\\&', x)), include.rownames=FALSE, table.placement='H')
 @
 
 Using the visual approach detailed above, we were able to detect 11 community structures in the graph. There were 11 conferences and 5 independent schools in the data set. Through manual specification of conferences, we were able to correctly classify \Sexpr{round(100*percent_correct, 2)}\% of the football teams into their conferences. 
@@ -157,6 +157,6 @@ colnames(results_pol) <- c("Classification", "Books Identified", "Ratio", "Accur
 #percent books misspecified
 percent_correct <- 1 - sum(polbooks.df.m$value != polbooks.df.m$orig.grp)/nrow(polbooks.df)
 
-print(xtable(results_pol[with(results_pol, order(-Ratio)),], align=c("c", "c","p{10cm}","c", "c"), label='tab:polbooks_final', caption='Resulting communities detected using gravicom and the corresponding type of book. Books that have been incorrectly classified are italicized.'),sanitize.text.function = function(x)gsub('%', '\\\\%', gsub('&', '\\\\&', x)), include.rownames=FALSE, table.placement='H')
+print(xtable(results_pol[with(results_pol, order(-Ratio)),], align=c("c", "c","p{.55\\textwidth}","c", "c"), label='tab:polbooks_final', caption='Resulting communities detected using gravicom and the corresponding type of book. Books that have been incorrectly classified are italicized.'),sanitize.text.function = function(x)gsub('%', '\\\\%', gsub('&', '\\\\&', x)), include.rownames=FALSE, table.placement='H')
 @
 We detected visually 3 types of books in the data set using the process of selection and grouping detailed in section~\ref{sec:football}. Through subsequent manual verification of the classification of books, we found that we were able to correctly classify \Sexpr{round(100*percent_correct, 2)}\% of the books into the categories created by the author of the data set. See Table~\ref{tab:polbooks_final} for the final groups of books found using gravicom.
