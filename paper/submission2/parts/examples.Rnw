@@ -3,7 +3,7 @@ To demonstrate the use of gravicom, we present two real-world network data sets 
 \subsection{College Football} \label{sec:football}
 The first data set is a representation of U.S. College Football Division 1 games from the 2000 season \citep{gn-football}. This is a default data set available in gravicom. In this network, nodes represent teams and an edge represents a regular-season game played between the two connected teams. The distances between the nodes are based on the number of games played between the teams. The network as it appears upon load in gravicom is presented in Figure~\ref{fig:football_1}. 
 
-\begin{figure}[H]
+\begin{figure}[hbt]
 \centering
 \includegraphics[width=0.6\textwidth]{images/football_1.png}
 \caption{\label{fig:football_1} College Football network represented in gravicom. Communities are visually evident and will become more identifiable as other are grouped.}
@@ -13,7 +13,7 @@ Colleges within the same football conference will play members of their conferen
 
 Upon viewing the network in gravicom, some likely communities visually emerge, and by selecting nodes to examine within and outside edges, we can classify colleges into conferences, as seen in Figure~\ref{fig:football_2}.
 
-\begin{figure}[H]
+\begin{figure}[hbt]
 \centering
 \includegraphics[width=.49\textwidth]{images/football_2.png}
 \includegraphics[width=.49\textwidth]{images/football_4.png}
@@ -39,7 +39,7 @@ Additionally, the user can check which nodes were grouped in each community as d
 
 After the first community has been selected, another potential community at the top of the graph has been revealed. The user can once again select and group this node cluster into a community and subsequently examine the nodes in the resulting group as seen in Figure~\ref{fig:football_6}. The second conference grouped corresponds exactly to the SEC Conference, another large college football conference. Here, the first two communities to become evident correspond to large Division 1 conferences that play the majority of their games within conference, matching our earlier assertion that small conferences should, as expected, be more difficult to detect.
 
-\begin{figure}[H]
+\begin{figure}[hbt]
 \centering
 \includegraphics[width=.49\textwidth]{images/football_45.png}
 \includegraphics[width=.49\textwidth]{images/football_6.png}
@@ -48,7 +48,7 @@ After the first community has been selected, another potential community at the 
 
 This process of grouping nodes into suspected communities can be repeated until the user is satisfied with the communities selected. The entirety of this process is seen in Figure~\ref{fig:football_progression} and the resulting communities in Table~\ref{tab:football_final}. It should be noted that this is a fundamentally a subjective process and that another user with the same data may find slightly different communities. However, by leveraging the human visual system to find structure in a data set, gravicom has the ability to provide a starting point for an objective algorithm to then adopt the detection of communities. 
 
-\begin{figure}[H]
+\begin{figure}[hbt]
 \centering
 \includegraphics[width=\textwidth]{images/football_progression.png}
 \caption{\label{fig:football_progression}The full process of selecting and grouping communities in gravicom using the football data set.}
@@ -124,11 +124,11 @@ Using the visual approach detailed above, we were able to detect 11 community st
 \subsection{Political Books Sold}
 For illustration, we next consider a second example data set consisting of a network of political books purchased close to the 2004 United States presidential election and sold on Amazon.com \citep{polbooks}. Each node represents a book and each edge represents frequent co-purchasing of two books by the same buyers. The books are classified as being conservative, liberal, or neutral by the author of the data set \citep{krebs2004divided} and we can see a clear partition in Figure~\ref{fig:polbooks_1} between two main groups (i.e. roughly conservative and liberal) with a smaller group between, when looking at the network in gravicom. This data set is interesting because it highlights a great divide in the political books sold via Amazon that can be ascribed to the two party political system. 
 
-\begin{figure}[H]
+\begin{figure}[hbt]
 \centering
-\includegraphics[width=\textwidth]{images/polbooks_1.png}
-\includegraphics[width=\textwidth]{images/polbooks_2.png}
-\caption{\label{fig:polbooks_1} Political books data set as seen in gravicom prior and post community detection.}
+\includegraphics[width=.45\textwidth]{images/polbooks_1.png}
+\includegraphics[width=.45\textwidth]{images/polbooks_2.png}
+\caption{\label{fig:polbooks_1} Political books data set as seen in gravicom prior (left) and post (right) community detection.}
 \end{figure}
 
 <<polbooks_check, echo=FALSE, warning=FALSE, results='asis', error=FALSE>>=
