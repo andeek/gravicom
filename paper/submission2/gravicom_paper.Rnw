@@ -5,7 +5,8 @@
 %\addbibresource{references/refs.bib}
 
 %\usepackage{color}
-\usepackage{cite}
+%\usepackage{cite}
+\usepackage{natbib}
 %\newcommand{\hh}[1]{{\color{magenta} #1}}
 %\newcommand{\ak}[1]{{\color{blue} #1}}
 %\newcommand{\cc}[1]{{\color{green} #1}}
