@@ -1,0 +1,183 @@
+---
+title: "gravicom"
+subtitle: A web-based tool for community detection in networks
+author: "Andee Kaplan, Heike Hofmann, Daniel Nordman"
+date: "February 24, 2015"
+output: 
+  ioslides_presentation:
+    css: css/style.css
+    widescreen: true
+---
+
+#Introduction | Who cares and why did we make this?
+
+##Networks 
+- Many relationships easily conceptualized as a graph/network
+- A ~~graph~~ is defined as a collection of nodes (entities) and edges (relationships)
+- A ~~community~~ is defined as a group of nodes in a graph that share properties
+- Examples of such relationships include:
+    - social networks (sociology)
+    - the world wide web (computer science)
+    - protein networks (biology)
+
+
+##The Problem
+- Current methodology for ~~community detection~~ often involves an algorithmic approach; partitions a graph into node clusters iteratively before stopping criterion
+- First define an objective function and then optimize
+- Many different objective functions possible, providing many ways to split a graph
+- The optimization of an objective function is typically an NP-hard problem
+- The number of possible partitions of the network requires $2^n$ complexity
+
+
+##Current Solutions
+- Heuristics used to optimize the objective function in a reasonable amount of time
+- Heuristic-based clustering is useful because this offers an automated way to perform community detection 
+
+> The main elements of the problem themselves [graph clustering], i.e. the concepts of community and partition, are not rigorously defined, and require some degree of arbitrariness and/or common sense. (Fortunato, 2010)
+
+- Heuristics are not ~~the~~ solution
+
+##Leverage the Human Visual System
+- Communities are often fuzzily-defined human concepts
+- Address this by adding element of human judgement
+- Introduce a novel visualization-based community detection tool, ~~gravicom~~
+
+##gravicom Functionality
+- Allows users to 
+    - Visually direct and interact with the steps of community detection
+    - Assess the created clusters through visual and quantitative summaries
+- Standalone exploratory tool for graph data
+- Initial state to be passed to a community detection algorithm in order reduce the complexity of optimization
+
+#Demo | http://andeek.shinyapps.io/gravicom
+
+- Shiny: Server-client interaction
+- D3: User interface and graph layout
+- igraph/rjson: Data formatting
+
+##Football Example
+![Site Components](images/football_progression.png)
+
+##Football Example (Cont'd) {.smaller}
+```{r echo=FALSE}
+
+community_stats <- function(path_to_gml){
+  require(igraph)
+  require(plyr)
+  
+  df <- get.data.frame(read.graph(path_to_gml, format="gml"), what="both")
+  edges_groups <- merge(merge(df$edges, df$vertices[, c("id", "Group")], by.x = "to", by.y = "id", all.x = TRUE),
+                        df$vertices[, c("id", "Group")], by.x = "from", by.y = "id", all.x = TRUE)
+  names(edges_groups)[3:4] <- c("Group.from", "Group.to")
+  
+  adj <- as.data.frame(table(edges_groups[,3:4]))
+  adj$Ratio <- adj$Freq/sum(adj$Freq)
+  
+  res <- mdply(unique(c(edges_groups$Group.from, edges_groups$Group.to)), function(x){
+    cbind(
+      Group = x,
+      Proportion = adj[with(adj, Group.from == x & Group.to == x), "Freq"]/(sum(adj[with(adj, Group.from == x & Group.to != x), "Freq"]) + sum(adj[with(adj, Group.from != x & Group.to == x), "Freq"]))
+    )
+  })
+  res$Group <- as.character(res$Group)
+  if(nrow(res[substring(res$Group,1,1) == "n",]) > 0) res[substring(res$Group,1,1) == "n",]$Group<-"independent"
+  res$Modularity <- diag(table(edges_groups[,3:4])/sum(table(edges_groups[,3:4]))) - (rowSums(table(edges_groups[,3:4])/sum(table(edges_groups[,3:4]))))^2
+  
+  return(res)
+}
+```
+
+```{r echo=FALSE, results='asis'}
+library(igraph)
+library(plyr)
+library(scales)
+library(xtable)
+football.df <- get.data.frame(read.graph("data/football_network.gml", format="gml"), what="vertices")
+
+#put all ungrouped as own group -- corresponds to value 5
+football.df[substring(football.df$Group,1,1) == "n",]$Group<-"independent"
+
+#create map from gravicom to original by most mapped
+map <- ddply(football.df, .(Group), summarise, orig.grp = names(sort(-table(value)))[1])
+football.df.m <- merge(football.df, map, by = "Group", all.x=TRUE)
+
+idx <- with(football.df.m, which(value != orig.grp))
+stats <- community_stats("data/football_network.gml")
+
+football.df.m <- merge(football.df.m, stats, by="Group", all.x=TRUE)
+football.df.m$label[idx] <- sprintf("<i><del>%s</del></i>",football.df.m$label[idx]) 
+football.df.m$Proportion <- as.numeric(as.character(football.df.m$Proportion))
+
+results <- ddply(football.df.m, .(orig.grp), summarise, 
+                 teams=paste(label, collapse=", "), 
+                 prop=min(Proportion),
+                 perc.right=percent(1 - sum(value != orig.grp)/length(orig.grp)))
+results <- results[with(results, order(as.numeric(orig.grp))),]
+results$Conference <- c("ACC", "Big East", "Big 10", "Big 12", "C-USA", "Independent", "MAC", "Mountain West", "Pac-10", "SEC", "Big West", "WAC" )
+
+results <- results[,c(5,2,3,4)]
+colnames(results) <- c("Conference", "Teams Identified", "Proportion", "Accuracy")
+results$`Teams Identified` <- gsub('(.)([A-Z])',"\\1 \\2", results$`Teams Identified`)
+
+#percent school misspecified
+percent_correct <- 1 - sum(football.df.m$value != football.df.m$orig.grp)/nrow(football.df)
+
+print(xtable(results[with(results, order(-Proportion)),], align=c("c", "c","p{10cm}","c", "c"), label='tab:football_final'), include.rownames=FALSE, table.placement='H', type="html", sanitize.text.function = function(x)gsub('&lt', '<', gsub('&gt', '>', x)))
+```
+<br/>
+- Through manual specification of conferences, we were able to correctly classify `r round(100*percent_correct, 2)` % of the football teams into their conferences 
+
+#Graphical Devices | Theory behind the curtain
+
+##Importance of Graph Layout
+- ~~Graph layout~~ is an assignment of a Cartesian coordinate to each node for display in 2D or 3D
+- Layout of a graph significantly affects the number of communities that users detect within a graph
+- Humans used to detect communities $\Rightarrow$ special attention needs to be paid to the layout being used
+- Location of a node spatially relative to other nodes in a cluster has a significant effect on user: "adjacent nodes must be placed near to each other if possible" (McGrath, Blythe, and Krackhardt, 1996)
+- A force-directed layout satisfies these requirements by placing repulsive forces on nodes to separate all pairs of nodes with fixed-distance geometric constraints as links
+
+##Graph Simplification
+- Difficult to glean meaning from a visual representation in large/complex graphs 
+- Replace repeated patterns in a graph by a representation, to simplify a network
+- Fewer nodes and edges to display $\Rightarrow$ visual complexity of the graph visualization is greatly reduced
+- Allows the user to analyze the network structure more accurately
+
+#Conclusions/Further Work | Possible extensions to gravicom
+
+##Ideas
+- Integrated algorithmic community detection
+    - Combine the benefits of human detection of communities with algorithmic detection
+    - Visual detection of communities serves as an initialization step, then pass to iterative algorithm
+    - User tracks progress and has power to dynamically set stopping criterion
+- Dynamic temporal graph visualization
+    - View a dynamic graph across time -- how the edges change between nodes 
+    - Detect time-dependent communities; Add optional node labels to track progress
+
+#Questions? | Thank you!
+
+Contact:<br/>
+ajkaplan@iastate.edu<br/>
+
+
+#Appendix | Extra stuff and things.
+
+
+##Page Lifecycle
+![Integrated Algorithm](images/pagelifecycle.png)
+
+##Tools (Cont'd)
+![Integrated Algorithm](images/clientserverflow.png)
+
+##Data Formatting {.smaller}
+<div class = "left">
+GML file structure:
+```{r gml, results='markup', echo=FALSE}
+cat( readLines( "data/sample.gml" ) , sep = "\n" )
+```
+</div>
+<div class = "right">
+JSON file structure:
+```{r json, results='markup', echo=FALSE}
+cat( readLines( "data/sample.json" ) , sep = "\n" )
+```
+<div>

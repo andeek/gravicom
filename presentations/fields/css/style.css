@@ -1,0 +1,31 @@
+img { 
+  width: 75%;
+  height: 75%;
+}
+
+del {
+  color: #0772A1;
+  text-decoration: none
+}
+
+blockquote {
+  background: #0772A1;
+  color: white;
+  display: block;
+  position: relative;
+  width: 90%;
+  margin: 5px auto;
+  padding: 5px;
+  border: 1px solid #C6D7DC;
+  box-shadow: none;
+}
+
+div.left {
+  float: left;
+  width: 30%;
+}
+
+div.right {
+  float: right;
+  width: 69%;
+}
