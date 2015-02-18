@@ -124,8 +124,8 @@ percent_correct <- 1 - sum(football.df.m$value != football.df.m$orig.grp)/nrow(f
 
 print(xtable(results[with(results, order(-Proportion)),], align=c("c", "c","p{10cm}","c", "c"), label='tab:football_final'), include.rownames=FALSE, table.placement='H', type="html", sanitize.text.function = function(x)gsub('&lt', '<', gsub('&gt', '>', x)))
 ```
-<br/>
-- Through manual specification of conferences, we were able to correctly classify `r round(100*percent_correct, 2)` % of the football teams into their conferences 
+
+- Through manual specification of conferences, we were able to correctly classify ~~`r round(100*percent_correct, 2)`%~~ of the football teams into their conferences 
 
 #Graphical Devices | Theory behind the curtain
 
