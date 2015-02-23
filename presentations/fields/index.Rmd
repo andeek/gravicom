@@ -9,7 +9,7 @@ output:
     widescreen: true
 bibliography: biblio.bib
 nocite: |
-  @rs-shiny, @mb-d3, @fortunato2010community, @mcgrath1996seeing, @gc-igraph, @gn-football
+  @rs-shiny, @mb-d3, @fortunato2010community, @mcgrath1996seeing, @gc-igraph, @gn-football, @acb-rjson
 ---
 
 #Introduction | Who cares and why did we make this?
