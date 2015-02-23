@@ -7,6 +7,9 @@ output:
   ioslides_presentation:
     css: css/style.css
     widescreen: true
+bibliography: biblio.bib
+nocite: |
+  @rs-shiny, @mb-d3, @fortunato2010community, @mcgrath1996seeing, @gc-igraph, @gn-football
 ---
 
 #Introduction | Who cares and why did we make this?
@@ -181,3 +184,5 @@ JSON file structure:
 cat( readLines( "data/sample.json" ) , sep = "\n" )
 ```
 <div>
+
+##References {.smaller}
