@@ -7,7 +7,7 @@ rdiscount extensions: [smart]
 
 links:
 - name: gravicom
-  href: http://glimmer.rstudio.com/andeek/gravicom/
+  href: http://andeek.shinyapps.io/gravicom
   class: fa-home
   target: _blank
   level: 1
