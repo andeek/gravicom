@@ -1,4 +1,4 @@
-Before discussing gravicom's performance and use on example data sets, we give a brief overview of the components and functionality that make up the tool. The gravicom interface is comprised of six main parts,
+Before discussing gravicom's performance and use on example data sets, we give a brief overview of the components and functionality that make up the tool. The gravicom interface comprises six main parts,
 \begin{enumerate}
 \item Navbar
 \item Control panel
@@ -17,13 +17,13 @@ Before discussing gravicom's performance and use on example data sets, we give a
 Each part provides a means for the user to interact with gravicom, either through controls that allow user input to gravicom or through direct interaction with diagnostics and visualization of a graph. Their placement on the gravicom interface can be seen in Figure~\ref{fig:sitecomponents}.
 
 \paragraph{Navbar}
-The top navigation bar includes informational buttons. The first is a link to gravicom. The second is a link to this documentation page. The third is a link to the GitHub repository where the code for gravicom is housed. The final button is a link to an author's website, which contains contact information to address questions or comments.
+The top navigation bar includes informational buttons. The first is a link to gravicom. The second is a link to this documentation page. The third is a link to an author's website, which contains contact information to address questions or comments. The final button is a link to the GitHub repository where the code for gravicom is housed.
 
 \paragraph{Control Panel}
 The control panel serves as the starting point for a user's session in gravicom. It contains instructions for the user, as well as the means for a user to select a data set and numerical summaries of the graph (such as a diagnostic connection table explained below). 
 
 \paragraph{Data Management}
-The data management component is made up of two main parts, data selection and data download. The data selection can be accomplished in two ways, the first being a drop down to select pre-loaded data sets to display. Currently there are two well-known network data sets provided in gravicom, a college football data set \citep{gn-football} and a karate club data set \citep{zachary1977information}. From the dropdown the user can change the data set to display in the graph. The second approach to data selection gives the user the ability to upload his own data set. Upon clicking the ``Upload new data set" checkbox, a file selection control appears which gives the user the ability to upload his own graph data to explore with gravicom. This is shown in Figure~\ref{fig:uploadnewdataset}. 
+The data management component is made up of two main parts, data selection and data download. The data selection can be accomplished in two ways, the first being a drop down to select pre-loaded data sets to display. Currently there are two well-known network data sets provided in gravicom, a college football data set \citep{gn-football} and a karate club data set \citep{zachary1977information}. From the dropdown the user can change the data set to display in the graph. The second approach to data selection gives the user the ability to upload his own data set. Upon clicking the ``Upload new data set" checkbox, a file selection control appears which gives the user the ability to upload his own graph data to explore with gravicom. gravicom uses an XML-like structure for accepting user data called Graph Modelling Language (gml). A description and example of the structure can be found in appendix \ref{appendix:data}. The process of uploading a user data set is shown in Figure~\ref{fig:uploadnewdataset}. 
 
 \begin{figure}[hbt]
 \centering
@@ -31,10 +31,10 @@ The data management component is made up of two main parts, data selection and d
 \caption{\label{fig:uploadnewdataset} The data selection area upon clicking the ``Upload new data set" checkbox.}
 \end{figure}
 
-The work performed by a user in visualizing graphs and community structure can also be downloaded as a data set from gravicom with current communities stored. This feature can be used as a save point in processing a graph or as a means to export changes made in gravicom to another tool.
+The work performed by a user in visualizing graphs and community structure can also be downloaded as a data set from gravicom with current communities stored. The exported graph will be a gml file with user defined communities included as an attribute of each node in the graph. This feature can be used as a save point in processing a graph or as a means to export changes made in gravicom to another tool.
 
 \paragraph{Connection Table}
-The connection table is a quantitative diagnostic tool for the user in assessing the strength of a community structure in a graph. The idea behind the connection table is that a community of nodes will have proportionally more edge connections within the node cluster compared to edge connections to nodes outside the community. The table displays the number of edge connections within a user's selection of nodes in the graph and the number of connections from nodes in a user's selection to nodes not in the selection. The comparison of these two numbers can give the user a rough idea of if the plausibility or extend to which the node selection constitutes a community. To aid in the comparison, there is also a column that displays the ratio of number of connections within a node selection to the number of connections outside the selection. 
+The connection table is a quantitative diagnostic tool for the user in assessing the strength of a community structure in a graph. The idea behind the connection table is that a community of nodes will have proportionally more edge connections within the node cluster compared to edge connections to nodes outside the community. The table displays the number of edge connections within a user's selection of nodes in the graph and the number of connections from nodes in a user's selection to nodes not in the selection. The comparison of these two numbers can give the user a rough idea of the plausibility or extent to which the node selection constitutes a community. To aid in the comparison, there is also a column that displays the ratio of number of connections within a node selection to the number of connections outside the selection. 
 
 \paragraph{Graph Display} \label{par:graph}
 The graph display shows an interactive graphical representation of  the selected (or uploaded) graph data. Upon load, the graph displays all nodes and edges in the data set using a force-directed layout algorithm. The user has several ways to interact with the graph: drag, select, and group. A user can drag a node at any time. Upon dragging, the force-directed layout is  rerun, giving an altered view of the graph. Figure~\ref{fig:graphdrag} shows a graph in the process of being dragged.

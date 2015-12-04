@@ -16,3 +16,5 @@ cc_kaplan_andrea.run.xml
 *.bbl
 *-blx.bib
 application/data/*.xml
+
+.DS_Store

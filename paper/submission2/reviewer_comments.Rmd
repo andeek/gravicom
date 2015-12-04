@@ -1,0 +1,26 @@
+---
+title: "Revisions to Manuscript"
+author: "Andee Kaplan"
+date: "10/20/2015"
+output: pdf_document
+---
+
++--------+------------+-------------------------------------------------------------------------------------+
+| Page # | Reviewer # | Comments                                                                            |
++========+============+=====================================================================================+
+| 5      | 3          | "is comprised of" to "comprises"                                                    |
++--------+------------+-------------------------------------------------------------------------------------+
+| 6      | 3          | Switched order in navbar description paragraph to correspond to the application.    |
++--------+------------+-------------------------------------------------------------------------------------+
+| 6      | 2          | Mention appendix which contains description of the file structure necessary for user data. |
++--------+------------+-------------------------------------------------------------------------------------+
+| 6      | 2          | Mentioned the form of data export and how communities are stored in the gml file.   |
++--------+------------+-------------------------------------------------------------------------------------+
+| 6      | 2, 3       | Typos "of if plausibility or extend to which" to "of plausibility or extent to which" |
++--------+------------+-------------------------------------------------------------------------------------+
+| 12     | 2          | "a fundamentally" to "fundamentally"                                                |
++--------+------------+-------------------------------------------------------------------------------------+
+| 14     | 2          | Added an image showing the process of uploading user data into gravicom, specifically the political books example. |
++--------+------------+-------------------------------------------------------------------------------------+
+| 18     | 2          | Added a clause hopefully making it clear that it would be nice to be able to look at this dynamically, allowing for a temporal structure, however currently this is not possible within gravicom. |
++--------+------------+-------------------------------------------------------------------------------------+

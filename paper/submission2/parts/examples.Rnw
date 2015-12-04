@@ -46,7 +46,7 @@ After the first community has been selected, another potential community at the 
 \caption{\label{fig:football_6} A second community is grouped which corresponds to the SEC Conference.}
 \end{figure}
 
-This process of grouping nodes into suspected communities can be repeated until the user is satisfied with the communities selected. The entirety of this process is seen in Figure~\ref{fig:football_progression} and the resulting communities in Table~\ref{tab:football_final}. It should be noted that this is a fundamentally a subjective process and that another user with the same data may find slightly different communities. However, by leveraging the human visual system to find structure in a data set, gravicom has the ability to provide a starting point for an objective algorithm to then adopt the detection of communities. 
+This process of grouping nodes into suspected communities can be repeated until the user is satisfied with the communities selected. The entirety of this process is seen in Figure~\ref{fig:football_progression} and the resulting communities in Table~\ref{tab:football_final}. It should be noted that this is fundamentally a subjective process and that another user with the same data may find slightly different communities. However, by leveraging the human visual system to find structure in a data set, gravicom has the ability to provide a starting point for an objective algorithm to then adopt the detection of communities. 
 
 \begin{figure}[hbt]
 \centering
@@ -122,7 +122,13 @@ print(xtable(results[with(results, order(-Ratio)),], align=c("c", "c","p{.55\\te
 Using the visual approach detailed above, we were able to detect 11 community structures in the graph. There were 11 conferences and 5 independent schools in the data set. Through manual specification of conferences, we were able to correctly classify \Sexpr{round(100*percent_correct, 2)}\% of the football teams into their conferences. 
 
 \subsection{Political Books Sold}
-For illustration, we next consider a second example data set consisting of a network of political books purchased close to the 2004 United States presidential election and sold on Amazon.com \citep{polbooks}. Each node represents a book and each edge represents frequent co-purchasing of two books by the same buyers. The books are classified as being conservative, liberal, or neutral by the author of the data set \citep{krebs2004divided} and we can see a clear partition in Figure~\ref{fig:polbooks_1} between two main groups (i.e. roughly conservative and liberal) with a smaller group between, when looking at the network in gravicom. This data set is interesting because it highlights a great divide in the political books sold via Amazon that can be ascribed to the two party political system. 
+For illustration of utilizing a user data set, we next consider a second example data set consisting of a network of political books purchased close to the 2004 United States presidential election and sold on Amazon.com \citep{polbooks}. Figure~\ref{fig:polbooks_import} shows the process of uploading this data set into gravicom. First (1) and (2) show how the interface changes to allow a user to select a gml file on his computer for upload and (3) shows the uploaded graph structure as well as a progress bar for the upload in the interface. Each node in the graph represents a book and each edge represents frequent co-purchasing of two books by the same buyers. The books are classified as being conservative, liberal, or neutral by the author of the data set \citep{krebs2004divided} and we can see a clear partition in Figure~\ref{fig:polbooks_1} between two main groups (i.e. roughly conservative and liberal) with a smaller group between, when looking at the network in gravicom. This data set is interesting because it highlights a great divide in the political books sold via Amazon that can be ascribed to the two party political system. 
+
+\begin{figure}[hbt]
+\centering
+\includegraphics[width=.9\textwidth]{images/polbooks_import.png}
+\caption{\label{fig:polbooks_import} Demonstration of importing a user dataset into gravicom. (1) and (2) show first how the interface changes to allow a user to select a gml file on his computer for upload and (3) shows the uploaded graph structure as well as a progress bar for the upload in the interface.}
+\end{figure}
 
 \begin{figure}[hbt]
 \centering
