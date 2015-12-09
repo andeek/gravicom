@@ -6,7 +6,7 @@ fc <- fastgreedy.community(G)
 
 G <- set.vertex.attribute(G, "name", index = V(G), value = as.character(0:11))
 write_graph(G, "paper/submission2/data/small_test.gml", format = "gml")
-
+plot(fc, G)
 
 #plot results ------------------
 G_grouped <- as.undirected(read_graph("paper/submission2/data/small_test_grouped.gml", format = "gml"))
