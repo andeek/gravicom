@@ -46,7 +46,7 @@ After the first community has been selected, another potential community at the 
 \caption{\label{fig:football_6} A second community is grouped which corresponds to the SEC Conference.}
 \end{figure}
 
-This process of grouping nodes into suspected communities can be repeated until the user is satisfied with the communities selected. The entirety of this process is seen in Figure~\ref{fig:football_progression} and the resulting communities in Table~\ref{tab:football_final}. It should be noted that this is fundamentally a subjective process and that another user with the same data may find slightly different communities. However, by leveraging the human visual system to find structure in a data set, gravicom has the ability to provide a starting point for an objective algorithm to then adopt the detection of communities. 
+This process of grouping nodes into suspected communities can be repeated until the user is satisfied with the communities selected. The entirety of this process is seen in Figure~\ref{fig:football_progression} and the resulting communities in Table~\ref{tab:football_final}. It should be noted that this is fundamentally a subjective process and that another user with the same data may find slightly different communities. However, by leveraging the human visual system to find structure in a data set, gravicom has the ability to provide a starting point for an objective algorithm to then adopt the detection of communities. More about this point is provided in section \ref{sec:algorithmic}
 
 \begin{figure}[hbt]
 \centering
@@ -127,7 +127,7 @@ For illustration of utilizing a user data set, we next consider a second example
 \begin{figure}[hbt]
 \centering
 \includegraphics[width=.9\textwidth]{images/polbooks_import.png}
-\caption{\label{fig:polbooks_import} Demonstration of importing a user dataset into gravicom. (1) and (2) show first how the interface changes to allow a user to select a gml file on his computer for upload and (3) shows the uploaded graph structure as well as a progress bar for the upload in the interface.}
+\caption{\label{fig:polbooks_import} Demonstration of importing a user data set into gravicom. (1) and (2) show first how the interface changes to allow a user to select a gml file on his computer for upload and (3) shows the uploaded graph structure as well as a progress bar for the upload in the interface.}
 \end{figure}
 
 \begin{figure}[hbt]

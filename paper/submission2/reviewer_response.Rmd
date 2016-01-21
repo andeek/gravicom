@@ -1,0 +1,37 @@
+---
+author: 
+ - Andee Kaplan 
+ - PhD Student 
+ - Department of Statistics 
+ - Iowa State University
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+opening: Dear Dr. Symanzik,
+closing: Best regards,
+address: 
+ - Juergen Symanzik
+ - Editor-in-Chief
+ - Computational Statistics
+return-address:
+ - Andee Kaplan
+ - Department of Statistics
+ - Iowa State University
+ - Ames, IA 50011
+signature: signature.png
+output:
+  pdf_document:
+    template: template-letter.tex
+    includes:
+        after_body: reviewer_comments.tex
+geometry: margin=1in
+---
+
+Re: Manuscript reference No. COST-D-15-00020
+
+Please find attached a revised version of our manuscript "An interactive graphical method for community detection in network data", which we would like to resubmit for publication with incorporated minor revisions in Computational Statistics.
+
+Your comments and those of the reviewers were highly insightful and enabled us to greatly improve
+the quality of our manuscript. In the following pages are our point-by-point responses to each of the
+comments of the reviewers as well as your own comments.
+
+We hope that the revisions in the manuscript and our accompanying responses will be sufficient to make
+our manuscript suitable for publication and we look forward to hearing from you at your earliest convenience. 

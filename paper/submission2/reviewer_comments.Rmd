@@ -1,26 +1,70 @@
 ---
-title: "Revisions to Manuscript"
-author: "Andee Kaplan"
-date: "10/20/2015"
-output: pdf_document
+output: 
+  pdf_document: 
+    keep_tex: yes
 ---
 
-+--------+------------+-------------------------------------------------------------------------------------+
-| Page # | Reviewer # | Comments                                                                            |
-+========+============+=====================================================================================+
-| 5      | 3          | "is comprised of" to "comprises"                                                    |
-+--------+------------+-------------------------------------------------------------------------------------+
-| 6      | 3          | Switched order in navbar description paragraph to correspond to the application.    |
-+--------+------------+-------------------------------------------------------------------------------------+
-| 6      | 2          | Mention appendix which contains description of the file structure necessary for user data. |
-+--------+------------+-------------------------------------------------------------------------------------+
-| 6      | 2          | Mentioned the form of data export and how communities are stored in the gml file.   |
-+--------+------------+-------------------------------------------------------------------------------------+
-| 6      | 2, 3       | Typos "of if plausibility or extend to which" to "of plausibility or extent to which" |
-+--------+------------+-------------------------------------------------------------------------------------+
-| 12     | 2          | "a fundamentally" to "fundamentally"                                                |
-+--------+------------+-------------------------------------------------------------------------------------+
-| 14     | 2          | Added an image showing the process of uploading user data into gravicom, specifically the political books example. |
-+--------+------------+-------------------------------------------------------------------------------------+
-| 18     | 2          | Added a clause hopefully making it clear that it would be nice to be able to look at this dynamically, allowing for a temporal structure, however currently this is not possible within gravicom. |
-+--------+------------+-------------------------------------------------------------------------------------+
+**Responses to the comments of Reviewer #2**
+
+1. A large challenge that articles of this type face is how to demonstrate the effectiveness of a visual and/or interactive tool.  It is not usually convincing for the authors of the tool to simply claim
+that the tool performs well.  Formal experiments with human subjects might provide convincing evidence, but they are difficult and costly to conduct.  In this case, the fact that no comparable tool exists perhaps justifies the work in itself.  However, in this particular case the interactive tool results could at least be compared with the results of applying algorithmic tools (does the human do better or worse?).
+
+    *Response:* Included a simple illustration, that the human eye may indeed be better than algorithms in some cases. Added a small network in the introduction that algorithmically is clustered multiple ways, but with gravicom the true structure is easily seen by the human eye.
+ 
+    
+2. the file format for data upload was not clear to me (page 6)
+
+    *Response:* Mentioned appendix which contains description of the file structure necessary for user data.
+
+3. [page 7] "extend to which" should be "extent to which"
+
+    *Response:* Fixed typos "of if plausibility or extend to which" to "of plausibility or extent to which"
+    
+4. once a selection of groups of nodes has been made, how can that selection be "exported" (and in what form), so that it can be used in further work (e.g., to provide initial conditions for algorithmic tools).
+
+    *Response:* Mentioned the form of data export and how communities are stored in the `gml` file.
+    
+5. [page 12] "is a fundamentally" should be "is fundamentally"
+
+    *Response:* Changed "a fundamentally" to "fundamentally".
+    
+6. [page 13] VERY nice description and portrayal of the interactive use of the system!
+
+    *Response:* Thank you!
+    
+7. it is not clear what the second example is adding;  could it be used to demonstrate the upload of a new data set into the system?
+
+    *Response:* Added an image showing the process of uploading user data into gravicom, specifically the political books example.
+    
+8. [page 17]  it is not clear how this is "dynamic" or why this is "temporal".  Is this just a matter of comparing pairs of graphs based on a categorical variable ?  (i.e., facetting?)
+
+    *Response:* Added a clause hopefully making it clear that it would be nice to be able to look at this dynamically, allowing for a temporal structure, however currently this is not possible within gravicom.
+
+
+**Responses to the comments of Reviewer #3**
+
+1. Page 5, line 17: "is comprised of" should be changed to "comprises." (Comprises is equivalent to includes. It's a pet peeve of mine.)
+
+    *Response:* Changed "is comprised of" to "comprises".    
+    
+2. Page 6, the paragraph describing the Navbar doesn't agree with Figure 1. The final button is the link to GitHub (from what I can tell), and the third button, which appears to be an envelope, is the link to the author's website.
+
+    *Response:* Switched order in navbar description paragraph to correspond to the application.
+    
+2. Page7, line 4: Change "idea of if the plausibility of extend" to "idea of the the plausibility of extent".
+
+    *Response:* Fixed typos "of if plausibility or extend to which" to "of plausibility or extent to which".
+    
+2. Now the quibble. The authors state in the paragraph beginning around line 27 on page 2 that community detection has been mainly the realm of computer science and physics with the statistics community only lately coming to the game. However, I would like to point out that social network analysis predates much of the literature cited in the references. Holland and Leinhardt published their paper on exponential families for directed graphs in 1981 in JASA. Faust and Wasserman's book "Social Network Analysis" was published in 1994. I point this out, not as a claim for precedence, but to point out that there are many different criteria for determining communities beyond cliques and near-cliques, which the authors may wish to explore in the future.
+
+    *Response:* Added text acknowledging the earlier notions in the literature about defining and modeling structure in network data through graph topological features regarding node connectedness (e.g., counts of triangles, degree counts) which are related to the underlying aspects of community structure.
+
+2. Which brings me to my questions. It's my experience that the datasets analyzed in the paper are almost at the limits of what the human is capable of clustering by eye. If one were to double the number of Division 1 football teams the task illustrated in Section 3.1 would become more difficult, but how much more? How does the task of visual clustering scale compared to algorithmic clustering? Have the authors considered an approach where they might first do an incomplete, suboptimal algorithmic approach to clustering nodes (a low-hanging fruit pass) followed by a visual clustering for the harder cases? How exactly do they envision combining the human and the machine for the clustering task?
+
+    *Response:*
+
+2. (As an aside, since finding networks with known structure can be difficult, I would like to share with the authors the paper "Benchmark graphs for testing community detection algorithms," http://arxiv.org/pdf/0805.4770v4.pdf in case they are unaware of it.)
+
+    *Response:* Thank you very much for sharing this resource.
+    
+
