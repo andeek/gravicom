@@ -6,10 +6,9 @@ output:
 
 **Responses to the comments of Reviewer #2**
 
-1. A large challenge that articles of this type face is how to demonstrate the effectiveness of a visual and/or interactive tool.  It is not usually convincing for the authors of the tool to simply claim
-that the tool performs well.  Formal experiments with human subjects might provide convincing evidence, but they are difficult and costly to conduct.  In this case, the fact that no comparable tool exists perhaps justifies the work in itself.  However, in this particular case the interactive tool results could at least be compared with the results of applying algorithmic tools (does the human do better or worse?).
+1. A large challenge that articles of this type face is how to demonstrate the effectiveness of a visual and/or interactive tool.  It is not usually convincing for the authors of the tool to simply claim that the tool performs well.  Formal experiments with human subjects might provide convincing evidence, but they are difficult and costly to conduct.  In this case, the fact that no comparable tool exists perhaps justifies the work in itself.  However, in this particular case the interactive tool results could at least be compared with the results of applying algorithmic tools (does the human do better or worse?).
 
-    *Response:* Included a simple illustration, that the human eye may indeed be better than algorithms in some cases. Added a small network in the introduction that algorithmically is clustered multiple ways, but with gravicom the true structure is easily seen by the human eye.
+    *Response:* Included a simple illustration, that the human eye may indeed be better than algorithms in some cases. Added a small network in the introduction that algorithmically is clustered multiple ways, but with gravicom the true structure is easily seen by the human eye. To formally compare gravicom to algorithmic approaches, we would need human subjects which is outside the scope of this introductory (rather that evaluatory) paper. Additionally, as mentioned in the paper, "accuracy" of community detection isn't necessarily the goal here, but rather finding community structure in a novel way.
  
     
 2. the file format for data upload was not clear to me (page 6)
@@ -34,11 +33,11 @@ that the tool performs well.  Formal experiments with human subjects might provi
     
 7. it is not clear what the second example is adding;  could it be used to demonstrate the upload of a new data set into the system?
 
-    *Response:* Added an image showing the process of uploading user data into gravicom, specifically the political books example.
+    *Response:* Added an image showing the process of uploading user data into gravicom, specifically the political books example. This small example is adding another data set that has a clear visual structure. I have added a few sentences to the section hopefully making that clear.
     
 8. [page 17]  it is not clear how this is "dynamic" or why this is "temporal".  Is this just a matter of comparing pairs of graphs based on a categorical variable ?  (i.e., facetting?)
 
-    *Response:* Added a clause hopefully making it clear that it would be nice to be able to look at this dynamically, allowing for a temporal structure, however currently this is not possible within gravicom.
+    *Response:* You're right, this example isn't dynamic because that capability isn't available in gravicom currently. However, this example illustrates the potential of what dynamic community detection could contribute. I have rearranged the section and added some content making it more clear that it would be nice to be able to look at this dynamically, allowing for a temporal structure, however currently this is not possible within gravicom. Secondly, this is temporal snapshot data because there is an inherent sequential ordering of the graphs.
 
 
 **Responses to the comments of Reviewer #3**
@@ -61,7 +60,7 @@ that the tool performs well.  Formal experiments with human subjects might provi
 
 2. Which brings me to my questions. It's my experience that the datasets analyzed in the paper are almost at the limits of what the human is capable of clustering by eye. If one were to double the number of Division 1 football teams the task illustrated in Section 3.1 would become more difficult, but how much more? How does the task of visual clustering scale compared to algorithmic clustering? Have the authors considered an approach where they might first do an incomplete, suboptimal algorithmic approach to clustering nodes (a low-hanging fruit pass) followed by a visual clustering for the harder cases? How exactly do they envision combining the human and the machine for the clustering task?
 
-    *Response:*
+    *Response:* This is an interesting thought. I have added a discussion in section 4.1 to address the possibility of using gravicom as a post-processing step in regards to an algorithmic approach for very large or complex graphs. In order to actually answer the question of how things scale we would need a human subjects experiment, which is outside the scope of this paper.
 
 2. (As an aside, since finding networks with known structure can be difficult, I would like to share with the authors the paper "Benchmark graphs for testing community detection algorithms," http://arxiv.org/pdf/0805.4770v4.pdf in case they are unaware of it.)
 
