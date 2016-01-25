@@ -46,14 +46,6 @@ After the first community has been selected, another potential community at the 
 \caption{\label{fig:football_6} A second community is grouped which corresponds to the SEC Conference.}
 \end{figure}
 
-This process of grouping nodes into suspected communities can be repeated until the user is satisfied with the communities selected. The entirety of this process is seen in Figure~\ref{fig:football_progression} and the resulting communities in Table~\ref{tab:football_final}. It should be noted that this is fundamentally a subjective process and that another user with the same data may find slightly different communities, thus accuracy of grouping is not the primary objective. However, by leveraging the human visual system to find structure in a data set, gravicom has the ability to provide a starting point for an objective algorithm to then adopt the detection of communities. More about this point is provided in Section~\ref{sec:algorithmic}.
-
-\begin{figure}[hbt]
-\centering
-\includegraphics[width=\textwidth]{images/football_progression.png}
-\caption{\label{fig:football_progression}The full process of selecting and grouping communities in gravicom using the football data set.}
-\end{figure}
-
 <<example_func, echo=FALSE>>=
 community_stats <- function(path_to_gml){
   require(igraph)
@@ -119,10 +111,18 @@ percent_correct <- 1 - sum(football.df.m$value != football.df.m$orig.grp)/nrow(f
 print(xtable(results[with(results, order(-Ratio)),], align=c("c", "c","p{.55\\textwidth}","c", "c"), label='tab:football_final', caption='Resulting communities detected using gravicom and the corresponding conference. Teams that have been incorrectly classified are italicized.'),sanitize.text.function = function(x)gsub('%', '\\\\%', gsub('&', '\\\\&', x)), include.rownames=FALSE, table.placement='H')
 @
 
-Using the visual approach detailed above, we were able to detect 11 community structures in the graph. There were 11 conferences and 5 independent schools in the data set. Through manual specification of conferences, we were able to correctly classify \Sexpr{round(100*percent_correct, 2)}\% of the football teams into their conferences. 
+This process of grouping nodes into suspected communities can be repeated until the user is satisfied with the communities selected. The entirety of this process is seen in Figure~\ref{fig:football_progression} and the resulting communities in Table~\ref{tab:football_final}. Using the visual approach detailed above, we were able to detect 11 community structures in the graph. There were 11 conferences and 5 independent schools in the data set. Through manual specification of conferences, we were able to correctly classify \Sexpr{round(100*percent_correct, 2)}\% of the football teams into their conferences. 
+
+It should be noted that this is fundamentally a subjective process and that another user with the same data may find slightly different communities, ; thus, the accuracy of groupings in Table~\ref{tab:football_final} serves only for illustration and is not the primary objective here. However, by leveraging the human visual system to find structure in a data set, gravicom has the ability to provide a starting point for an objective algorithm to then adopt the detection of communities. More about this point is provided in Section~\ref{sec:algorithmic}.
+
+\begin{figure}[hbt]
+\centering
+\includegraphics[width=\textwidth]{images/football_progression.png}
+\caption{\label{fig:football_progression}The full process of selecting and grouping communities in gravicom using the football data set.}
+\end{figure}
 
 \subsection{Political Books Sold}
-For illustration of utilizing a user data set, we next consider a second example data set consisting of a network of political books purchased close to the 2004 United States presidential election and sold on Amazon.com \citep{polbooks}. Figure~\ref{fig:polbooks_import} shows the process of uploading this data set into gravicom. First (1) and (2) show how the interface changes to allow a user to select a gml file on his computer for upload and (3) shows the uploaded graph structure as well as a progress bar for the upload in the interface. Each node in the graph represents a book and each edge represents frequent co-purchasing of two books by the same buyers. The books are classified as being conservative, liberal, or neutral by the author of the data set \citep{krebs2004divided} and we can see a visibly clear partition in the graph structure between two main groups (i.e. roughly conservative and liberal) with a smaller group between, when looking at the network in gravicom (see Figure~\ref{fig:polbooks_1} ). This data set is interesting because it highlights a great divide in the political books sold via Amazon that can be ascribed to the two party political system. 
+For further illustration of implemented features with a user data set, we next consider a second example data set consisting of a network of political books purchased close to the 2004 United States presidential election and sold on Amazon.com \citep{polbooks}. Figure~\ref{fig:polbooks_import} shows the process of uploading this data set into gravicom. First (1) and (2) show how the interface changes to allow a user to select a gml file on his computer for upload and (3) shows the uploaded graph structure as well as a progress bar for the upload in the interface. Each node in the graph represents a book and each edge represents frequent co-purchasing of two books by the same buyers. The books are classified as being conservative, liberal, or neutral by the author of the data set \citep{krebs2004divided} and we can see a visibly clear partition in the graph structure between two main groups (i.e. roughly conservative and liberal) with a smaller group between, when looking at the network in gravicom (see Figure~\ref{fig:polbooks_1} ). This data set is interesting because it highlights a great divide in the political books sold via Amazon that can be ascribed to the two party political system. 
 
 \begin{figure}[hbt]
 \centering
@@ -165,4 +165,4 @@ percent_correct <- 1 - sum(polbooks.df.m$value != polbooks.df.m$orig.grp)/nrow(p
 
 print(xtable(results_pol[with(results_pol, order(-Ratio)),], align=c("c", "c","p{.55\\textwidth}","c", "c"), label='tab:polbooks_final', caption='Resulting communities detected using gravicom and the corresponding type of book. Books that have been incorrectly classified are italicized.'),sanitize.text.function = function(x)gsub('%', '\\\\%', gsub('&', '\\\\&', x)), include.rownames=FALSE, table.placement='H')
 @
-We detected visually 3 types of books in the data set using the process of selection and grouping detailed in Section~\ref{sec:football}. Through subsequent manual verification of the classification of books, we found that we were able to correctly classify \Sexpr{round(100*percent_correct, 2)}\% of the books into the categories created by the author of the data set. See Table~\ref{tab:polbooks_final} for the final groups of books found using gravicom.
+For purposes of illustrating a book classification with gravicom, we mention that we detected visually 3 types of books in the data set using the process of selection and grouping detailed in Section~\ref{sec:football}. Through subsequent manual verification of the classification of books, we found that we were able to correctly classify \Sexpr{round(100*percent_correct, 2)}\% of the books into the categories created by the author of the data set. See Table~\ref{tab:polbooks_final} for the final groups of books found using gravicom.
