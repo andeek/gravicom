@@ -56,7 +56,7 @@ The detection of community structures within network data is a type of graph ana
 %a new data visualization method (a web application), % HH: it's not actually a new visualization, but a new approach to deal with community identification
  a tool for community detection in form of a web application, called {\it gravicom}, which facilitates the detection of community structures through visualization and direct user interaction. In the process of detecting communities, the gravicom application can serve as a standalone tool or as a step to potentially initialize (and/or post-process) another community detection algorithm. In this paper we discuss the design of gravicom and demonstrate its use for community detection with several network data sets. An appendix describes details in the technical formulation of this web application built on the R package Shiny and the JavaScript library D3.  
 \end{abstract}
-\keywords{Graph Layout \and Network \and Community Detection \and Interactive graphics \and Web application\and Human Perception}
+\keywords{Graph Layout \and Interactive graphics \and Web application\and Human Perception}
 
 \section{Introduction}
 <<intro, child='parts/intro.Rnw', eval=TRUE>>=
