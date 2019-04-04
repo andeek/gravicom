@@ -1,6 +1,6 @@
 library(plyr)
 
-data_sets <- paste("data/", list.files("data/", pattern="*.gml"), sep="")
+data_sets <- file.path("data", list.files("data/", pattern="*.gml"))
 
 getXMLfromFile <- function(file) {
   require(igraph)
@@ -10,7 +10,7 @@ getXMLfromFile <- function(file) {
   V(graph)$y <- layout[,2]
   write.graph(graph, paste(strsplit(file, "\\.")[[1]][1], ".xml", sep=""), format="graphml")
   
-  graph.df<-get.data.frame(graph, what="vertices")
+  graph.df <- get.data.frame(graph, what="vertices")
   
   if('Group' %in% colnames(graph.df)) {
     index <- max(as.numeric(graph.df$Group), na.rm=TRUE) + 1
@@ -21,7 +21,8 @@ getXMLfromFile <- function(file) {
 }
 
 shinyServer(function(input, output) {
-  source("code/GraphMLtoJSON.R")
+  script_file <- file.path("code", "GraphMLtoJSON.R")
+  source(script_file)
   # Drop-down selection box for which data set
   output$choose_dataset <- renderUI({
     selectInput("dataset", "Data set", as.list(data_sets))
